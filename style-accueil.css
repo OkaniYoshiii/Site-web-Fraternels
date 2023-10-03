@@ -111,7 +111,7 @@ header a, footer a {
     margin-block: 0.75rem;
 }
 
-.favicon {
+.server-icon {
     max-height: clamp(30px, 5vw, 50px);
     aspect-ratio: 1;
 }
@@ -213,7 +213,7 @@ header a, footer a {
     font-weight: bold;
     margin: 0;
     padding-block: 1.4em;
-    background: url(images/7DTD\ -\ Lobby.png) center center no-repeat;
+    background: url(images/Webp/Les\ Fraternels\ -\ Lobby.webp) center center no-repeat;
     background-size: cover;
 }
 
@@ -289,7 +289,7 @@ header a, footer a {
 }
 
 .server-infos {
-    background: url(images/7DTD\ -\ Wallpaper\(2\).jpg) center/cover no-repeat;
+    background: url(images/Webp/7DTD\ -\ Home\ -\ Sample\ Image\ \(5\).webp) center/cover no-repeat;
     padding-block: 6rem;
 }
 
