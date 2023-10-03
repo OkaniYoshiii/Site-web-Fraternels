@@ -1,0 +1,44 @@
+/* Following lines are used in a media query. See "media" attribute in the "link" tag of the main HTML document */
+
+/* @media (screen and (max-width: 800px)  */
+
+.nav-links {
+    position: relative;
+}
+
+.nav-links ul {
+    position: absolute;
+    top: 100%;
+    right: 0;
+
+    flex-direction: column;
+    gap: 0.2rem;
+    
+    margin: 0;
+    white-space: nowrap;
+
+    opacity: 0;
+    transition: opacity 500ms;
+}
+
+.hamburger {
+    --hamburger-gap: 4px;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    gap: var(--hamburger-gap);
+}
+
+.burger-line {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    border-radius: 10px;
+    transition: opacity 500ms, transform 800ms ease-out;
+}
+
+.nav-links ul {
+    background-color: white;
+    padding: 1rem;
+    border: 2px solid black;
+}

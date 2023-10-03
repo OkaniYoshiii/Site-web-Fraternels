@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Oswald;
+    src: url(fonts/Oswald-VariableFont_wght.ttf) format(truetype);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter-VariableFont_slnt\,wght.ttf) format(truetype);
+    font-display: swap;
+}
+
+a:not(.home-link):hover{
+    text-decoration: underline;
+}
+
+.mods-selection input:hover {
+    cursor: pointer;
+}
+
+.mods-selection input:checked {
+    background: var(--bg-color);
+}

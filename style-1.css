@@ -1,13 +1,3 @@
-@font-face {
-    font-family: Oswald;
-    src: url(fonts/Oswald-VariableFont_wght.ttf) format(truetype);
-}
-
-@font-face {
-    font-family: Inter;
-    src: url(fonts/Inter-VariableFont_slnt\,wght.ttf) format(truetype);
-}
-
 html {
     --bg-color: #710000;
 
@@ -18,10 +8,8 @@ html {
     font-size: clamp(0.4rem, 1.6vw , 1rem)
 }
 
-.narrow { margin-inline: auto; max-width: min(100vw - 3rem,850px); }
-.medium { margin-inline: auto; max-width: min(100vw - 3rem, 1100px); }
-.wide { margin-inline: auto; max-width: min(100vw - 3rem, 1400px); }
-.ultrawide { margin-inline: auto; max-width: min(100vw - 3rem, 1600px); }
+.medium { margin-inline: auto; max-width: min(100vw - 4rem, 1100px); }
+.wide { margin-inline: auto; max-width: min(100vw - 4rem, 1400px); }
 
 body{
     margin: 0;
@@ -54,6 +42,8 @@ main :is(p, a, li, figcaption) {
 }
 
 img {
+    width: auto;
+    height: auto;
     display: block;
     max-width: 100%;
     object-fit: cover;
@@ -69,10 +59,6 @@ section:not(:first-child) {
 
 a {
     text-decoration: none;
-}
-
-a:not(.home-link):hover{
-    text-decoration: underline;
 }
 
 .fake-button {
@@ -137,72 +123,6 @@ header a, footer a {
     border: 0;
 }
 
-@media screen and (max-width: 800px) {
-    .nav-links {
-        position: relative;
-    }
-    
-    .nav-links ul {
-        position: absolute;
-        top: 100%;
-        right: 0;
-
-        flex-direction: column;
-        gap: 0.2rem;
-        
-        margin: 0;
-        white-space: nowrap;
-
-        opacity: 0;
-        transition: opacity 500ms;
-    }
-
-    .hamburger {
-        --hamburger-gap: 4px;
-        display: grid;
-        grid-template-rows: repeat(3,1fr);
-        gap: var(--hamburger-gap);
-    }
-
-    .burger-line {
-        display: block;
-        width: 25px;
-        height: 3px;
-        background-color: white;
-        border-radius: 10px;
-        transition: opacity 500ms, transform 800ms ease-out;
-    }
-    
-    .nav-links:focus-within .burger-line:nth-child(1) {
-        transform: translateY(calc(100% + var(--hamburger-gap))) rotate(225deg);
-    }
-    .nav-links:focus-within .burger-line:nth-child(2) {
-        opacity: 0;
-    }
-    .nav-links:focus-within .burger-line:nth-child(3) {
-        transform: translateY(calc(-100% - var(--hamburger-gap))) rotate(-225deg);
-    }
-
-    .nav-links:focus-within ul {
-        opacity: 1; 
-    }
-
-    .nav-links ul {
-        background-color: white;
-        padding: 1rem;
-        border: 2px solid black;
-    }
-
-    .nav-links:focus-within li {
-        background-color: white;
-        padding: 0.5rem 0.2rem;
-    }
-
-    .nav-links:focus-within a {
-        color: black;
-    }
-}
-
 .hero-title {
     color: white;
     text-shadow: 3px 3px 4px rgba(0,0,0,0.5);
@@ -213,7 +133,7 @@ header a, footer a {
     font-weight: bold;
     margin: 0;
     padding-block: 1.4em;
-    background: url(images/Webp/Les\ Fraternels\ -\ Lobby.webp) center center no-repeat;
+    background: url(images/Webp/FRT-Lobby-1920x1080.webp) center center no-repeat;
     background-size: cover;
 }
 
@@ -241,6 +161,7 @@ header a, footer a {
 
 .mods-intro img {
     min-height: 100%;
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -250,7 +171,7 @@ header a, footer a {
 
 .mods-images {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit,minmax(min(100%,250px), 1fr));
     gap: 2rem;
 }
 
@@ -280,16 +201,8 @@ header a, footer a {
     background-color: lightgrey;
 }
 
-.mods-selection input:hover {
-    cursor: pointer;
-}
-
-.mods-selection input:checked {
-    background: var(--bg-color);
-}
-
 .server-infos {
-    background: url(images/Webp/7DTD\ -\ Home\ -\ Sample\ Image\ \(5\).webp) center/cover no-repeat;
+    background: url(images/Webp/7DTD-Fighting-1920x1080.webp) center/cover no-repeat;
     padding-block: 6rem;
 }
 
@@ -345,18 +258,6 @@ header a, footer a {
     color: var(--txt-accent-color);
 }
 
-@media screen and (min-width: 850px) {
-    .infos {
-        display: flex;
-        gap: 2rem;
-    }
-
-    .infos hr {
-        margin-block: 0;
-        margin-inline: 3rem;
-    }
-}
-
 .staff-title {
     text-align: center;
 }
@@ -364,7 +265,7 @@ header a, footer a {
 .staff-members {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-    gap: 3rem;
+    gap: 2rem;
     justify-content: center;
     text-align: center;
 }
@@ -374,6 +275,10 @@ header a, footer a {
     aspect-ratio: 1;
     object-fit: cover;
     border-radius: 50%;
+}
+
+.staff-members figure {
+    margin-inline: 2rem;
 }
 
 .staff-members figcaption {
@@ -395,13 +300,13 @@ header a, footer a {
 .staff-responses > *:first-child{
     flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: 375px;
+    flex-basis: 550px;
 }
 
 .staff-responses > *:last-child{
     flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: max-content;
+    flex-basis: 800px;
 }
 
 .staff-responses > *:last-child img {
