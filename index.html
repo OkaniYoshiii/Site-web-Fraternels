@@ -12,9 +12,10 @@
     <link rel="preload" fetchpriority="high" as="image" href="images/Compressed/7DTD-Fighting-1920x1080.webp" type="image/webp">
     <link rel="stylesheet" href="style-small-1.css" media="screen and (max-width: 700px)">
     <link rel="icon" type="image/png" href="images/Compressed/FRT-Logo-30x30.webp" />
+    <script src="script.js" defer></script>
 </head>
 
-<body>
+<body data-javascript-enabled="false">
     <header>
         <nav class="wide primary-navigation">
             <a class="icon-link" href="index.html">
@@ -22,12 +23,12 @@
                 <h1>LES FRATERNELS</h1>
             </a>
             <div class="nav-links">
-                <button class="hamburger">
+                <button class="hamburger" data-expanded="false">
                     <span class="burger-line"></span>
                     <span class="burger-line"></span>
                     <span class="burger-line"></span>
                 </button>
-                <ul>
+                <ul aria-expanded="false">
                     <li><a href="index.html">Accueil</a></li>
                     <li><a href="mods.html">Mods</a></li>
                     <li><a href="">Liens Utiles</a></li>
@@ -179,7 +180,6 @@
             </div>
         </div>
     </footer>
-    <link rel="stylesheet" href="style-small-2.css" media="screen and (max-width: 700px)">
     <link rel="stylesheet" href="style-large.css" media="screen and (min-width: 850px)">
     <link rel="stylesheet" href="style-2.css" media="screen">
 </body>
