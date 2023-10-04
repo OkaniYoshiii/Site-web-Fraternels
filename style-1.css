@@ -133,7 +133,7 @@ header a, footer a {
     font-weight: bold;
     margin: 0;
     padding-block: 1.4em;
-    background: url(images/Webp/FRT-Lobby-1920x1080.webp) center center no-repeat;
+    background: url(images/Compressed/FRT-Lobby-1920x1080.webp) center center no-repeat;
     background-size: cover;
 }
 
@@ -202,7 +202,7 @@ header a, footer a {
 }
 
 .server-infos {
-    background: url(images/Webp/7DTD-Fighting-1920x1080.webp) center/cover no-repeat;
+    background: url(images/Compressed/7DTD-Fighting-1920x1080.webp) center/cover no-repeat;
     padding-block: 6rem;
 }
 
@@ -287,8 +287,8 @@ header a, footer a {
 
 .staff-members a {
     color: var(--txt-secondary-color);
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .staff-responses {
