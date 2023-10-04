@@ -5,7 +5,7 @@ html {
     --txt-secondary-color: #AF1900;
     --txt-accent-color: #FFE500;
 
-    font-size: clamp(0.4rem, 1.6vw , 1rem)
+    font-size: clamp(0.4rem, 1.6vw , 1rem);
 }
 
 .medium { margin-inline: auto; max-width: min(100vw - 4rem, 1100px); }
@@ -27,7 +27,6 @@ h1 {
 h2 {
     font-family: Oswald, Inter, sans-serif;
     font-size: clamp(30px,5vw,44px);
-    /* font-size: 44px; */
     font-weight: bold;
     color: var(--txt-main-color);
     margin-top: 0;
@@ -128,7 +127,6 @@ header a, footer a {
     text-shadow: 3px 3px 4px rgba(0,0,0,0.5);
     text-align: center;
     font-family: Oswald, sans-serif;
-    /* font-size: clamp(2.5rem, 8vw, 5.5rem); */
     font-size: 5.5rem;
     font-weight: bold;
     margin: 0;
@@ -246,7 +244,7 @@ header a, footer a {
 .server-infos ul {
     padding-left: 1rem;
     color: white;
-    font-weight: 500;
+    font-weight: 700;
     text-transform: uppercase;
 }
 
