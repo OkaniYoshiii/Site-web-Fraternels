@@ -1,0 +1,22 @@
+/* main {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+} */
+
+/* article {
+
+} */
+
+.content-navigation {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding-block: 0.5rem;
+}
+
+.content-navigation ul {
+    display: flex;
+    gap: 4rem;
+    justify-content: space-between;
+    list-style: none;
+}
