@@ -1,43 +1,3 @@
-@font-face {
-    font-family: Oswald;
-    font-weight: bold;
-    src: 
-    url(../fonts/Oswald-Bold.woff2) format(woff2),
-    url(../fonts/Oswald-Bold.woff) format(woff),
-    url(../fonts/Oswald-Bold.ttf) format(truetype);
-    font-display: swap;
-}
-
-@font-face {
-    font-family: Oswald;
-    font-weight: normal;
-    src: 
-    url(../fonts/Oswald-Regular.woff2) format(woff2),
-    url(../fonts/Oswald-Regular.woff) format(woff),
-    url(../fonts/Oswald-Regular.ttf) format(truetype);
-    font-display: swap;
-}
-
-@font-face {
-    font-family: Inter;
-    font-weight: normal;
-    src:
-    url(../fonts/Inter-Regular.woff2) format(woff2),
-    url(../fonts/Inter-Regular.woff) format(woff),
-    url(../fonts/Inter-Regular.ttf) format(truetype);
-    font-display: swap;
-}
-
-@font-face {
-    font-family: Inter;
-    font-weight: bold;
-    src:
-    url(../fonts/Inter-Bold.woff2) format(woff2),
-    url(../fonts/Inter-Bold.woff) format(woff),
-    url(../fonts/Inter-Bold.ttf) format(truetype);
-    font-display: swap;
-}
-
 a:not(.home-link):hover{
     text-decoration: underline;
 }
@@ -80,25 +40,9 @@ img {
     object-fit: cover;
 }
 
-/* section > div {
-    margin: 4rem auto;
-}
-
-section:not(:first-child) {
-    margin-block: 5rem;
-} */
-
 a {
     text-decoration: none;
 }
-
-/* .fake-button {
-    display: inline-block;
-    background-color: var(--bg-color);
-    color: white;
-    padding: 0.3rem 2rem;
-    border-radius: 6px;
-} */
 
 header, footer {
     background-color: var(--bg-color);
