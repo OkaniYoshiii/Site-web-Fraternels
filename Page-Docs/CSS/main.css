@@ -1,22 +1,24 @@
-/* main {
+.narrow {max-width: min(100% - 4rem, 900px); margin-inline: auto;}
+
+main {
     display: grid;
-    grid-template-columns: 1fr 350px;
-} */
+    grid-template-columns: 1fr 250px;
+}
 
-/* article {
+main > :first-child {
+    grid-row: 1;
+    grid-column: 2;
+}
 
-} */
-
-.content-navigation {
-    position: sticky;
-    top: 0;
-    background-color: white;
-    padding-block: 0.5rem;
+main > :last-child {
+    grid-row: 1;
+    grid-column: 1;
 }
 
 .content-navigation ul {
-    display: flex;
-    gap: 4rem;
-    justify-content: space-between;
     list-style: none;
+}
+
+code {
+    background-color: rgb(200,200,200);
 }
