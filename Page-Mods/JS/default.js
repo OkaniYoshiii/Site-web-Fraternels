@@ -1,4 +1,4 @@
-document.body.setAttribute('data-javascript-enabled',"true");
+document.querySelectorAll('.no-js').forEach((element) => {element.classList.remove('no-js')});
 
 const HAMBURGER_MENU = document.querySelector('.nav-links button');
 const HAMBURGER_CONTENT = document.querySelector('.nav-links ul');

@@ -43,6 +43,10 @@
     --active-category-color: radial-gradient(rgb(255,0,0), rgb(75,0,0));
 }
 
+.no-js {
+    display: none !important;
+}
+
 .text-centered {
     text-align: center;
 }
@@ -57,6 +61,26 @@ h2 {
     font-weight: bold;
     color: var(--txt-main-color);
     margin-top: 0;
+}
+
+.mods-selection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+legend {
+    font-size: 18px;
+}
+
+.mods-selection label {
+    display: block;
+    font-size: 16px;
+}
+
+.mods-selection select {
+    font-size: 16px;
 }
 
 h3 {
@@ -75,81 +99,8 @@ section {
     margin-block: 5rem;
 }
 
-.categories-buttons {
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 2rem;
-}
-
-.categories-buttons img {
-    min-width: 100%;
-}
-
-.categories-buttons div {
-    padding: clamp(10px, 2.5vw , 40px);
-    background: var(--default-category-color);
-    border-radius: 50%;
-}
-
-.categories-buttons div[data-active="true"] {
-    background: var(--active-category-color);
-}
-
-.categories-buttons p {
-    font-family: Oswald;
-    font-size: clamp(15px, 2.5vw, 29px);
-    font-weight: bold;
-}
-
-.categories-buttons button {
-    padding: 0;
-    border: none;
-    background-color: unset;
-    cursor: pointer;
-    transition: scale 350ms;
-}
-
-.categories-buttons button:hover {
-    scale: 1.05;
-}
-@media screen and (max-width: 500px) {
-    .categories-section {
-        display: none;
-    }
-
-    .mod-desc {
-        display: -webkit-box;
-        -webkit-line-clamp: 8;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-    }
-}
-
-
-.category-desc {
-    display: flex;
-    flex-wrap: wrap-reverse;
-    gap: 3rem;
-}
-
-.category-desc > *:first-child {
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 400px;
-}
-.category-desc > *:last-child {
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: 250px;
-    margin-inline: auto;
-    border-radius: 50%;
-    padding: max(40px ,3.5rem);
-    background: var(--active-category-color);
-}
-
-.category-desc img {
-    min-width: 100%;
+.mods > div {
+    margin-block: 3rem;
 }
 
 .mod-title {
@@ -187,7 +138,25 @@ section {
     min-height: 100%;
 }
 
+.tags {
+    color: var(--txt-secondary-color);
+    font-weight: bold;
+}
+
+.mod-desc {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+}
+
 .release-date {
     font-size: 19px;
+    font-weight: bold;
+}
+
+.output {
+    font-size: 1.1rem;
+    color: var(--txt-secondary-color);
     font-weight: bold;
 }
