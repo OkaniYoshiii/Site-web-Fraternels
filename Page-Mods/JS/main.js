@@ -66,7 +66,7 @@ function toggleOptions(select, index) {
     }
 }
 
-const OUTPUT = document.querySelector('.output');
+const OUTPUT = document.querySelector('.mod-count');
 const MODS_COUNT = MODS.length;
 
 OUTPUT.textContent = MODS_COUNT;

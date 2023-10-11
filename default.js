@@ -1,4 +1,4 @@
-document.body.setAttribute('data-javascript-enabled',"true");
+document.body.classList.add('js-active');
 
 const HAMBURGER_MENU = document.querySelector('.nav-links button');
 const HAMBURGER_CONTENT = document.querySelector('.nav-links ul');
@@ -16,3 +16,18 @@ HAMBURGER_MENU.addEventListener('click', function() {
         return;
     }
 })
+
+const ANCHOR_TAGS = document.querySelectorAll('a');
+const BODY = document.body;
+
+ANCHOR_TAGS.forEach((ANCHOR_TAG) => {ANCHOR_TAG.addEventListener('click', transitionToNextPage)});
+
+function transitionToNextPage(ev) {
+    const HREF = ev.currentTarget.href;
+    if(window.location.href == HREF) return;
+    ev.preventDefault();
+    BODY.classList.add('leave-page');
+    setTimeout(() => {
+        window.location.href = HREF;
+    }, 800);
+}

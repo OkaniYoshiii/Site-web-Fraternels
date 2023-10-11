@@ -43,10 +43,6 @@
     --active-category-color: radial-gradient(rgb(255,0,0), rgb(75,0,0));
 }
 
-.no-js {
-    display: none !important;
-}
-
 .text-centered {
     text-align: center;
 }
@@ -68,6 +64,10 @@ h2 {
     grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
     gap: 2rem;
     justify-content: space-between;
+}
+
+body:not(.js-active) fieldset { 
+    display: none;
 }
 
 legend {
@@ -155,7 +155,11 @@ section {
     font-weight: bold;
 }
 
-.output {
+body:not(.js-active) .output {
+    display: none;
+}
+
+.mod-count {
     font-size: 1.1rem;
     color: var(--txt-secondary-color);
     font-weight: bold;
