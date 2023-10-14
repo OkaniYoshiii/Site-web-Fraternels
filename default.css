@@ -1,19 +1,12 @@
-a:not(.home-link):hover{
-    text-decoration: underline;
-}
+/* GENERALITES */
 
 html {
     --bg-color: #710000;
-
+    
     --txt-main-color: #2DE100;
     --txt-secondary-color: #AF1900;
     --txt-accent-color: #FFE500;
-
-    font-size: clamp(0.4rem, 1.6vw , 1rem);
 }
-
-.medium { margin-inline: auto; max-width: min(100vw - 4rem, 1100px); }
-.wide { margin-inline: auto; max-width: min(100vw - 4rem, 1400px); }
 
 body{
     margin: 0;
@@ -21,15 +14,8 @@ body{
     line-height: 1.6;
 }
 
-h1 {
-    font-size: clamp(20px, 3.5vw, 34px);
-    margin-block: 0;
-    letter-spacing: -1.75px;
-    white-space: nowrap;
-}
-
-main :is(p, a, li, figcaption) {
-    font-size: 16px;
+a {
+    text-decoration: none;
 }
 
 img {
@@ -40,18 +26,50 @@ img {
     object-fit: cover;
 }
 
-a {
-    text-decoration: none;
+a[href=""] {
+    color: rgb(200,200,200);
+    text-decoration: line-through;
+    pointer-events: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 header, footer {
+    /* position: relative;
+    z-index: 9999; */
     background-color: var(--bg-color);
+
+    text-align: center;
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
+    font-weight: bold;
+    color: white;
+
+    padding-block: 0.75rem;
+}
+
+/* UTILITY CLASSES */
+
+.narrow {max-width: min(100vw - 2.5rem, 900px); margin-inline: auto;}
+.medium {max-width: min(100vw - 2.5rem, 1100px); margin-inline: auto;}
+.wide {max-width: min(100vw - 2.5rem, 1400px); margin-inline: auto;}
+
+/* STYLES */
+
+header *, footer * {
+    margin-block: 0;
 }
 
 header a, footer a {
-    color: white;
-    font-family: Inter, sans-serif;
+    color: inherit;
+}
+
+.website-title {
     font-weight: bold;
+    font-size: clamp(1.3rem, 3vw ,2rem);
+    letter-spacing: -1.75px;
+    white-space: nowrap;
 }
 
 .primary-navigation, .footer-navigation {
@@ -62,34 +80,35 @@ header a, footer a {
     align-items: center;
 }
 
-.footer-navigation {
-    flex-wrap: wrap;
-}
-
-.icon-link, .footer-icon-link {
+.icon-link {
     display: flex;
     gap: 0.5rem;
     align-items: center;
-    margin-block: 0.75rem;
 }
 
 .server-icon {
-    max-height: clamp(30px, 5vw, 50px);
+    max-height: clamp(2rem, 5vw, 3rem);
     aspect-ratio: 1;
 }
 
-.nav-links ul, .footer-links ul{
-    font-size: clamp(12px, 1.5vw, 16px);
-    list-style-type: none;
-    margin-block: 1rem;
-    padding-left: 0;
+.header-links ul, .footer-links ul {
     display: flex;
     gap: 18px;
     flex-wrap: wrap;
+
+    padding-left: 0;
+
+    list-style-type: none;
 }
 
-.footer-navigation a, .footer-navigation p {
-    font-size: clamp(9px, 2vw, 16px);
+@media screen and (max-width: 475px) {
+    .footer-navigation > * {
+        flex-grow: 1;
+    }
+
+    .header-links ul, .footer-links ul, .icon-link {
+        justify-content: center;
+    }
 }
 
 .hamburger {
@@ -99,75 +118,64 @@ header a, footer a {
     border: 0;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {    
+    html:where(.js-active) .hamburger {
+        --hamburger-gap: 0.25rem;
 
-    body:not(.js-active) .hamburger {
-        display: none;
-    }
-
-
-
-    body:where(.js-active) .hamburger {
         display: grid;
-    }
-
-    body:where(.js-active) .hamburger {
-        position: relative;
-        z-index: 9999;
-        --hamburger-gap: 4px;
-        grid-template-rows: repeat(3,1fr);
+        grid-template-rows: repeat(3, 1fr);
         gap: var(--hamburger-gap);
+
+        position: relative;
+        z-index: 1000;
     }
 
-    body:where(.js-active) .burger-line {
+    html:where(.js-active) .burger-line {
+        --line-height: 0.25rem;
+
         display: block;
-        width: 25px;
-        height: 3px;
+        width: 1.6rem;
+        height: 0.25rem;
         background-color: white;
         border-radius: 10px;
         transition: opacity 400ms, transform 600ms ease-out;
     }
 
-    body:where(.js-active) button:where([data-expanded="true"]) .burger-line:first-child {
-        transform: translateY(calc(3px + var(--hamburger-gap))) rotate(225deg);
+    html:where(.js-active) button:where([data-expanded="true"]) .burger-line:first-child {
+        transform: translateY(calc(var(--line-height) + var(--hamburger-gap))) rotate(225deg);
     }
 
-    body:where(.js-active) button:where([data-expanded="true"]) .burger-line:nth-child(2) {
+    html:where(.js-active) button:where([data-expanded="true"]) .burger-line:nth-child(2) {
         opacity: 0;
     }
 
-    body:where(.js-active) button:where([data-expanded="true"]) .burger-line:last-child {
-        transform: translateY(calc(-3px - var(--hamburger-gap))) rotate(-225deg);
+    html:where(.js-active) button:where([data-expanded="true"]) .burger-line:last-child {
+        transform: translateY(calc(var(--line-height) * -1 - var(--hamburger-gap))) rotate(-225deg);
     }
 
-    body:where(.js-active) .nav-links ul {
+    html:where(.js-active) .header-links ul {
         position: absolute;
-        text-align: center;
-        padding: 6rem 3rem 2rem 3rem;
-        inset: 0 0 50% 0%;
-        justify-content: space-around;
-        margin-block: 0;
-        background-color: rgba(0,0,0, 0.9);
+        inset: 0 0 auto 0;
+
         flex-direction: column;
+        justify-content: space-around;
+
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+
+        background-color: rgba(0, 0, 0, 0.9);
         clip-path: circle(0% at 100% 0%);
+
         transition: clip-path 500ms ease-in-out 10ms;
     }
 
-    body:where(.js-active) .nav-links a {
+    html:where(.js-active) .header-links a {
         display: block;
-        padding-block: 1rem;
+        padding-block: 0.75rem;
         border-block: 2px solid white;
-        background: rgba(255,255,255,0);
-        transition: background 200ms;
     }
 
-    body:where(.js-active) .nav-links a:hover {
-        cursor: pointer;
-        background: rgba(255,255,255,0.3);
-    }
-
-
-    body:where(.js-active) .nav-links ul:where([aria-expanded="true"]) {
+    html:where(.js-active) .header-links ul:where([aria-expanded="true"]) {
         clip-path: circle(150% at 100% 0%);
     }
 }
@@ -176,6 +184,7 @@ header a, footer a {
     .js-active body::before {
         content: "";
         position: absolute;
+        z-index: 9999;
         inset: 50%;
         width: 100vw;
         height: 100vh;
@@ -189,6 +198,7 @@ header a, footer a {
     .leave-page::before {
         content: "";
         position: absolute;
+        z-index: 9999;
         inset: 50%;
         width: 100vw;
         height: 100vh;

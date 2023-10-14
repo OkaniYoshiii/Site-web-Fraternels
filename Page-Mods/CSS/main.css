@@ -59,6 +59,20 @@ h2 {
     margin-top: 0;
 }
 
+h3 {
+    font-family: Oswald, Inter, sans-serif;
+    font-size: clamp(30px,5vw,44px);
+    font-weight: bold;
+    color: var(--txt-main-color);
+    margin-top: 0;
+}
+
+h3 a {
+    all: inherit;
+    cursor: pointer;
+}
+
+
 .mods-selection {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
@@ -81,14 +95,6 @@ legend {
 
 .mods-selection select {
     font-size: 16px;
-}
-
-h3 {
-    font-family: Oswald, Inter, sans-serif;
-    font-size: clamp(30px,5vw,44px);
-    font-weight: bold;
-    color: var(--txt-main-color);
-    margin-top: 0;
 }
 
 section > div {
@@ -128,13 +134,14 @@ section {
     border-radius: 3px;
     box-shadow: 5px 5px 4px rgb(200,200,200);
 }
+
 .mod-infos > *:last-child{
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 400px;
 }
 
-.mod-infos img {
+.mod-thumbnail img {
     min-height: 100%;
 }
 

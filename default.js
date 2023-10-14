@@ -1,5 +1,5 @@
-const HAMBURGER_MENU = document.querySelector('.nav-links button');
-const HAMBURGER_CONTENT = document.querySelector('.nav-links ul');
+const HAMBURGER_MENU = document.querySelector('.header-links button');
+const HAMBURGER_CONTENT = document.querySelector('.header-links ul');
 
 HAMBURGER_MENU.addEventListener('click', function() {
     const IS_EXPANDED = HAMBURGER_CONTENT.getAttribute("aria-expanded");

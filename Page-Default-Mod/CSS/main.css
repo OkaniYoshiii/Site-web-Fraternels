@@ -1,0 +1,139 @@
+@font-face {
+    font-family: Oswald;
+    font-weight: bold;
+    src:
+        url(../../fonts/Oswald-Bold.woff2) format(woff2),
+        url(../../fonts/Oswald-Bold.woff) format(woff),
+        url(../../fonts/Oswald-Bold.ttf) format(truetype);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Oswald;
+    font-weight: normal;
+    src:
+        url(../../fonts/Oswald-Regular.woff2) format(woff2),
+        url(../../fonts/Oswald-Regular.woff) format(woff),
+        url(../../fonts/Oswald-Regular.ttf) format(truetype);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Inter;
+    font-weight: normal;
+    src:
+        url(../../fonts/Inter-Regular.woff2) format(woff2),
+        url(../../fonts/Inter-Regular.woff) format(woff),
+        url(../../fonts/Inter-Regular.ttf) format(truetype);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Inter;
+    font-weight: bold;
+    src:
+    url(../../fonts/Inter-Bold.woff2) format(woff2),
+    url(../../fonts/Inter-Bold.woff) format(woff),
+    url(../../fonts/Inter-Bold.ttf) format(truetype);
+    font-display: swap;
+}
+
+.narrow {
+    max-width: min(100vw - 4rem, 900px);
+    margin-inline: auto;
+}
+
+.medium {
+    margin-inline: auto;
+    max-width: min(100vw - 4rem, 1100px);
+}
+
+.wide {
+    margin-inline: auto;
+    max-width: min(100vw - 4rem, 1400px);
+}
+
+.text-centered {
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Oswald;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: clamp(40px, 6vw, 95px);
+    font-size: 8rem;
+}
+
+h2 {
+    font-size: 36px;
+    color: var(--txt-main-color);
+}
+
+h3 {
+    font-size: 20px;
+}
+
+section + section {
+    margin-block: 4rem;
+}
+
+.hero-banner {
+    font-family: Oswald;
+    font-weight: normal;
+    color: white;
+    padding-block: 2rem;
+    background: url(/images/7DTD-CarbonCode.png) center/cover no-repeat;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+.hero-filter {
+    backdrop-filter: blur(2px);
+}
+
+.hero-title {
+    padding-block: 10rem;
+    text-shadow:
+        1px 1px 0 black,
+        1px -1px 0 black,
+        -1px -1px 0 black,
+        -1px 1px 0 black;
+}
+
+.hero-title>* {
+    margin-block: 5px;
+}
+
+.hero-title p {
+    font-size: max(2rem, 18px);
+    font-weight: bold;
+    font-family: Inter;
+    color: var(--txt-main-color);
+}
+
+.mod-infos {
+    padding-block: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+@media screen and (min-width: 700px) {
+    .mod-infos-wrapper {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+    }  
+}
+
+.mod-infos p {
+    font-size: max(1.5rem,20px);
+    margin-block: 0;
+}
+
+.mod-infos span {
+    color: var(--txt-secondary-color);
+    font-weight: bold;
+}
