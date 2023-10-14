@@ -38,11 +38,6 @@
     font-display: swap;
 }
 
-:root {
-    --default-category-color: radial-gradient(rgb(100,100,255), rgb(0,0,150));;
-    --active-category-color: radial-gradient(rgb(255,0,0), rgb(75,0,0));
-}
-
 .text-centered {
     text-align: center;
 }
@@ -80,7 +75,7 @@ h3 a {
     justify-content: space-between;
 }
 
-body:not(.js-active) fieldset { 
+html:not(.js-active) fieldset { 
     display: none;
 }
 
@@ -162,7 +157,7 @@ section {
     font-weight: bold;
 }
 
-body:not(.js-active) .output {
+html:not(.js-active) .output {
     display: none;
 }
 

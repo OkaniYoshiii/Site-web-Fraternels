@@ -1,15 +1,3 @@
-// I - Initialisation
-
-// Aller chercher les tags
-// Extraire les tags en supprimant les espaces et charactères non voulus
-// Gérer les erreurs si un tags est mal rentré
-// Insérer chaque tag en tant qu'option dans les "select"
-
-// II - Intéractivité une fois initialisé 
-
-// Recupérer la valeur des "select" lorsque l'on chnage la valeur du "select"
-// Afficher les mods corespondant aux valeurs dans les "select"
-
 const MODS = document.querySelectorAll('.mods > div');
 
 let tagsLists = new Array;
