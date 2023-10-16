@@ -97,7 +97,7 @@ section + section {
     font-weight: normal;
     color: white;
     padding-block: 2rem;
-    background: url(/images/Compressed/7DTD-Fighting-1920x1080.webp) center/cover no-repeat;
+    background: url(../../images/Compressed/7DTD-Fighting-1920x1080.webp) center/cover no-repeat;
     text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.5);
 }
 
