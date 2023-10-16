@@ -275,7 +275,3 @@ section + section {
 #output-table td {
     text-align: center;
 }
-
-.output-value-type {
-    font-size: 0.8rem;
-}
