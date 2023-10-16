@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +12,9 @@
     <link rel="stylesheet" href="default.css">
     <link rel="stylesheet" href="Page-Mod-Difficulty/CSS/main.css">
     <script src="default.js" defer></script>
+    <script src="Page-Mod-Difficulty/JS/main.js" defer></script>
 </head>
+
 <body>
     <header>
         <nav class="wide primary-navigation">
@@ -57,18 +60,138 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div class="narrow">
-                <h2 class="text-centered">Description</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam molestias minus earum. Totam, ipsum molestias repellendus tempora aspernatur quas delectus quibusdam laborum. Qui aperiam quae, doloribus ad ut ea laboriosam.
-                Illum cupiditate sint facilis beatae possimus cum doloribus, blanditiis neque quia eum temporibus doloremque inventore qui impedit rem nihil animi voluptas similique eos amet fugit! Sit ipsam molestias pariatur reiciendis!
-                Quas repellendus, beatae aspernatur sunt error blanditiis? Porro deserunt, aliquid quod non incidunt beatae velit labore rerum, dolore cum quibusdam similique odit nihil numquam fugiat? Eos similique vitae voluptatibus voluptatum.</p>
+        <section class="narrow">
+            <h2 class="text-centered">Table des Matières</h2>
+            <ul>
+                <li><a href="#description">Description</a>
+                    <ul>
+                        <li><a href="#choisir-une-difficult%C3%A9-de-d%C3%A9part">Choisir une Difficulté de départ</a></li>
+                        <li><a href="#changer-de-difficult%C3%A9">Changer de difficulté</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <h2 class="text-centered" id="description">Description</h2>
+            <h3 id="choisir-une-difficulté-de-départ">Choisir une Difficulté de départ</h3>
+            <p>En début de partie, vous recevrez un <strong>ensemble de livres</strong> qui sont utilisables afin de déterminer 3 statistiques :</p>
+            <ul>
+                <li>Le <strong>bonus additionel de dégâts</strong> de votre personnage</li>
+                <li>Le <strong>bonus additionel de dégâts</strong> des Zombies</li>
+                <li>Le <strong>bonus additionel d'expérience</strong> que vous recevrez lors des <strong>éliminations</strong></li>
+            </ul>
+            <p>Ces livres sont à <strong>usage unique</strong> et donnent un bonus d'une durée illimitée, il faudra réfléchir soigneusement avant de se décider.</p>
+            <p>Vous remarquerez que j'ai bien mis en évidence le fait qu'il s'agit de <strong>bonus additionels</strong> et non de réelles <strong>Difficulté</strong>.</p>
+            <blockquote>
+                <p>Alors, pourquoi ?</p>
+            </blockquote>
+            <p>Et bien, parce que si le serveur se trouve en difficulté &quot;Extrême&quot; et que vous prenez un livre sensé vous rendre le jeu très facile, comme le serveur est dans un grande difficulté, alors vous pourrez quand même avoir l'impression de galérer.</p>
+            <p>A l'inverse, si le serveur est toujours en &quot;Extrême&quot; mais que vous prenez un livre sensé vous rendre le jeu très dur, alors vous obtiendrez des zombies bien plus puissants que la difficulté &quot;Extrême&quot;</p>
+            <p>Pour résumer : <strong>Les bonus additionels appliqués à votre personnage sont basés sur les réglages du serveur</strong></p>
+            <p>Petit exemple :</p>
+            <ul>
+                <li>Difficulté du serveur &quot;Survivaliste&quot;
+                    <ul>
+                        <li>10 dégâts / coup avec des Poings en Cuir</li>
+                        <li>10 dégâts / coup infligé par les zombies</li>
+                    </ul>
+                </li>
+                <li>EXP à 60%
+                    <ul>
+                        <li>Arlene Feral donne 1000 EXP une fois tuée</li>
+                    </ul>
+                </li>
+                <li>Livre choisi : &quot;Facile&quot;
+                    <ul>
+                        <li>+100% de dégâts</li>
+                        <li>-50% de dégâts subis</li>
+                        <li>-30% d'EXP</li>
+                    </ul>
+                </li>
+            </ul>
+            <p>Vous infligerez donc <strong>20 dégâts</strong> / coup avec les Poigns en Cuir, recevrez <strong>5 dégâts</strong> par coup de la part des zombies et obtiendrez <strong>700 EXP</strong> par élimination lorsque vous tuerez une Arlene Feral.</p>
+            <p>Si vous le souhaitez, vous pourrez retrouver un calculateur de dégâts infligés et reçus en fonction des bonus de chaque livre juste en dessous :</p>
+            <hr>
+        </section>
+        <section class="no-js medium">
+            <p class="narrow text-centered">⚠️ Version conçue pour l'Alpha 21. Les statistiques sont sujetes a changer en fonction de la version du jeu</p>
+            <div id="difficulty-calculator">
+                <div class="selector-container text-centered" id="difficulty-selectors">
+                    <div class="selector">
+                        <label for="difficulty-selector">Difficulté du Serveur :</label>
+                        <select name="" id="difficulty-selector">
+                            <option value="glaneur">Glâneur</option>
+                            <option value="aventurier">Aventurier</option>
+                            <option value="nomade" selected>Nomade</option>
+                            <option value="guerrier">Guerrier</option>
+                            <option value="survivaliste">Survivaliste</option>
+                            <option value="extreme">Extrême</option>
+                        </select>
+                    </div>
+                    <div class="selector">
+                        <label for="weapon-damage-selector">Dégâts de votre arme :</label>
+                        <input class="text-centered" type="number" name="" min="0" id="weapon-damage-selector" value="10" required>
+                    </div>
+                    <div class="selector">
+                        <label for="entity-damage-selector">Bonus de dégâts du joueur du livre (en %) :</label>
+                        <input class="text-centered" type="number" name="" min="-100" id="entity-damage-selector" value="0" required>
+                    </div>
+                    <div class="selector">
+                        <label for="zombie-damage-selector">Dégâts des zombies du livre (par coup) :</label>
+                        <input class="text-centered" type="number" name="" min="0" id="zombie-damage-selector" value="10" required>
+                    </div>
+                    <div class="selector">
+                        <label for="exp-multiplier-selector">Bonus d'expérience apporté du livre (en %) :</label>
+                        <input class="text-centered" type="number" name="" id="exp-multiplier-selector" value="0" required>
+                    </div>
+                </div>
+                <div>
+                    <button id="validate-button">Confirmer</button>
+                </div>
+                <div id="output-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th><span class="emoji">🧟</span> Zombies</th>
+                                <th><span class="emoji">💥</span> Dégâts du joueur<br><span class="output-value-type">(Par coup)</span></th>
+                                <th><span class="emoji">💥</span> Dégâts du zombie<br><span class="output-value-type">(Par coup)</span></th>
+                                <th><span class="emoji">🎁</span> EXP reçue<br><span class="output-value-type">(Par élimination)</span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr id="default-outputs">
+                                <th>Zombie Arlene</th>
+                                <td>10</td>
+                                <td>10</td>
+                                <td>400</td>
+                            </tr>
+                            <tr id="feral-outputs">
+                                <th>Zombie Arlene Feral</th>
+                                <td>10</td>
+                                <td>20</td>
+                                <td>750</td>
+                            </tr>
+                            <tr id="radiated-outputs">
+                                <th>Zombie Arlene Irradiée</th>
+                                <td>10</td>
+                                <td>20</td>
+                                <td>1200</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
+        </section>
+        <section class="narrow">
+            <hr>
+            <h3 id="changer-de-difficulté">Changer de difficulté</h3>
+            <p>Ah, j'en connais qui n'ont pas eu envie de tout lire et qui ont choisi n'importe quoi ! 😊</p>
+            <p>Pas de panique ! En début de partie, vous devriez recevoir un certain nombre de livres permettant de <strong>réinitialiser</strong> la difficulté et de revenir au même état que quand vous avez rejoint le serveur la première fois.</p>
+            <p>Une fois que vous avez réinitialisé la difficulté, vous pourrez choisir un autre livre afin de continuer l'aventure.</p>
+            <p>Si vous ne pouvez pas réinitialiser votre difficulté pour une raison X ou Y, vous pouvez aussi <strong>demander à ce qu'on vous le fournisse directement</strong> mais cela NE DOIT PAS être utilisé abusivement !</p>
         </section>
         <section>
             <div class="narrow">
                 <h2 class="text-centered">Historique des versions</h2>
-                <div>
+                <!-- <div>
                     <h3>Version 1.0.0</h3>
                     <ul>
                         <li>Modification 1 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quae neque iste et, rerum illo qui in sed ullam quas porro consectetur deserunt aut cupiditate. Excepturi perferendis nobis deleniti sed.</li>
@@ -91,7 +214,7 @@
                         <li>Modification 1 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quae neque iste et, rerum illo qui in sed ullam quas porro consectetur deserunt aut cupiditate. Excepturi perferendis nobis deleniti sed.</li>
                         <li>Modification 1 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quae neque iste et, rerum illo qui in sed ullam quas porro consectetur deserunt aut cupiditate. Excepturi perferendis nobis deleniti sed.</li>
                     </ul>
-                </div>
+                </div> -->
             </div>
         </section>
     </main>
@@ -111,10 +234,12 @@
         </div>
     </footer>
 </body>
+
 </html>ions Légales</a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+</ul>
+</div>
+</div>
+</footer>
 </body>
+
 </html>
