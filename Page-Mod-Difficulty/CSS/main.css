@@ -42,21 +42,6 @@
     display: none;
 }
 
-.narrow {
-    max-width: min(100vw - 4rem, 900px);
-    margin-inline: auto;
-}
-
-.medium {
-    margin-inline: auto;
-    max-width: min(100vw - 4rem, 1100px);
-}
-
-.wide {
-    margin-inline: auto;
-    max-width: min(100vw - 4rem, 1400px);
-}
-
 .text-centered {
     text-align: center;
 }
@@ -148,57 +133,59 @@ section + section {
     font-weight: bold;
 }
 
+@media screen and (max-width: 400px) {
+    #difficulty-calculator {
+        display: none;
+    }
+}
+
 #difficulty-calculator {
-    border: 1px double lightgrey;
-    border-radius: 5px;
-    padding: 1rem;
-    background-color: rgb(240,240,240);
+    display: flex;
+    gap: 2.5rem;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-wrap: wrap;
+
+    box-sizing: border-box;
+    border-block: 2px solid grey;
+    /* border-radius: 5px; */
+    padding: 2rem clamp(0.5rem, 2vw, 1rem);
+    /* background-color: rgb(240,240,240); */
 }
 
 #difficulty-calculator > * + * {
     margin-top: 2rem;
 }
 
-.selector-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
+#difficulty-calculator > :first-child {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+}
+
+#difficulty-calculator > :last-child {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 550px;
+}
+
+#difficulty-calculator > :first-child > div + div {
+    margin-top: 1.5rem;
 }
 
 .selector {
-    flex-shrink: 1;
-    flex-grow: 1;
-    flex-basis: min-content;
-
     display: flex;
+    gap: 0.25rem;
     flex-direction: column;
-    justify-content: flex-end;
-    gap: 0.5rem;
+    justify-content: space-between;
 }
 
-.selector:first-of-type {
-    flex-shrink: 0;
-    flex-grow: 1;
-    flex-basis: 100%;
-}
-
-.selector input:invalid {
-    background-color: yellow;
-}
-
-.selector-container select {
-    padding-block: 0.4rem;
-    font-size: 1rem;
-    border: 2px solid lightgrey;
+.selector > *:last-child {
+    border: 1px solid rgb(100,100,100);
     border-radius: 5px;
-}
-
-
-.selector-container input {
+    font-size: 0.9rem;
     padding-block: 0.2rem;
-    font-size: 1rem;
-    border: 2px solid lightgrey;
-    border-radius: 5px;
+    margin-left: 1.5rem;
 }
 
 #validate-button {
@@ -251,6 +238,7 @@ section + section {
 }
 
 #output-table table {
+    font-size: clamp(0.75rem, 2vw, 1rem);
     margin-inline: auto;
     /* border: 2px solid grey; */
 }
@@ -269,7 +257,7 @@ section + section {
 #output-table td,
 #output-table th {
     border: 1px solid grey;
-    padding: 1rem;
+    padding: clamp(0.5rem, 2vw, 1rem);
 }
 
 #output-table td {

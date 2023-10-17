@@ -109,12 +109,12 @@
             </ul>
             <p>Vous infligerez donc <strong>20 dégâts</strong> / coup avec les Poigns en Cuir, recevrez <strong>5 dégâts</strong> par coup de la part des zombies et obtiendrez <strong>700 EXP</strong> par élimination lorsque vous tuerez une Arlene Feral.</p>
             <p>Si vous le souhaitez, vous pourrez retrouver un calculateur de dégâts infligés et reçus en fonction des bonus de chaque livre juste en dessous :</p>
-            <hr>
+            
         </section>
-        <section class="no-js medium">
+        <section class="no-js">
             <p class="narrow text-centered">⚠️ Version conçue pour l'Alpha 21. Les statistiques sont sujetes a changer en fonction de la version du jeu</p>
-            <div id="difficulty-calculator">
-                <div class="selector-container text-centered" id="difficulty-selectors">
+            <div class="medium" id="difficulty-calculator">
+                <div>
                     <div class="selector">
                         <label for="difficulty-selector"><b>Difficulté du Serveur :</b></label>
                         <select name="" id="difficulty-selector">
@@ -127,24 +127,24 @@
                         </select>
                     </div>
                     <div class="selector">
-                        <label for="weapon-damage-selector">Dégâts de votre arme :</label>
+                        <label for="weapon-damage-selector"><b>Dégâts de votre arme :</b></label>
                         <input class="text-centered" type="number" name="" min="0" id="weapon-damage-selector" value="10" required>
                     </div>
                     <div class="selector">
-                        <label for="entity-damage-selector">Bonus de dégâts du joueur du livre (en %) :</label>
+                        <label for="entity-damage-selector"><b>Bonus de dégâts du joueur</b> du livre (en %) :</label>
                         <input class="text-centered" type="number" name="" min="-100" id="entity-damage-selector" value="0" required>
                     </div>
                     <div class="selector">
-                        <label for="zombie-damage-selector">Dégâts des zombies du livre (par coup) :</label>
+                        <label for="zombie-damage-selector"><b>Dégâts des zombies</b> du livre (par coup) :</label>
                         <input class="text-centered" type="number" name="" min="0" id="zombie-damage-selector" value="10" required>
                     </div>
                     <div class="selector">
-                        <label for="exp-multiplier-selector">Bonus d'expérience apporté du livre (en %) :</label>
+                        <label for="exp-multiplier-selector"><b>Bonus d'expérience</b> apporté du livre (en %) :</label>
                         <input class="text-centered" type="number" name="" id="exp-multiplier-selector" value="0" required>
                     </div>
-                </div>
-                <div>
-                    <button id="validate-button">Confirmer</button>
+                    <div>
+                        <button id="validate-button">Confirmer</button>
+                    </div>
                 </div>
                 <div id="output-table">
                     <table>
@@ -181,7 +181,6 @@
             </div>
         </section>
         <section class="narrow">
-            <hr>
             <h3 id="changer-de-difficulté">Changer de difficulté</h3>
             <p>Ah, j'en connais qui n'ont pas eu envie de tout lire et qui ont choisi n'importe quoi ! 😊</p>
             <p>Pas de panique ! En début de partie, vous devriez recevoir un certain nombre de livres permettant de <strong>réinitialiser</strong> la difficulté et de revenir au même état que quand vous avez rejoint le serveur la première fois.</p>
