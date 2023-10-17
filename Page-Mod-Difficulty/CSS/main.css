@@ -53,8 +53,7 @@ h2 {
 }
 
 h1 {
-    font-size: clamp(40px, 6vw, 95px);
-    font-size: 8rem;
+    font-size: clamp(4rem, 6vw, 6.5rem);
 }
 
 h2 {
@@ -81,7 +80,7 @@ section + section {
     font-family: Oswald;
     font-weight: normal;
     color: white;
-    padding-block: 2rem;
+    padding-block: clamp(1rem, 2vw, 2rem);
     background: url(../../images/Compressed/7DTD-Fighting-1920x1080.webp) center/cover no-repeat;
     text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.5);
 }
@@ -91,7 +90,7 @@ section + section {
 }
 
 .hero-title {
-    padding-block: 10rem;
+    padding-block: clamp(5rem, 10vw, 10rem);
     text-shadow:
         1px 1px 0 black,
         1px -1px 0 black,
@@ -99,12 +98,12 @@ section + section {
         -1px 1px 0 black;
 }
 
-.hero-title>* {
-    margin-block: 5px;
+.hero-title > * {
+    margin-block: 0.33rem;
 }
 
 .hero-title p {
-    font-size: max(2rem, 18px);
+    font-size: clamp(1.3rem, 2vw, 2rem);
     font-weight: bold;
     font-family: Inter;
     color: var(--txt-main-color);
@@ -124,19 +123,13 @@ section + section {
 }
 
 .mod-infos p {
-    font-size: max(1.5rem,20px);
+    font-size: clamp(1.2rem, 2vw, 1.5rem);
     margin-block: 0;
 }
 
 .mod-infos span {
     color: var(--txt-secondary-color);
     font-weight: bold;
-}
-
-@media screen and (max-width: 400px) {
-    #difficulty-calculator {
-        display: none;
-    }
 }
 
 #difficulty-calculator {
@@ -151,6 +144,12 @@ section + section {
     /* border-radius: 5px; */
     padding: 2rem clamp(0.5rem, 2vw, 1rem);
     /* background-color: rgb(240,240,240); */
+}
+
+@media screen and (max-width: 400px) {
+    .calculator-container {
+        display: none;
+    }
 }
 
 #difficulty-calculator > * + * {
