@@ -202,7 +202,7 @@ header a, footer a {
         z-index: 9999;
         inset: 0;
         background-color: white;
-        transform: translate(100%, 0%);
+        transform: translate(-100%, 0%);
         opacity: 0;
         animation: 3s pageLeave;
         pointer-events: none;

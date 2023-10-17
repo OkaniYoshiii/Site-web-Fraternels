@@ -7,7 +7,7 @@ MODS.forEach((MOD) => {
     const TAGS_LIST = MOD.querySelector('.tags');
     let tagsList = new Object;
 
-    const ELEMENT_TAGS = TAGS_LIST.textContent.split(',').map((tag) => {return tag.trim()});
+    const ELEMENT_TAGS = TAGS_LIST.textContent.split(',');
     tagsList.tags = ELEMENT_TAGS;
     tagsList.element = MOD;
 
@@ -39,15 +39,17 @@ SELECT_ELEMENTS.forEach((select, index) => {
     select.addEventListener('change',() => {
         selectedTags[index] = select.value;
         toggleOptions(select,index);
+        console.log("Option désactivée ", disabledOptions);
         displayModsByTags();
     })
 });
+
 
 function toggleOptions(select, index) {
     disabledOptions[index]?.forEach((OPTION) => {OPTION.toggleAttribute('disabled')});
         
     if(select.value) {
-        disabledOptions[index] = Array.from(document.querySelectorAll(`option[value=${select.value}]`))
+        disabledOptions[index] = Array.from(document.querySelectorAll(`option[value="${select.value}"]`))
         disabledOptions[index].forEach((OPTION) => {OPTION.toggleAttribute('disabled')});
     } else {
         disabledOptions[index] = null;
