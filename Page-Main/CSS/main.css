@@ -130,6 +130,10 @@ section:not(:first-child), section > div {
     gap: 2rem;
 }
 
+.mod-image {
+    aspect-ratio: 1.6;
+}
+
 .highlighted {
     color: var(--txt-secondary-color);
     text-align: center;
