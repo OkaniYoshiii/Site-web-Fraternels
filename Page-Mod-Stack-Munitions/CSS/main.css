@@ -1,0 +1,31 @@
+.tables {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.tables table {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 350px;
+}
+
+thead *:not(b) {
+    border: 1px solid grey;
+    background-color: black;
+    color: white;
+    padding-inline: 1rem;
+}
+
+tbody *:not(b) {
+    border: 1px solid grey;
+    padding-inline: 1rem;
+}
+
+tbody th {
+    text-align: left;
+}
+
+tbody td {
+    text-align: center;
+}

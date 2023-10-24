@@ -10,6 +10,7 @@
     <title>Mods - Difficulté Ajustable</title>
     <link rel="icon" type="image/png" href="images/Compressed/FRT-Logo-30x30.webp" />
     <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="Page-Default-Mod/CSS/main.css">
     <link rel="stylesheet" href="Page-Mod-Difficulty/CSS/main.css">
     <script src="default.js" defer></script>
     <script src="Page-Mod-Difficulty/JS/main.js" defer></script>
@@ -39,7 +40,7 @@
         </nav>
     </header>
     <main>
-        <section class="hero-banner text-centered">
+        <section class="hero-banner text-centered" style="--mod-banner: url(/images/radiated.png);">
             <div class="hero-filter">
                 <div class="medium hero-title">
                     <h1>Difficulté Ajustable</h1>
@@ -72,40 +73,17 @@
                     <li>Le <strong>bonus additionel d'expérience</strong> que vous recevrez lors des <strong>éliminations</strong></li>
                 </ul>
                 <p>Ces livres sont à <strong>usage unique</strong> et donnent un bonus d'une durée illimitée, il faudra réfléchir soigneusement avant de se décider.</p>
-                <p>Vous remarquerez que j'ai bien mis en évidence le fait qu'il s'agit de <strong>bonus additionels</strong> et non de réelles <strong>Difficulté</strong>.</p>
+                <p>Vous remarquerez que j'ai bien mis en évidence le fait qu'il s'agit de <strong>modifications statistiques</strong> et non de réels changements de <strong>Difficulté</strong>.</p>
                 <blockquote>
                     <p>Alors, pourquoi ?</p>
                 </blockquote>
-                <p>Et bien, parce que si le serveur se trouve en difficulté &quot;Extrême&quot; et que vous prenez un livre sensé vous rendre le jeu très facile, comme le serveur est dans un grande difficulté, alors vous pourrez quand même avoir l'impression de galérer.</p>
-                <p>A l'inverse, si le serveur est toujours en &quot;Extrême&quot; mais que vous prenez un livre sensé vous rendre le jeu très dur, alors vous obtiendrez des zombies bien plus puissants que la difficulté &quot;Extrême&quot;</p>
-                <p>Pour résumer : <strong>Les bonus additionels appliqués à votre personnage sont basés sur les réglages du serveur</strong></p>
-                <p>Petit exemple :</p>
-                <ul>
-                    <li>Difficulté du serveur &quot;Survivaliste&quot;
-                        <ul>
-                            <li>10 dégâts / coup avec des Poings en Cuir</li>
-                            <li>10 dégâts / coup infligé par les zombies</li>
-                        </ul>
-                    </li>
-                    <li>EXP à 60%
-                        <ul>
-                            <li>Arlene Feral donne 1000 EXP une fois tuée</li>
-                        </ul>
-                    </li>
-                    <li>Livre choisi : &quot;Facile&quot;
-                        <ul>
-                            <li>+100% de dégâts</li>
-                            <li>-50% de dégâts subis</li>
-                            <li>-30% d'EXP</li>
-                        </ul>
-                    </li>
-                </ul>
-                <p>Vous infligerez donc <strong>20 dégâts</strong> / coup avec les Poigns en Cuir, recevrez <strong>5 dégâts</strong> par coup de la part des zombies et obtiendrez <strong>700 EXP</strong> par élimination lorsque vous tuerez une Arlene Feral.</p>
-                <p>Si vous le souhaitez, vous pourrez retrouver un calculateur de dégâts infligés et reçus en fonction des bonus de chaque livre juste en dessous :</p>
+                <p>Pour l'instant, nous n'avons pas encore trouvé de moyen pour que chaque joueur puisse vraiment choisir une difficulté identiquement à la manière dont il la choisit en lancant une partie solo. En d'autres termes, nous ne pouvons pas attribuer la difficulté "Nomade" à un joueur mais pas à un autre, cela s'applique sur tout le serveur mais pas sur chaque joueur individuellement.</p>
+                <p>La conséquence de cela est que les modifications statistiques sont liées à la difficulté du serveur. Si vous prenez un livre sensé augmenter vos dégâts de tant de pourcent, alors cela sera X % de dégâts en plus par rapport aux dégâts que vous infligiez <b>avant de prendre le livre</b>.</p>
             </div>
         </section>
         <section class="no-js calculator-container">
-            <p class="narrow text-centered">⚠️ Version conçue pour l'Alpha 21. Les statistiques sont sujetes a changer en fonction de la version du jeu</p>
+            <p class="narrow">Si vous le souhaitez, vous pourrez retrouver un calculateur de dégâts infligés et reçus en fonction des bonus de chaque livre juste en dessous :</p>
+            <p class="narrow text-centered">⚠️ Version conçue pour l'Alpha 21. Les statistiques sont sujetes a changer en fonction de la version du jeu et/ou du Mod</p>
             <div class="medium" id="difficulty-calculator">
                 <div>
                     <div class="selector">
@@ -180,35 +158,6 @@
             <p>Une fois que vous avez réinitialisé la difficulté, vous pourrez choisir un autre livre afin de continuer l'aventure.</p>
             <p>Si vous ne pouvez pas réinitialiser votre difficulté pour une raison X ou Y, vous pouvez aussi <strong>demander à ce qu'on vous le fournisse directement</strong> mais cela NE DOIT PAS être utilisé abusivement !</p>
         </section>
-        <!-- <section>
-            <div class="narrow">
-                <h2 class="text-centered">Historique des versions</h2>
-                <div>
-                    <h3>Version 1.0.0</h3>
-                    <ul>
-                        <li>Modification 1 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quae neque iste et, rerum illo qui in sed ullam quas porro consectetur deserunt aut cupiditate. Excepturi perferendis nobis deleniti sed.</li>
-                        <li>Modification 1 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quae neque iste et, rerum illo qui in sed ullam quas porro consectetur deserunt aut cupiditate. Excepturi perferendis nobis deleniti sed.</li>
-                        <li>Modification 1 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quae neque iste et, rerum illo qui in sed ullam quas porro consectetur deserunt aut cupiditate. Excepturi perferendis nobis deleniti sed.</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Version 1.0.1</h3>
-                    <ul>
-                        <li>Modification 1 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quae neque iste et, rerum illo qui in sed ullam quas porro consectetur deserunt aut cupiditate. Excepturi perferendis nobis deleniti sed.</li>
-                        <li>Modification 1 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quae neque iste et, rerum illo qui in sed ullam quas porro consectetur deserunt aut cupiditate. Excepturi perferendis nobis deleniti sed.</li>
-                        <li>Modification 1 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quae neque iste et, rerum illo qui in sed ullam quas porro consectetur deserunt aut cupiditate. Excepturi perferendis nobis deleniti sed.</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Version 1.0.2</h3>
-                    <ul>
-                        <li>Modification 1 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quae neque iste et, rerum illo qui in sed ullam quas porro consectetur deserunt aut cupiditate. Excepturi perferendis nobis deleniti sed.</li>
-                        <li>Modification 1 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quae neque iste et, rerum illo qui in sed ullam quas porro consectetur deserunt aut cupiditate. Excepturi perferendis nobis deleniti sed.</li>
-                        <li>Modification 1 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quae neque iste et, rerum illo qui in sed ullam quas porro consectetur deserunt aut cupiditate. Excepturi perferendis nobis deleniti sed.</li>
-                    </ul>
-                </div>
-            </div>
-        </section> -->
     </main>
     <footer>
         <div class="wide footer-navigation">

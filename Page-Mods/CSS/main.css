@@ -123,7 +123,7 @@ section {
 .mod-infos > *:first-child{
     flex-grow: 0;
     flex-shrink: 1;
-    flex-basis: 400px;
+    flex-basis: 500px;
 
     margin-inline: auto;
     border-radius: 3px;

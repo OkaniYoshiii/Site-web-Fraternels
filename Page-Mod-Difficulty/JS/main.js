@@ -6,7 +6,7 @@ const DIFFICULTIES = {
     nomade: {zombieDamageMult: 1, playerDamageMult: 1},
     guerrier: {zombieDamageMult: 1.5, playerDamageMult: 0.83},
     survivaliste: {zombieDamageMult: 2, playerDamageMult: 0.66},
-    exteme: {zombieDamageMult: 2.5, playerDamageMult: 0.5}
+    extreme: {zombieDamageMult: 2.5, playerDamageMult: 0.5}
 };
 
 const ZOMBIES = {
@@ -32,7 +32,7 @@ document.querySelector('#validate-button').addEventListener('click', () => {
     const DIFFICULTY = DIFFICULTY_SELECTOR.value;
     const WEAPON_DAMAGE = Number(WEAPON_DAMAGE_SELECTOR.value);
     const ENTITY_DAMAGE_MULTIPLIER = ENTITY_DAMAGE_SELECTOR.value / 100 + 1;
-    const ZOMBIE_DAMAGE_MULTIPLIER = ZOMBIE_DAMAGE_SELECTOR.value / (10 * DIFFICULTIES[DIFFICULTY].zombieDamageMult);
+    const ZOMBIE_DAMAGE_PER_HIT = ZOMBIE_DAMAGE_SELECTOR.value;
     const EXP_MULTIPLIER = EXP_MULTIPLIER_SELECTOR.value / 100 + 1;
 
     const PLAYER_DAMAGE = WEAPON_DAMAGE * DIFFICULTIES[DIFFICULTY].playerDamageMult * ENTITY_DAMAGE_MULTIPLIER;
@@ -43,7 +43,7 @@ document.querySelector('#validate-button').addEventListener('click', () => {
         const ZOMBIE_EXP_OUTPUT = OUTPUTS[index][2]
 
         PLAYER_DAMAGE_OUTPUT.innerText = Number(PLAYER_DAMAGE.toFixed(1));
-        ZOMBIE_DAMAGE_OUTPUT.innerText = Number(ZOMBIE.baseDamage * DIFFICULTIES[DIFFICULTY].zombieDamageMult * ZOMBIE_DAMAGE_MULTIPLIER.toFixed(1));
+        ZOMBIE_DAMAGE_OUTPUT.innerText = Number(ZOMBIE.baseDamage / ZOMBIES.zombieArlene.baseDamage  * ZOMBIE_DAMAGE_PER_HIT * DIFFICULTIES[DIFFICULTY].zombieDamageMult);
         ZOMBIE_EXP_OUTPUT.innerText = Number(ZOMBIE.experience * EXP_MULTIPLIER.toFixed(1));
     })
 })
