@@ -15,7 +15,7 @@ HAMBURGER_MENU.addEventListener('click', function() {
     }
 })
 
-const ANCHOR_TAGS = document.querySelectorAll('a');
+const ANCHOR_TAGS = document.querySelectorAll('a:not([target="_blank"])');
 const BODY = document.body;
 
 ANCHOR_TAGS.forEach((ANCHOR_TAG) => {ANCHOR_TAG.addEventListener('click', transitionToNextPage)});
