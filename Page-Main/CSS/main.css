@@ -71,13 +71,13 @@ section:not(:first-child), section > div {
     margin: clamp(1.5rem, 6vw, 5rem) auto;
 }
 
-.fake-button {
+/* .fake-button {
     display: inline-block;
     background-color: var(--bg-color);
     color: white;
     padding: 0.3rem 2rem;
     border-radius: 6px;
-}
+} */
 
 .hero-title {
     color: white;
