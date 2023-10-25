@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +13,20 @@
     <script src="default.js" defer></script>
 </head>
 <body>
-    <header>
+    <dialog class="narrow">
+        <p class="dialog-title">Paramètres :</p>
+        <div class="dialog-section">
+            <p class="dialog-options-name">Animations entre le chargement des pages :</p>
+            <div class="dialog-options">
+                <button id="anims-enabled">Oui</button>
+                <button id="anims-disabled">Non</button>
+            </div>
+        </div>
+        <div class="dialog-section">
+            <button autofocus id="dialog-close">Sauvegarder et quitter</button>
+        </div>
+    </dialog>
+<header>
         <nav class="wide primary-navigation">
             <a class="icon-link" href="index.html">
                 <img class="server-icon" src="images/Compressed/FRT-Logo-75x75.webp" width="75" height="75" alt="">
@@ -29,8 +42,8 @@
                     <li><a href="index.html">Accueil</a></li>
                     <li><a href="mods.html">Mods</a></li>
                     <li><a href="liens-utiles.html">Liens Utiles</a></li>
-                    
                     <li><a href="">Outils Modding</a></li>
+                    <li><button class="no-js" id="dialog-open">Paramètres</button></li>
                 </ul>
             </div>
         </nav>
@@ -73,7 +86,7 @@
             <div class="footer-links">
                 <ul>
                     <li><a href="">Nos partenaires</a></li>
-                    <li><a href="">Crédits</a></li>
+                    <li><a href="credits.html">Crédits</a></li>
                     <li><a href="CGU.odt" download>Mentions Légales</a></li>
                 </ul>
             </div>

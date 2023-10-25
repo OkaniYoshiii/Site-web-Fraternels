@@ -62,7 +62,54 @@ header, footer {
 .medium {max-width: min(100vw - 2.5rem, 1100px); margin-inline: auto;}
 .wide {max-width: min(100vw - 2.5rem, 1400px); margin-inline: auto;}
 
+.no-js {display: none;}
+
 /* STYLES */
+
+dialog {
+    box-sizing: border-box;
+    padding: 2rem;
+    border: 2px solid grey;
+}
+
+dialog::backdrop {
+    backdrop-filter: blur(1px);
+}
+
+.dialog-section {
+    margin-block: 1rem;
+}
+
+.dialog-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    border-bottom: 1px solid rgb(200,200,200);
+}
+
+.dialog-options-name {
+    font-weight: bold;
+    border-bottom: 1px solid rgb(200,200,200);
+}
+
+.dialog-options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.dialog-options > * {
+    padding: 0.5rem;
+    border-radius: 100px;
+}
+
+#dialog-close {
+    display: block;
+    margin: 3rem auto 0 auto;
+    padding: 0.25rem 2rem;
+    border-radius: 100px;
+}
 
 header *, footer * {
     margin-block: 0;
@@ -70,6 +117,16 @@ header *, footer * {
 
 header a, footer a {
     color: inherit;
+}
+
+header button {
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    cursor: pointer;
 }
 
 .website-title {
