@@ -1,42 +1,3 @@
-// Website Parameters
-
-const DIALOG = document.querySelector("dialog");
-const OPEN_BUTTON = document.querySelector("#dialog-open");
-const CLOSE_BUTTON = document.querySelector("#dialog-close");
-
-const ANIMS_ENABLED_BUTTON = document.getElementById('anims-enabled');
-const ANIMS_DISABLED_BUTTON = document.getElementById('anims-disabled');
-
-let hasEnableAnimations = (localStorage.length === 0) ? "true" : localStorage.getItem("animationsEnabled");
-
-ANIMS_ENABLED_BUTTON.addEventListener('click', () => {hasEnableAnimations = "true"; switchColors();});
-ANIMS_DISABLED_BUTTON.addEventListener('click', () => {hasEnableAnimations = "false"; switchColors()});
-
-// document.getElementById('anims-disabled').addEventListener('click', () => toggleAnimations(false));
-// document.getElementById('anims-enabled').addEventListener('click', () => toggleAnimations(true));
-
-OPEN_BUTTON.classList.remove('no-js');
-OPEN_BUTTON.addEventListener('click', () => {DIALOG.showModal()})
-CLOSE_BUTTON.addEventListener('click', () => {DIALOG.close(); localStorage.setItem("animationsEnabled", hasEnableAnimations);})
-
-function switchColors() {
-    if (hasEnableAnimations === "true") {
-        ANIMS_ENABLED_BUTTON.style.backgroundColor = "green";
-        ANIMS_ENABLED_BUTTON.style.color = "white";
-        ANIMS_DISABLED_BUTTON.style.backgroundColor = "lightgrey";
-        ANIMS_DISABLED_BUTTON.style.color = "black";
-    }
-
-    if (hasEnableAnimations === "false") {
-        ANIMS_DISABLED_BUTTON.style.backgroundColor = "green";
-        ANIMS_DISABLED_BUTTON.style.color = "white";
-        ANIMS_ENABLED_BUTTON.style.backgroundColor = "lightgrey";
-        ANIMS_ENABLED_BUTTON.style.color = "black";
-    }
-}
-
-switchColors()
-
 // Hamburger menu
 
 const HAMBURGER_MENU = document.querySelector('.header-links button');
@@ -54,6 +15,7 @@ HAMBURGER_MENU.addEventListener('click', function() {
         HAMBURGER_MENU.setAttribute("data-expanded","true");
         return;
     }
+<<<<<<< Updated upstream
 })
 
 // Page transitions
@@ -76,3 +38,6 @@ function transitionToNextPage(ev) {
         window.location.href = HREF;
     }, 800);
 }
+=======
+})
+>>>>>>> Stashed changes
