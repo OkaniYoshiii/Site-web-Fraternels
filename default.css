@@ -1,3 +1,35 @@
+/* PAGE TRANSITIONS */
+
+@media screen and (prefers-reduced-motion: no-preference) {
+    [data-animation-enabled][data-next-animation="entering-page"] body::before {
+        content: "";
+        position: fixed;
+        z-index: 9999;
+        inset: 0;
+        background-color: white;
+        transition: clip-path 1000ms;
+        clip-path: inset(0 0vw 0 0vw);
+    }
+
+    [data-animation-enabled][data-next-animation="entering-page"][data-animation-running] body::before {
+        clip-path: inset(0 100vw 0 0vw);
+    }
+
+    [data-animation-enabled][data-next-animation="leaving-page"] body::after {
+        content: "";
+        position: fixed;
+        z-index: 9999;
+        inset: 0;
+        background-color: white;
+        transition: clip-path 1000ms;
+        clip-path: inset(0 0vw 0 100vw);
+    }
+
+    [data-animation-enabled][data-next-animation="leaving-page"][data-animation-running] body::after {
+        clip-path: inset(0 0vw 0 0vw);
+    }
+}
+
 /* GENERALITES */
 
 html {
@@ -241,66 +273,5 @@ header button {
 
     html:where(.js-active) .header-links ul:where([aria-expanded="true"]) {
         clip-path: circle(150% at 100% 0%);
-    }
-}
-
-@media screen and (prefers-reduced-motion: no-preference) {
-    .js-active body::before {
-        content: "";
-        position: absolute;
-        z-index: 9999;
-        inset: 0;
-        background-color: white;
-        transform: translate(0%, 0%);
-        opacity: 0;
-        animation: 0.7s ease-in pageEnter;
-        pointer-events: none;
-    }
-
-    .js-active .leave-page::before {
-        content: "";
-        position: absolute;
-        z-index: 9999;
-        inset: 0;
-        background-color: white;
-        transform: translate(-100%, 0%);
-        opacity: 0;
-        animation: 3s pageLeave;
-        pointer-events: none;
-    }
-}
-
-@keyframes pageEnter {
-    0% {
-        transform: translate(0%, 0%);
-        opacity: 1;
-    }
-
-    30% {
-        transform: translate(0%, 0%);
-        opacity: 1;
-    }
-
-    100% {
-        transform: translate(-100%, 0%);
-        opacity: 1;
-        
-    }
-}
-
-@keyframes pageLeave {
-    0% {
-        transform: translate(100%, 0%);
-        opacity: 0;
-    }
-
-    25% {
-        transform: translate(0%, 0%);
-        opacity: 1;
-    }
-
-    100% {
-        transform: translate(0%, 0%);
-        opacity: 1;
     }
 }

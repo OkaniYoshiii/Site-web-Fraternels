@@ -56,23 +56,41 @@ HAMBURGER_MENU.addEventListener('click', function() {
     }
 })
 
-// Page transitions
+// Entering Page Transition
 
-if (hasEnableAnimations === "false") document.querySelector(':root').classList.remove('js-active');
+const PAGE_SAME_AS_LAST_ONE = sessionStorage.getItem('oldURL') === window.location.href
+if (!PAGE_SAME_AS_LAST_ONE) window.addEventListener('load', () => {playAnimation(); changeAnimationState();});
 
-const BODY = document.body;
+// Leaving Page Transition
+
 const ANCHOR_TAGS = document.querySelectorAll('a:not([target="_blank"])');
-
 ANCHOR_TAGS.forEach((ANCHOR_TAG) => {ANCHOR_TAG.addEventListener('click', transitionToNextPage)});
 
 function transitionToNextPage(ev) {
-    if (hasEnableAnimations === "false") return;
-    document.documentElement.classList.add('js-active');
     const HREF = ev.currentTarget.href;
-    if(window.location.href == HREF) return;
+    const TRANSITION_STYLE = window.getComputedStyle(document.body,'::after').transitionDuration;
+    const TRANSITION_DURATION = Number(TRANSITION_STYLE.slice(0, TRANSITION_STYLE.indexOf('s')));
+
+    sessionStorage.setItem('oldURL', window.location.href);
+
+    if(window.location.href === HREF) return;
+    
+    playAnimation();
+    delayRedirection(ev,HREF, TRANSITION_DURATION);
+}
+
+function delayRedirection(ev, HREF, delay) {
     ev.preventDefault();
-    BODY.classList.add('leave-page');
-    setTimeout(() => {
-        window.location.href = HREF;
-    }, 800);
+    setTimeout(() => {window.location.href = HREF}, 2500);
+}
+
+function changeAnimationState() {
+    document.body.addEventListener('transitionend', () => {
+        document.documentElement.toggleAttribute('data-animation-running', '');
+        document.documentElement.setAttribute('data-next-animation', 'leaving-page');
+    });
+}
+
+function playAnimation() {
+    document.documentElement.setAttribute('data-animation-running','');
 }

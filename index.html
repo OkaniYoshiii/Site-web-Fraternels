@@ -8,7 +8,12 @@
     <meta name="description" content="Page d'accueil du serveur 7 Days to Die &quot;Les Fraternels&quot;">
     <title>Les Fraternels</title>
     <link rel="icon" type="image/png" href="images/Compressed/FRT-Logo-30x30.webp" />
-    <script>document.documentElement.classList.add('js-active');</script>
+    <script>
+        document.documentElement.classList.add('js-active');
+        document.documentElement.setAttribute('data-animation-enabled','');
+        if(sessionStorage.getItem('oldURL') !== window.location.href) document.documentElement.setAttribute('data-next-animation', 'entering-page');
+        // document.documentElement.setAttribute('data-next-animation', 'entering-page');
+    </script>
     <link rel="stylesheet" href="default.css" media="screen">
     <link rel="preload" fetchpriority="high" as="image" href="images/Compressed/FRT-Lobby-1920x1080.webp" type="image/webp">
     <link rel="preload" fetchpriority="high" as="image" href="images/Compressed/7DTD-Fighting-1920x1080.webp" type="image/webp">
