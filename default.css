@@ -129,6 +129,10 @@ header button {
     cursor: pointer;
 }
 
+header button:hover {
+    text-decoration: underline;
+}
+
 .website-title {
     font-weight: bold;
     font-size: clamp(1.3rem, 3vw ,2rem);
@@ -220,6 +224,7 @@ header button {
     html:where(.js-active) .header-links ul {
         position: absolute;
         inset: 0 0 auto 0;
+        z-index: 999;
 
         flex-direction: column;
         justify-content: space-around;
@@ -233,74 +238,12 @@ header button {
         transition: clip-path 500ms ease-in-out 10ms;
     }
 
-    html:where(.js-active) .header-links a {
-        display: block;
+    html:where(.js-active) .header-links li {
         padding-block: 0.75rem;
         border-block: 2px solid white;
     }
 
     html:where(.js-active) .header-links ul:where([aria-expanded="true"]) {
         clip-path: circle(150% at 100% 0%);
-    }
-}
-
-@media screen and (prefers-reduced-motion: no-preference) {
-    .js-active body::before {
-        content: "";
-        position: absolute;
-        z-index: 9999;
-        inset: 0;
-        background-color: white;
-        transform: translate(0%, 0%);
-        opacity: 0;
-        animation: 0.7s ease-in pageEnter;
-        pointer-events: none;
-    }
-
-    .js-active .leave-page::before {
-        content: "";
-        position: absolute;
-        z-index: 9999;
-        inset: 0;
-        background-color: white;
-        transform: translate(-100%, 0%);
-        opacity: 0;
-        animation: 3s pageLeave;
-        pointer-events: none;
-    }
-}
-
-@keyframes pageEnter {
-    0% {
-        transform: translate(0%, 0%);
-        opacity: 1;
-    }
-
-    30% {
-        transform: translate(0%, 0%);
-        opacity: 1;
-    }
-
-    100% {
-        transform: translate(-100%, 0%);
-        opacity: 1;
-        
-    }
-}
-
-@keyframes pageLeave {
-    0% {
-        transform: translate(100%, 0%);
-        opacity: 0;
-    }
-
-    25% {
-        transform: translate(0%, 0%);
-        opacity: 1;
-    }
-
-    100% {
-        transform: translate(0%, 0%);
-        opacity: 1;
     }
 }
