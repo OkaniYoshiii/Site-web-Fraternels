@@ -13,28 +13,38 @@ TAGS.forEach((TAG) => {
 const SELECT_ELEMENTS = Array.from(document.querySelectorAll('select'));
 const SELECT_ELEMENTS_COUNT = SELECT_ELEMENTS.length;
 
-document.querySelector('fieldset').addEventListener('change', updateModList);
+document.querySelector('fieldset').addEventListener('change', (ev) => {updateTagOptions(ev), updateModList() });
 
-let selects = new Array(SELECT_ELEMENTS_COUNT);
+let oldSelectedOptions = new Array(SELECT_ELEMENTS_COUNT);
 
-function updateModList(ev) {
+function updateTagOptions(ev) {
     const SELECT = ev.target;
     const SELECT_INDEX = SELECT_ELEMENTS.indexOf(SELECT);
+    const OLD_DISABLED_OPTIONS = oldSelectedOptions[SELECT_INDEX];
+    
+    if(OLD_DISABLED_OPTIONS) {activateElements(OLD_DISABLED_OPTIONS);}
+    
+    const SELECTED_OPTION = document.querySelector(`option[value="${SELECT.value}"]`);
+    const FIRST_OPTION = document.querySelector('option[value=""]');
 
-    const OLD_DISABLED_OPTION = selects[SELECT_INDEX];
+    if(SELECTED_OPTION === FIRST_OPTION) {oldSelectedOptions[SELECT_INDEX] = ''; return;}
 
-    if(OLD_DISABLED_OPTION) {
-        console.log(OLD_DISABLED_OPTION);
-        OLD_DISABLED_OPTION.forEach((OLD_OPTION) => OLD_OPTION.removeAttribute('disabled'));
-    }
+    const OPTIONS = document.querySelectorAll(`option[value="${SELECT.value}"]`);
+    deactivateElements(OPTIONS);
 
-    if(!SELECT.value) {selects[SELECT_INDEX] = ''; return;}
+    oldSelectedOptions[SELECT_INDEX] = OPTIONS;
+}
 
-    //Pour chaque SELECT, enregistrer quelle OPTION il a désactivé dans l'ensemble des SELECT
-    const DISABLED_OPTIONS = document.querySelectorAll(`option[value="${SELECT.value}"]`);
-    DISABLED_OPTIONS.forEach((OPTION) => OPTION.setAttribute('disabled',''));
+function deactivateElements(elements) {
+    elements.forEach((element) => element.setAttribute('disabled',''))
+}
+function activateElements(elements) {
+    elements.forEach((element) => element.removeAttribute('disabled'))
+}
 
-    selects[SELECT_INDEX] = DISABLED_OPTIONS;
+
+function updateModList() {
+
 }
 
 SELECT_ELEMENTS.forEach((select, index) => {select.appendChild(DOCUMENT_FRAGMENT.cloneNode(true));});
