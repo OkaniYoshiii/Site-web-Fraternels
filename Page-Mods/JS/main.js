@@ -1,6 +1,44 @@
-const MODS_TAGS = Array.from(document.querySelectorAll('.tags'));
+const SELECTS = Array.from(document.querySelectorAll('select'));
+const SELECTS_COUNT = SELECTS.length;
+
+document.querySelector('fieldset').addEventListener('change', (ev) => {
+    const SELECT = ev.target;
+    const SELECT_INDEX = SELECTS.indexOf(SELECT);
+    
+    updateTagList(SELECT, SELECT_INDEX);
+    updateModList(SELECT, SELECT_INDEX);
+});
+
+let oldSelectedOptions = new Array(SELECTS_COUNT);
+
+function updateTagList(select, selectIndex) {
+    const OLD_DISABLED_OPTIONS = oldSelectedOptions[selectIndex];
+    
+    if(OLD_DISABLED_OPTIONS) {activate(OLD_DISABLED_OPTIONS);}
+    
+    const SELECTED_OPTION = document.querySelector(`option[value="${select.value}"]`);
+    const FIRST_OPTION = document.querySelector('option[value=""]');
+
+    if(SELECTED_OPTION === FIRST_OPTION) {oldSelectedOptions[selectIndex] = ''; return;}
+
+    const OPTIONS = document.querySelectorAll(`option[value="${select.value}"]`);
+    deactivate(OPTIONS);
+
+    oldSelectedOptions[selectIndex] = OPTIONS;
+}
+
+function deactivate(elements) {
+    elements.forEach((element) => element.setAttribute('disabled',''))
+}
+function activate(elements) {
+    elements.forEach((element) => element.removeAttribute('disabled'))
+}
+
+
+const TAGS_LISTS = Array.from(document.querySelectorAll('.tags')).map((MOD_TAGS) => {return MOD_TAGS.innerText}).map((MOD_TAGS) => {return MOD_TAGS.split(/\s,\s|\s,|,\s/g)});
+
 const REGEXP = /\s,\s|\s,|,\s/g; // targets : " ," / ", " and " , "
-const TAGS = [...new Set(MODS_TAGS.flatMap((MOD_TAGS) => {return MOD_TAGS.innerText.split(/\s,\s|\s,|,\s/g)}))];
+const TAGS = [...new Set(TAGS_LISTS.flat())];
 
 const DOCUMENT_FRAGMENT = new DocumentFragment();
 TAGS.forEach((TAG) => {
@@ -10,42 +48,40 @@ TAGS.forEach((TAG) => {
     DOCUMENT_FRAGMENT.appendChild(OPTION);
 })
 
-const SELECT_ELEMENTS = Array.from(document.querySelectorAll('select'));
-const SELECT_ELEMENTS_COUNT = SELECT_ELEMENTS.length;
+SELECTS.forEach((select, index) => {select.appendChild(DOCUMENT_FRAGMENT.cloneNode(true));});
 
-document.querySelector('fieldset').addEventListener('change', (ev) => {updateTagOptions(ev), updateModList() });
+const MODS = document.querySelectorAll('.mods > div');
+let selectedTags = new Array(SELECTS_COUNT);
 
-let oldSelectedOptions = new Array(SELECT_ELEMENTS_COUNT);
+function updateModList(select, selectIndex) {
+    selectedTags[selectIndex] = select.value;
 
-function updateTagOptions(ev) {
-    const SELECT = ev.target;
-    const SELECT_INDEX = SELECT_ELEMENTS.indexOf(SELECT);
-    const OLD_DISABLED_OPTIONS = oldSelectedOptions[SELECT_INDEX];
+    let modsCopy = [...MODS];
+    let tagsListsCopy = [...TAGS_LISTS]
     
-    if(OLD_DISABLED_OPTIONS) {activateElements(OLD_DISABLED_OPTIONS);}
+    let selectedMods = [];
+    let unselectedMods = [...modsCopy];
+    selectedTags.forEach((selectedTag) => {
+        tagsListsCopy.forEach((tagList, index) => {
+            if(tagList.some((tag) => {return tag === selectedTag})) {selectedMods.push(modsCopy[index]);}
+        })
+    })
+
+    if(selectedTags.every((selectedTag) => {return (!selectedTag)})) {MODS.forEach(MOD => MOD.style.display = "block"); return;};
+
+    // Version simple
+    // console.time("Version simple");
+    // selectedMods = [...new Set(selectedMods)];
+    // modsCopy.forEach((mod) => {mod.style.display = "none"})
+    // selectedMods.forEach((mod) => {mod.style.display = "block"})
+    // console.timeEnd("Version simple");
     
-    const SELECTED_OPTION = document.querySelector(`option[value="${SELECT.value}"]`);
-    const FIRST_OPTION = document.querySelector('option[value=""]');
+    //Version complexe
+    console.time("Version complexe");
+    selectedMods = [...new Set(selectedMods)];
+    selectedMods.forEach((mod) => {if(unselectedMods.includes(mod)) {unselectedMods.splice(unselectedMods.indexOf(mod), 1)}});
 
-    if(SELECTED_OPTION === FIRST_OPTION) {oldSelectedOptions[SELECT_INDEX] = ''; return;}
-
-    const OPTIONS = document.querySelectorAll(`option[value="${SELECT.value}"]`);
-    deactivateElements(OPTIONS);
-
-    oldSelectedOptions[SELECT_INDEX] = OPTIONS;
+    selectedMods.forEach((mod) => {mod.style.display = "block"})
+    unselectedMods.forEach((unselectedMod) => {unselectedMod.style.display = "none"})
+    console.timeEnd("Version complexe");
 }
-
-function deactivateElements(elements) {
-    elements.forEach((element) => element.setAttribute('disabled',''))
-}
-function activateElements(elements) {
-    elements.forEach((element) => element.removeAttribute('disabled'))
-}
-
-
-function updateModList() {
-
-}
-
-SELECT_ELEMENTS.forEach((select, index) => {select.appendChild(DOCUMENT_FRAGMENT.cloneNode(true));});
-
