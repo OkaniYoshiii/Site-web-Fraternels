@@ -69,19 +69,16 @@ function updateModList(select, selectIndex) {
 
     if(selectedTags.every((selectedTag) => {return (!selectedTag)})) {MODS.forEach(MOD => MOD.style.display = "block"); return;};
 
-    // Version simple
-    // console.time("Version simple");
+    // Version simple (plus lente a priori)
+
     // selectedMods = [...new Set(selectedMods)];
     // modsCopy.forEach((mod) => {mod.style.display = "none"})
     // selectedMods.forEach((mod) => {mod.style.display = "block"})
-    // console.timeEnd("Version simple");
     
-    //Version complexe
-    console.time("Version complexe");
+    //Version complexe (plus rapide a priori)
+
     selectedMods = [...new Set(selectedMods)];
     selectedMods.forEach((mod) => {if(unselectedMods.includes(mod)) {unselectedMods.splice(unselectedMods.indexOf(mod), 1)}});
-
     selectedMods.forEach((mod) => {mod.style.display = "block"})
     unselectedMods.forEach((unselectedMod) => {unselectedMod.style.display = "none"})
-    console.timeEnd("Version complexe");
 }
