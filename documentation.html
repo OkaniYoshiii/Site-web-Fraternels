@@ -8,17 +8,18 @@
     <link rel="stylesheet" href="default.css" media="screen">
     <link rel="stylesheet" href="Page-Docs/CSS/main.css" media="screen">
     <script src="default.js" defer></script>
+    <script src="Page-Docs/JS/main.js" defer></script>
     <title>XML documentation</title>
 </head>
 <body>
     
     <header>
         <nav class="wide primary-navigation">
-            <a class="icon-link" href="documentation.html">
+            <a class="icon-link" href="index.html">
                 <img class="server-icon" src="images/Compressed/FRT-Logo-75x75.webp" width="75" height="75" alt="">
                 <p class="website-title">LES FRATERNELS</p>
             </a>
-            <div class="nav-links">
+            <div class="header-links">
                 <button class="hamburger" data-expanded="false">
                     <span class="burger-line"></span>
                     <span class="burger-line"></span>
@@ -28,8 +29,8 @@
                     <li><a href="index.html">Accueil</a></li>
                     <li><a href="mods.html">Mods</a></li>
                     <li><a href="liens-utiles.html">Liens Utiles</a></li>
-                    
                     <li><a href="">Outils Modding</a></li>
+
                 </ul>
             </div>
         </nav>
@@ -91,18 +92,25 @@
                     <p>Les passives effects ne peuvent pas avoir de valeurs avec plus de 2 decimales sinon le nombre est arrondi au nombre inférieur</p>
                 </div>
             </section>
+            <section>
+                <div class="narrow">
+                    <input type="file" name="file" id="file-input" accept=".txt">
+                    <button id="file-filter">Trier par langage</button>
+                    <object  id="file-output" data="/files/Localization.txt" type="text/plain" height="350" width="100%"></object>
+                </div>
+            </section>
         </article>
     </main>
     <footer>
         <div class="wide footer-navigation">
-            <a class="footer-icon-link" href="https://discord.gg/TQZj3J8FEa">
+            <a class="icon-link" href="https://discord.gg/TQZj3J8FEa" target="_blank">
                 <img class="server-icon" src="images/Compressed/Discord-Logo-75x75.webp" width="75" height="75" alt="" loading="lazy">
                 <p>Notre Discord</p>
             </a>
             <div class="footer-links">
                 <ul>
-                    <li><a href="#">Nos partenaires</a></li>
-                    <li><a href="#">Crédits</a></li>
+                    <li><a href="partenaires">Nos partenaires</a></li>
+                    <li><a href="credits.html">Crédits</a></li>
                     <li><a href="CGU.odt" download>Mentions Légales</a></li>
                 </ul>
             </div>
