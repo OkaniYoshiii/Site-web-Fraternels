@@ -37,24 +37,18 @@ function filterFileByLangage(searchedLangages) {
     const FILE_PARAGRAPH = FILE_OUTPUT.contentDocument.querySelector('pre');
     const LINES = FILE_PARAGRAPH.textContent.split('\n');
     const FILE_FIRST_LINE = LINES[0].toLowerCase();
+    const REGEXP = /,(?=")|(?<="),|(?<!".+),|,(?!.+")/g;
     const FIRST_LINE_SECTIONS = FILE_FIRST_LINE.split(',');
     const LANGUAGE_INDEXES = searchedLangages.map((searchedLanguage) => {return FIRST_LINE_SECTIONS.indexOf(searchedLanguage)});
     const KEYWORDS_INDEXES = LOCALIZATION_KEYWORDS.map((KEYWORD) => {return FIRST_LINE_SECTIONS.indexOf(KEYWORD)});
     const SEARCHED_INDEXES = LANGUAGE_INDEXES.concat(KEYWORDS_INDEXES).sort();
 
-    console.log(LANGUAGE_INDEXES);
-
     let localizationContent ="";
-    LINES.forEach((LINE, index) => {
-        const LINE_SECTIONS = LINE.split(',');
+    // Performances de cette partie mauvaises à cause d'une RegExp trop lourde
+    LINES.forEach((LINE) => {
+        const LINE_SECTIONS = LINE.split(REGEXP); 
         const SEARCHED_SECTIONS = SEARCHED_INDEXES.map((INDEX) => {return LINE_SECTIONS[INDEX]});
-        if (index) {
-
-            console.log(SEARCHED_SECTIONS);
-        }
         localizationContent += SEARCHED_SECTIONS.join() + "\n";
-
-        // PROBLEME : si une virgule est présente dans une SECTION qui comporte des "" alors, cette virgule est prise en compte dans la méthode .split() ce qui casse l'index
     });
     FILE_PARAGRAPH.textContent = localizationContent
 }
