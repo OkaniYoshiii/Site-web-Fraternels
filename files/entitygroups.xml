@@ -1,0 +1,1181 @@
+<OkaniYoshiii>
+    <entitygroup name="ZombieBusinessManGroup">
+        zombieBusinessManRoamingHM
+    </entitygroup>
+    <entitygroup name="zombieBusinessManGroupGS1">
+        zombieBusinessManRoamingHM
+        zombieBusinessManBloodthirstyHM, 0
+    </entitygroup>
+    <entitygroup name="zombieBusinessManGroupGS50">
+        zombieBusinessManRoamingHM, .85
+        zombieBusinessManBloodthirstyHM, .1
+    </entitygroup>
+    <entitygroup name="zombieBusinessManGroupGS100">
+        zombieBusinessManRoamingHM, .7
+        zombieBusinessManBloodthirstyHM, .2
+    </entitygroup>
+    <entitygroup name="zombieBusinessManGroupGS200">
+        zombieBusinessManRoamingHM, .55
+        zombieBusinessManBloodthirstyHM, .3
+    </entitygroup>
+    <entitygroup name="zombieBusinessManGroupGS400">
+        zombieBusinessManRoamingHM, .4
+        zombieBusinessManBloodthirstyHM, .4
+    </entitygroup>
+    <entitygroup name="zombieBusinessManGroupGS800">
+        zombieBusinessManRoamingHM, .25
+        zombieBusinessManBloodthirstyHM, .5
+    </entitygroup>
+    
+     *** POI_FAT_COP_ZOMBIE_GROUPS
+    <entitygroup name="ZombieFatCopGroup">
+        zombieFatCopRoamingHM
+    </entitygroup>
+    <entitygroup name="zombieFatCopGroupGS1">
+        zombieFatCopRoamingHM
+        zombieFatCopBloodthirstyHM, 0
+    </entitygroup>
+    <entitygroup name="zombieFatCopGroupGS50">
+        zombieFatCopRoamingHM, .85
+        zombieFatCopBloodthirstyHM, .1
+    </entitygroup>
+    <entitygroup name="zombieFatCopGroupGS100">
+        zombieFatCopRoamingHM, .7
+        zombieFatCopBloodthirstyHM, .2
+        zombieFatCopRadiated, .05
+    </entitygroup>
+    <entitygroup name="zombieFatCopGroupGS200">
+        zombieFatCopRoamingHM, .55
+        zombieFatCopBloodthirstyHM, .3
+        zombieFatCopRadiated, .1
+    </entitygroup>
+    <entitygroup name="zombieFatCopGroupGS400">
+        zombieFatCopRoamingHM, .4
+        zombieFatCopBloodthirstyHM, .4
+        zombieFatCopRadiated, .2
+    </entitygroup>
+    <entitygroup name="zombieFatCopGroupGS800">
+        zombieFatCopRoamingHM, .25
+        zombieFatCopBloodthirstyHM, .5
+        zombieFatCopRadiated, .4
+    </entitygroup>
+    
+     *** POI_BURNT_ZOMBIE_GROUPS
+    <entitygroup name="ZombieBurntGroup">
+        zombieBurntRoamingHM
+    </entitygroup>
+    <entitygroup name="zombieBurntGroupGS1">
+        zombieBurntRoamingHM
+        zombieBurntBloodthirstyHM, 0
+    </entitygroup>
+    <entitygroup name="zombieBurntGroupGS50">
+        zombieBurntRoamingHM, .85
+        zombieBurntBloodthirstyHM, .1
+    </entitygroup>
+    <entitygroup name="zombieBurntGroupGS100">
+        zombieBurntRoamingHM, .7
+        zombieBurntBloodthirstyHM, .2
+        zombieBurntRadiated, .05
+    </entitygroup>
+    <entitygroup name="zombieBurntGroupGS200">
+        zombieBurntRoamingHM, .55
+        zombieBurntBloodthirstyHM, .3
+        zombieBurntRadiated, .1
+    </entitygroup>
+    <entitygroup name="zombieBurntGroupGS400">
+        zombieBurntRoamingHM, .4
+        zombieBurntBloodthirstyHM, .4
+        zombieBurntRadiated, .2
+    </entitygroup>
+    <entitygroup name="zombieBurntGroupGS800">
+        zombieBurntRoamingHM, .25
+        zombieBurntBloodthirstyHM, .5
+        zombieBurntRadiated, .4
+    </entitygroup>
+    
+     *** POI_FERAL_ZOMBIE_GROUP
+    <entitygroup name="ZombiesFeral">
+        zombieSteveCrawlerBloodthirstyHM
+        zombieArleneBloodthirstyHM
+        zombieBoeBloodthirstyHM
+        zombieBusinessManBloodthirstyHM
+        zombieDarleneBloodthirstyHM
+        zombieJanitorBloodthirstyHM
+        zombieJoeBloodthirstyHM
+        zombieMarleneBloodthirstyHM
+        zombieMoeBloodthirstyHM
+        zombieNurseBloodthirstyHM
+        zombiePartyGirlBloodthirstyHM
+        zombieSteveBloodthirstyHM
+        zombieTomClarkBloodthirstyHM
+        zombieUtilityWorkerBloodthirstyHM
+        zombieYoBloodthirstyHM
+        zombieSpiderFeral
+        zombieLumberjackBloodthirstyHM
+        zombieSkateboarderBloodthirstyHM
+        zombieBikerBloodthirstyHM
+        zombieFatCopBloodthirstyHM
+        zombieFatHawaiianBloodthirstyHM
+        zombieFemaleFatBloodthirstyHM
+        zombieSoldierBloodthirstyHM
+        zombieWightBloodthirstyHM
+    </entitygroup>
+    
+     *** POI_FERAL_RADIATED_ZOMBIE_GROUP
+    <entitygroup name="ZombieFeralRadiatedGroup">
+        zombieArleneRadiated
+        zombieBoeRadiated
+        zombieDarleneRadiated
+        zombieJanitorRadiated
+        zombieJoeRadiated
+        zombieMarleneRadiated
+        zombieMoeRadiated
+        zombieNurseRadiated
+        zombieSteveRadiated
+        zombieTomClarkRadiated
+        zombieYoRadiated
+        zombieSpiderRadiated
+        zombieLumberjackRadiated
+        zombieSkateboarderRadiated
+        zombieBikerRadiated
+        zombieFatCopRadiated
+        zombieFatHawaiianRadiated
+        zombieFemaleFatRadiated
+        zombieSoldierRadiated
+        zombieWightRadiated
+    </entitygroup>
+    
+     *** POI_BADASS_ZOMBIE_GROUP
+    <entitygroup name="ZombieBadassGroup">
+        zombieSteveCrawlerBloodthirstyHM
+        zombieArleneBloodthirstyHM
+        zombieBoeBloodthirstyHM
+        zombieBusinessManBloodthirstyHM
+        zombieDarleneBloodthirstyHM
+        zombieJanitorBloodthirstyHM
+        zombieJoeBloodthirstyHM
+        zombieMarleneBloodthirstyHM
+        zombieMoeBloodthirstyHM
+        zombieNurseBloodthirstyHM
+        zombiePartyGirlBloodthirstyHM
+        zombieSteveBloodthirstyHM
+        zombieTomClarkBloodthirstyHM
+        zombieUtilityWorkerBloodthirstyHM
+        zombieYoBloodthirstyHM
+        zombieSpiderFeral
+        zombieLumberjackBloodthirstyHM
+        zombieSkateboarderBloodthirstyHM
+        zombieBikerBloodthirstyHM
+        zombieFatCopBloodthirstyHM
+        zombieFatHawaiianBloodthirstyHM
+        zombieFemaleFatBloodthirstyHM
+        zombieSoldierBloodthirstyHM
+        zombieWightBloodthirstyHM
+        zombieArleneRadiated
+        zombieBoeRadiated
+        zombieDarleneRadiated
+        zombieJanitorRadiated
+        zombieJoeRadiated
+        zombieMarleneRadiated
+        zombieMoeRadiated
+        zombieNurseRadiated
+        zombieSteveRadiated
+        zombieTomClarkRadiated
+        zombieYoRadiated
+        zombieSpiderRadiated
+        zombieLumberjackRadiated
+        zombieSkateboarderRadiated
+        zombieBikerRadiated
+        zombieFatCopRadiated
+        zombieFatHawaiianRadiated
+        zombieFemaleFatRadiated
+        zombieSoldierRadiated
+        zombieWightRadiated
+    </entitygroup>
+    
+     *** POI_FARM_ZOMBIE_GROUP
+    <entitygroup name="ZombieFarmGroup">
+        zombieFemaleFatRoamingHM
+        animalZombieDog
+        animalBoar
+        animalChicken
+    </entitygroup>
+    
+     *** POI_SOLDIER_ZOMBIE_GROUPS
+    <entitygroup name="ZombieSoldierGroup">
+        zombieSoldierRoamingHM
+        zombieMaleHazmatRoamingHM, .4
+        zombieSpider, .01
+        zombieBoeRoamingHM, .01
+        zombieJoeRoamingHM, .01
+        zombieSteveRoamingHM, .01
+        zombieMoeRoamingHM, .01
+        zombieYoRoamingHM, .01
+        zombieArleneRoamingHM, .01
+        zombieDarleneRoamingHM, .01
+        zombieMarleneRoamingHM, .01
+        zombieNurseRoamingHM, .01
+        zombieWightBloodthirstyHM, .0
+    </entitygroup>
+    <entitygroup name="zombieSoldierGroupGS1">
+        zombieSoldierRoamingHM
+        zombieSoldierBloodthirstyHM, 0
+        zombieSoldierRadiated, 0
+        zombieMaleHazmatRoamingHM, .4
+        zombieMaleHazmatBloodthirstyHM, 0
+        zombieMaleHazmatRadiated, 0
+        zombieSpider, .01
+        zombieBoeRoamingHM, .01
+        zombieJoeRoamingHM, .01
+        zombieSteveRoamingHM, .01
+        zombieMoeRoamingHM, .01
+        zombieYoRoamingHM, .01
+        zombieArleneRoamingHM, .01
+        zombieDarleneRoamingHM, .01
+        zombieMarleneRoamingHM, .01
+        zombieNurseRoamingHM, .01
+        zombieWightBloodthirstyHM, .01
+    </entitygroup>
+    <entitygroup name="zombieSoldierGroupGS50">
+        zombieSoldierRoamingHM, .85
+        zombieSoldierBloodthirstyHM, .1
+        zombieSoldierRadiated, 0
+        zombieMaleHazmatRoamingHM, .4
+        zombieMaleHazmatBloodthirstyHM, .05
+        zombieMaleHazmatRadiated, 0
+        zombieSpider, .01
+        zombieBoeRoamingHM, .01
+        zombieJoeRoamingHM, .01
+        zombieSteveRoamingHM, .01
+        zombieMoeRoamingHM, .01
+        zombieYoRoamingHM, .01
+        zombieArleneRoamingHM, .01
+        zombieDarleneRoamingHM, .01
+        zombieMarleneRoamingHM, .01
+        zombieNurseRoamingHM, .01
+        zombieWightBloodthirstyHM, .01
+    </entitygroup>
+    <entitygroup name="zombieSoldierGroupGS100">
+        zombieSoldierRoamingHM, .7
+        zombieSoldierBloodthirstyHM, .2
+        zombieSoldierRadiated, 0
+        zombieMaleHazmatRoamingHM, .35
+        zombieMaleHazmatBloodthirstyHM, .1
+        zombieMaleHazmatRadiated, 0
+        zombieSpider, .01
+        zombieBoeRoamingHM, .01
+        zombieJoeRoamingHM, .01
+        zombieSteveRoamingHM, .01
+        zombieMoeRoamingHM, .01
+        zombieYoRoamingHM, .01
+        zombieArleneRoamingHM, .01
+        zombieDarleneRoamingHM, .01
+        zombieMarleneRoamingHM, .01
+        zombieNurseRoamingHM, .01
+        zombieWightBloodthirstyHM, .01
+    </entitygroup>
+    <entitygroup name="zombieSoldierGroupGS200">
+        zombieSoldierRoamingHM, .55
+        zombieSoldierBloodthirstyHM, .3
+        zombieSoldierRadiated, .15
+        zombieMaleHazmatRoamingHM, .3
+        zombieMaleHazmatBloodthirstyHM, .15
+        zombieMaleHazmatRadiated, .08
+        zombieSpider, .01
+        zombieBoeRoamingHM, .01
+        zombieJoeRoamingHM, .01
+        zombieSteveRoamingHM, .01
+        zombieMoeRoamingHM, .01
+        zombieYoRoamingHM, .01
+        zombieArleneRoamingHM, .01
+        zombieDarleneRoamingHM, .01
+        zombieMarleneRoamingHM, .01
+        zombieNurseRoamingHM, .01
+        zombieWightBloodthirstyHM, .01
+    </entitygroup>
+    <entitygroup name="zombieSoldierGroupGS400">
+        zombieSoldierRoamingHM, .4
+        zombieSoldierBloodthirstyHM, .4
+        zombieSoldierRadiated, .3
+        zombieMaleHazmatRoamingHM, .2
+        zombieMaleHazmatBloodthirstyHM, .2
+        zombieMaleHazmatRadiated, .15
+        zombieSpider, .01
+        zombieBoeRoamingHM, .01
+        zombieJoeRoamingHM, .01
+        zombieSteveRoamingHM, .01
+        zombieMoeRoamingHM, .01
+        zombieYoRoamingHM, .01
+        zombieArleneRoamingHM, .01
+        zombieDarleneRoamingHM, .01
+        zombieMarleneRoamingHM, .01
+        zombieNurseRoamingHM, .01
+        zombieWightBloodthirstyHM, .01
+    </entitygroup>
+    <entitygroup name="zombieSoldierGroupGS800">
+        zombieSoldierRoamingHM, .25
+        zombieSoldierBloodthirstyHM, .5
+        zombieSoldierRadiated, .45
+        zombieMaleHazmatRoamingHM, .12
+        zombieMaleHazmatBloodthirstyHM, .25
+        zombieMaleHazmatRadiated, .22
+        zombieSpider, .01
+        zombieBoeRoamingHM, .01
+        zombieJoeRoamingHM, .01
+        zombieSteveRoamingHM, .01
+        zombieMoeRoamingHM, .01
+        zombieYoRoamingHM, .01
+        zombieArleneRoamingHM, .01
+        zombieDarleneRoamingHM, .01
+        zombieMarleneRoamingHM, .01
+        zombieNurseRoamingHM, .01
+        zombieWightBloodthirstyHM, .01
+    </entitygroup>
+    
+     *** POI_HAZMAT_ZOMBIE_GROUPS
+    <entitygroup name="ZombieMaleHazmatGroupGS1">
+        zombieMaleHazmatRoamingHM
+    </entitygroup>
+    <entitygroup name="ZombieMaleHazmatGroupGS50">
+        zombieMaleHazmatRoamingHM, .85
+        zombieMaleHazmatBloodthirstyHM, .1
+    </entitygroup>
+    <entitygroup name="ZombieMaleHazmatGroupGS100">
+        zombieMaleHazmatRoamingHM, .7
+        zombieMaleHazmatBloodthirstyHM, .2
+        zombieMaleHazmatRadiated, .05
+    </entitygroup>
+    <entitygroup name="ZombieMaleHazmatGroupGS200">
+        zombieMaleHazmatRoamingHM, .55
+        zombieMaleHazmatBloodthirstyHM, .3
+        zombieMaleHazmatRadiated, .1
+    </entitygroup>
+    <entitygroup name="ZombieMaleHazmatGroupGS400">
+        zombieMaleHazmatRoamingHM, .4
+        zombieMaleHazmatBloodthirstyHM, .4
+        zombieMaleHazmatRadiated, .2
+    </entitygroup>
+    <entitygroup name="ZombieMaleHazmatGroupGS800">
+        zombieMaleHazmatRoamingHM, .25
+        zombieMaleHazmatBloodthirstyHM, .5
+        zombieMaleHazmatRadiated, .4
+    </entitygroup>
+    
+     *** POI_UTILITY_ZOMBIE_GROUPS
+    <entitygroup name="ZombieUtilityWorkerGroup">
+        zombieUtilityWorkerRoamingHM
+        zombieJanitorRoamingHM
+    </entitygroup>
+    <entitygroup name="zombieUtilityWorkerGroupGS1">
+        zombieUtilityWorkerRoamingHM
+        zombieJanitorRoamingHM
+    </entitygroup>
+    <entitygroup name="zombieUtilityWorkerGroupGS50">
+        zombieUtilityWorkerRoamingHM, .40
+        zombieUtilityWorkerBloodthirstyHM, .1
+        zombieJanitorRoamingHM, .40
+        zombieJanitorBloodthirstyHM, .1
+    </entitygroup>
+    <entitygroup name="zombieUtilityWorkerGroupGS100">
+        zombieUtilityWorkerRoamingHM, .35
+        zombieUtilityWorkerBloodthirstyHM, .1
+        zombieUtilityWorkerRadiated, .05
+        zombieJanitorRoamingHM, .35
+        zombieJanitorBloodthirstyHM, .1
+        zombieJanitorRadiated, .05
+    </entitygroup>
+    <entitygroup name="zombieUtilityWorkerGroupGS200">
+        zombieUtilityWorkerRoamingHM, .2
+        zombieUtilityWorkerBloodthirstyHM, .2
+        zombieUtilityWorkerRadiated, .1
+        zombieJanitorRoamingHM, .2
+        zombieJanitorBloodthirstyHM, .2
+        zombieJanitorRadiated, .1
+    </entitygroup>
+    <entitygroup name="zombieUtilityWorkerGroupGS400">
+        zombieUtilityWorkerRoamingHM, .1
+        zombieUtilityWorkerBloodthirstyHM, .2
+        zombieUtilityWorkerRadiated, .2
+        zombieJanitorRoamingHM, .1
+        zombieJanitorBloodthirstyHM, .2
+        zombieJanitorRadiated, .2
+    </entitygroup>
+    <entitygroup name="zombieUtilityWorkerGroupGS800">
+        zombieUtilityWorkerRoamingHM, .05
+        zombieUtilityWorkerBloodthirstyHM, .2
+        zombieUtilityWorkerRadiated, .25
+        zombieJanitorRoamingHM, .05
+        zombieJanitorBloodthirstyHM, .2
+        zombieJanitorRadiated, .25
+    </entitygroup>
+    
+     *** POI_JANITOR_ZOMBIE_GROUPS
+    <entitygroup name="ZombieJanitorGroup">
+        zombieJanitorRoamingHM
+    </entitygroup>
+    <entitygroup name="zombieJanitorGroupGS1">
+        zombieJanitorRoamingHM
+    </entitygroup>
+    <entitygroup name="zombieJanitorGroupGS50">
+        zombieJanitorRoamingHM, .85
+        zombieJanitorBloodthirstyHM, .1
+    </entitygroup>
+    <entitygroup name="zombieJanitorGroupGS100">
+        zombieJanitorRoamingHM, .7
+        zombieJanitorBloodthirstyHM, .2
+        zombieJanitorRadiated, .05
+    </entitygroup>
+    <entitygroup name="zombieJanitorGroupGS200">
+        zombieJanitorRoamingHM, .55
+        zombieJanitorBloodthirstyHM, .3
+        zombieJanitorRadiated, .1
+    </entitygroup>
+    <entitygroup name="zombieJanitorGroupGS400">
+        zombieJanitorRoamingHM, .4
+        zombieJanitorBloodthirstyHM, .4
+        zombieJanitorRadiated, .2
+    </entitygroup>
+    <entitygroup name="zombieJanitorGroupGS800">
+        zombieJanitorRoamingHM, .25
+        zombieJanitorBloodthirstyHM, .5
+        zombieJanitorRadiated, .4
+    </entitygroup>
+    
+     *** POI_GHOST_TOWN_ZOMBIE_GROUPS
+    <entitygroup name="ZombieGhostTownGroup">
+        zombieMarleneRoamingHM
+        zombieArleneRoamingHM
+        zombieJoeRoamingHM
+        zombieBoeRoamingHM
+        zombieMoeRoamingHM
+        zombieFemaleFatRoamingHM
+        zombieSkateboarderRoamingHM
+        zombieTomClarkRoamingHM
+        zombieSteveRoamingHM
+        zombieSteveCrawler
+        zombieYoRoamingHM
+    </entitygroup>
+    <entitygroup name="ZombieGhostTownGroupGS1">
+        zombieMarleneRoamingHM
+        zombieMarleneBloodthirstyHM, 0
+        zombieMarleneRadiated, 0
+        zombieArleneRoamingHM
+        zombieArleneBloodthirstyHM, 0
+        zombieArleneRadiated, 0
+        zombieJoeRoamingHM
+        zombieJoeBloodthirstyHM, 0
+        zombieJoeRadiated, 0
+        zombieBoeRoamingHM
+        zombieBoeBloodthirstyHM, 0
+        zombieBoeRadiated, 0
+        zombieMoeRoamingHM
+        zombieMoeBloodthirstyHM, 0
+        zombieMoeRadiated, 0
+        zombieSteveRoamingHM
+        zombieSteveBloodthirstyHM, 0
+        zombieSteveRadiated, 0
+        zombieTomClarkRoamingHM
+        zombieTomClarkBloodthirstyHM, 0
+        zombieTomClarkRadiated, 0
+        zombieFemaleFatRoamingHM
+        zombieFemaleFatBloodthirstyHM, 0
+        zombieFemaleFatRadiated, 0
+        zombieSkateboarderRoamingHM
+        zombieSkateboarderBloodthirstyHM, 0
+        zombieSkateboarderRadiated, 0
+        zombieSteveCrawler
+        zombieSteveCrawlerBloodthirstyHM, 0
+        zombieYoRoamingHM
+        zombieYoBloodthirstyHM, 0
+    </entitygroup>
+    <entitygroup name="ZombieGhostTownGroupGS50">
+        zombieMarleneRoamingHM, .85
+        zombieMarleneBloodthirstyHM, .1
+        zombieMarleneRadiated, 0
+        zombieArleneRoamingHM, .85
+        zombieArleneBloodthirstyHM, .1
+        zombieArleneRadiated, 0
+        zombieJoeRoamingHM, .85
+        zombieJoeBloodthirstyHM, .1
+        zombieJoeRadiated, 0
+        zombieBoeRoamingHM, .85
+        zombieBoeBloodthirstyHM, .1
+        zombieBoeRadiated, 0
+        zombieMoeRoamingHM, .85
+        zombieMoeBloodthirstyHM, .1
+        zombieMoeRadiated, 0
+        zombieSteveRoamingHM, .85
+        zombieSteveBloodthirstyHM, .1
+        zombieSteveRadiated, 0
+        zombieTomClarkRoamingHM, .85
+        zombieTomClarkBloodthirstyHM, .1
+        zombieTomClarkRadiated, 0
+        zombieFemaleFatRoamingHM, .85
+        zombieFemaleFatBloodthirstyHM, .1
+        zombieFemaleFatRadiated, 0
+        zombieSkateboarderRoamingHM, .85
+        zombieSkateboarderBloodthirstyHM, .1
+        zombieSkateboarderRadiated, 0
+        zombieSteveCrawler, .85
+        zombieSteveCrawlerBloodthirstyHM, .1
+        zombieYoRoamingHM, .85
+        zombieYoBloodthirstyHM, .1
+    </entitygroup>
+    <entitygroup name="ZombieGhostTownGroupGS100">
+        zombieMarleneRoamingHM, .7
+        zombieMarleneBloodthirstyHM, .2
+        zombieMarleneRadiated, 0
+        zombieArleneRoamingHM, .7
+        zombieArleneBloodthirstyHM, .2
+        zombieArleneRadiated, 0
+        zombieJoeRoamingHM, .7
+        zombieJoeBloodthirstyHM, .2
+        zombieJoeRadiated, 0
+        zombieBoeRoamingHM, .7
+        zombieBoeBloodthirstyHM, .2
+        zombieBoeRadiated, 0
+        zombieMoeRoamingHM, .7
+        zombieMoeBloodthirstyHM, .2
+        zombieMoeRadiated, 0
+        zombieSteveRoamingHM, .7
+        zombieSteveBloodthirstyHM, .2
+        zombieSteveRadiated, 0
+        zombieTomClarkRoamingHM, .7
+        zombieTomClarkBloodthirstyHM, .2
+        zombieTomClarkRadiated, 0
+        zombieFemaleFatRoamingHM, .7
+        zombieFemaleFatBloodthirstyHM, .2
+        zombieFemaleFatRadiated, 0
+        zombieSkateboarderRoamingHM, .7
+        zombieSkateboarderBloodthirstyHM, .2
+        zombieSkateboarderRadiated, 0
+        zombieSteveCrawler, .7
+        zombieSteveCrawlerBloodthirstyHM, .2
+        zombieYoRoamingHM, .7
+        zombieYoBloodthirstyHM, .2
+    </entitygroup>
+    <entitygroup name="ZombieGhostTownGroupGS200">
+        zombieMarleneRoamingHM, .55
+        zombieMarleneBloodthirstyHM, .3
+        zombieMarleneRadiated, .15
+        zombieArleneRoamingHM, .55
+        zombieArleneBloodthirstyHM, .3
+        zombieArleneRadiated, .15
+        zombieJoeRoamingHM, .55
+        zombieJoeBloodthirstyHM, .3
+        zombieJoeRadiated, .15
+        zombieBoeRoamingHM, .55
+        zombieBoeBloodthirstyHM, .3
+        zombieBoeRadiated, .15
+        zombieMoeRoamingHM, .55
+        zombieMoeBloodthirstyHM, .3
+        zombieMoeRadiated, .15
+        zombieSteveRoamingHM, .55
+        zombieSteveBloodthirstyHM, .3
+        zombieSteveRadiated, .15
+        zombieTomClarkRoamingHM, .55
+        zombieTomClarkBloodthirstyHM, .3
+        zombieTomClarkRadiated, .15
+        zombieFemaleFatRoamingHM, .55
+        zombieFemaleFatBloodthirstyHM, .3
+        zombieFemaleFatRadiated, .15
+        zombieSkateboarderRoamingHM, .55
+        zombieSkateboarderBloodthirstyHM, .3
+        zombieSkateboarderRadiated, .15
+        zombieSteveCrawler, .55
+        zombieSteveCrawlerBloodthirstyHM, .3
+        zombieYoRoamingHM, .55
+        zombieYoBloodthirstyHM, .3
+        zombieYoRadiated, .15
+    </entitygroup>
+    <entitygroup name="ZombieGhostTownGroupGS400">
+        zombieMarleneRoamingHM, .4
+        zombieMarleneBloodthirstyHM, .4
+        zombieMarleneRadiated, .3
+        zombieArleneRoamingHM, .4
+        zombieArleneBloodthirstyHM, .4
+        zombieArleneRadiated, .3
+        zombieJoeRoamingHM, .4
+        zombieJoeBloodthirstyHM, .4
+        zombieJoeRadiated, .3
+        zombieBoeRoamingHM, .4
+        zombieBoeBloodthirstyHM, .4
+        zombieBoeRadiated, .3
+        zombieMoeRoamingHM, .4
+        zombieMoeBloodthirstyHM, .4
+        zombieMoeRadiated, .3
+        zombieSteveRoamingHM, .4
+        zombieSteveBloodthirstyHM, .4
+        zombieSteveRadiated, .3
+        zombieTomClarkRoamingHM, .4
+        zombieTomClarkBloodthirstyHM, .4
+        zombieTomClarkRadiated, .3
+        zombieFemaleFatRoamingHM, .4
+        zombieFemaleFatBloodthirstyHM, .4
+        zombieFemaleFatRadiated, .3
+        zombieSkateboarderRoamingHM, .4
+        zombieSkateboarderBloodthirstyHM, .4
+        zombieSkateboarderRadiated, .3
+        zombieSteveCrawler, .4
+        zombieSteveCrawlerBloodthirstyHM, .4
+        zombieYoRoamingHM, .4
+        zombieYoBloodthirstyHM, .4
+        zombieYoRadiated, .3
+    </entitygroup>
+    <entitygroup name="ZombieGhostTownGroupGS800">
+        zombieMarleneRoamingHM, .25
+        zombieMarleneBloodthirstyHM, .5
+        zombieMarleneRadiated, .45
+        zombieArleneRoamingHM, .25
+        zombieArleneBloodthirstyHM, .5
+        zombieArleneRadiated, .45
+        zombieJoeRoamingHM, .25
+        zombieJoeBloodthirstyHM, .5
+        zombieJoeRadiated, .45
+        zombieBoeRoamingHM, .25
+        zombieBoeBloodthirstyHM, .5
+        zombieBoeRadiated, .45
+        zombieMoeRoamingHM, .25
+        zombieMoeBloodthirstyHM, .5
+        zombieMoeRadiated, .45
+        zombieSteveRoamingHM, .25
+        zombieSteveBloodthirstyHM, .5
+        zombieSteveRadiated, .45
+        zombieTomClarkRoamingHM, .25
+        zombieTomClarkBloodthirstyHM, .5
+        zombieTomClarkRadiated, .45
+        zombieFemaleFatRoamingHM, .25
+        zombieFemaleFatBloodthirstyHM, .5
+        zombieFemaleFatRadiated, .45
+        zombieSkateboarderRoamingHM, .25
+        zombieSkateboarderBloodthirstyHM, .5
+        zombieSkateboarderRadiated, .45
+        zombieSteveCrawler, .25
+        zombieSteveCrawlerBloodthirstyHM, .5
+        zombieYoRoamingHM, .25
+        zombieYoBloodthirstyHM, .5
+        zombieYoRadiated, .45
+    </entitygroup>
+    
+     *** POI_HOSPITAL_ZOMBIE_GROUPS
+    <entitygroup name="HospitalGroup">
+        zombieLabRoamingHM, 1.7
+        zombieMaleHazmatRoamingHM, 1.7
+        zombieNurseRoamingHM, 2.5
+        zombieBoeRoamingHM
+        zombieArleneRoamingHM
+        zombieYoRoamingHM
+        zombieMarleneRoamingHM
+        zombieSkateboarderRoamingHM
+        zombieJoeRoamingHM
+        zombieDarleneRoamingHM
+    </entitygroup>
+    <entitygroup name="zombieHospitalGroupGS1">
+        zombieLabRoamingHM, 1.7
+        zombieMaleHazmatRoamingHM, 1.7
+        zombieNurseRoamingHM, 2.5
+        zombieNurseBloodthirstyHM, 0
+        zombieBoeRoamingHM
+        zombieBoeBloodthirstyHM, 0
+        zombieBoeRadiated, 0
+        zombieArleneRoamingHM
+        zombieArleneBloodthirstyHM, 0
+        zombieArleneRadiated, 0
+        zombieYoRoamingHM
+        zombieYoBloodthirstyHM, 0
+        zombieYoRadiated, 0
+        zombieMarleneRoamingHM
+        zombieMarleneBloodthirstyHM, 0
+        zombieMarleneRadiated, 0
+        zombieSkateboarderRoamingHM
+        zombieSkateboarderBloodthirstyHM, 0
+        zombieSkateboarderRadiated, 0
+        zombieJoeRoamingHM
+        zombieJoeBloodthirstyHM, 0
+        zombieJoeRadiated, 0
+    </entitygroup>
+    <entitygroup name="zombieHospitalGroupGS50">
+        zombieLabRoamingHM, 1.7
+        zombieLabBloodthirstyHM, .35
+        zombieMaleHazmatRoamingHM, 1.7
+        zombieMaleHazmatBloodthirstyHM, .35
+        zombieNurseRoamingHM, 2.125
+        zombieNurseBloodthirstyHM, .25
+        zombieBoeRoamingHM, .85
+        zombieBoeBloodthirstyHM, .1
+        zombieBoeRadiated, 0
+        zombieArleneRoamingHM, .85
+        zombieArleneBloodthirstyHM, .1
+        zombieArleneRadiated, 0
+        zombieYoRoamingHM, .85
+        zombieYoBloodthirstyHM, .1
+        zombieYoRadiated, 0
+        zombieMarleneRoamingHM, .85
+        zombieMarleneBloodthirstyHM, .1
+        zombieMarleneRadiated, 0
+        zombieSkateboarderRoamingHM, .85
+        zombieSkateboarderBloodthirstyHM, .1
+        zombieSkateboarderRadiated, 0
+        zombieJoeRoamingHM, .85
+        zombieJoeBloodthirstyHM, .1
+        zombieJoeRadiated, 0
+    </entitygroup>
+    <entitygroup name="zombieHospitalGroupGS100">
+        zombieLabRoamingHM, 1.7
+        zombieLabBloodthirstyHM, .45
+        zombieMaleHazmatRoamingHM, 1.7
+        zombieMaleHazmatBloodthirstyHM, .45
+        zombieNurseRoamingHM, 1.75
+        zombieNurseBloodthirstyHM, .5
+        zombieBoeRoamingHM, .7
+        zombieBoeBloodthirstyHM, .2
+        zombieBoeRadiated, 0
+        zombieArleneRoamingHM, .7
+        zombieArleneBloodthirstyHM, .2
+        zombieArleneRadiated, 0
+        zombieYoRoamingHM, .7
+        zombieYoBloodthirstyHM, .2
+        zombieYoRadiated, 0
+        zombieMarleneRoamingHM, .7
+        zombieMarleneBloodthirstyHM, .2
+        zombieMarleneRadiated, 0
+        zombieSkateboarderRoamingHM, .7
+        zombieSkateboarderBloodthirstyHM, .2
+        zombieSkateboarderRadiated, 0
+        zombieJoeRoamingHM, .7
+        zombieJoeBloodthirstyHM, .2
+        zombieJoeRadiated, 0
+    </entitygroup>
+    <entitygroup name="zombieHospitalGroupGS200">
+        zombieLabRoamingHM, 1.7
+        zombieLabBloodthirstyHM, .55
+        zombieLabRadiated, .15
+        zombieMaleHazmatRoamingHM, 1.7
+        zombieMaleHazmatBloodthirstyHM, .55
+        zombieMaleHazmatRadiated, .15
+        zombieNurseRoamingHM, 1.375
+        zombieNurseBloodthirstyHM, .75
+        zombieNurseRadiated, .15
+        zombieBoeRoamingHM, .55
+        zombieBoeBloodthirstyHM, .3
+        zombieBoeRadiated, .15
+        zombieArleneRoamingHM, .55
+        zombieArleneBloodthirstyHM, .3
+        zombieArleneRadiated, .15
+        zombieYoRoamingHM, .55
+        zombieYoBloodthirstyHM, .3
+        zombieYoRadiated, .15
+        zombieMarleneRoamingHM, .55
+        zombieMarleneBloodthirstyHM, .3
+        zombieMarleneRadiated, .15
+        zombieSkateboarderRoamingHM, .55
+        zombieSkateboarderBloodthirstyHM, .3
+        zombieSkateboarderRadiated, .15
+        zombieJoeRoamingHM, .55
+        zombieJoeBloodthirstyHM, .3
+        zombieJoeRadiated, .15
+    </entitygroup>
+    <entitygroup name="zombieHospitalGroupGS400">
+        zombieLabRoamingHM, 1.7
+        zombieLabBloodthirstyHM, .65
+        zombieLabRadiated, .35
+        zombieMaleHazmatRoamingHM, 1.7
+        zombieMaleHazmatBloodthirstyHM, .65
+        zombieMaleHazmatRadiated, .35
+        zombieNurseRoamingHM
+        zombieNurseBloodthirstyHM
+        zombieNurseRadiated, .3
+        zombieBoeRoamingHM, .4
+        zombieBoeBloodthirstyHM, .4
+        zombieBoeRadiated, .3
+        zombieArleneRoamingHM, .4
+        zombieArleneBloodthirstyHM, .4
+        zombieArleneRadiated, .3
+        zombieYoRoamingHM, .4
+        zombieYoBloodthirstyHM, .4
+        zombieYoRadiated, .3
+        zombieMarleneRoamingHM, .4
+        zombieMarleneBloodthirstyHM, .4
+        zombieMarleneRadiated, .3
+        zombieSkateboarderRoamingHM, .4
+        zombieSkateboarderBloodthirstyHM, .4
+        zombieSkateboarderRadiated, .3
+        zombieJoeRoamingHM, .4
+        zombieJoeBloodthirstyHM, .4
+        zombieJoeRadiated, .3
+    </entitygroup>
+    <entitygroup name="zombieHospitalGroupGS800">
+        zombieLabRoamingHM, 1.7
+        zombieLabBloodthirstyHM, .75
+        zombieLabRadiated, .55
+        zombieMaleHazmatRoamingHM, 1.7
+        zombieMaleHazmatBloodthirstyHM, .75
+        zombieMaleHazmatRadiated, .55
+        zombieNurseRoamingHM, .625
+        zombieNurseBloodthirstyHM, 1.25
+        zombieNurseRadiated, .45
+        zombieBoeRoamingHM, .25
+        zombieBoeBloodthirstyHM, .5
+        zombieBoeRadiated, .45
+        zombieArleneRoamingHM, .25
+        zombieArleneBloodthirstyHM, .5
+        zombieArleneRadiated, .45
+        zombieYoRoamingHM, .25
+        zombieYoBloodthirstyHM, .5
+        zombieYoRadiated, .45
+        zombieMarleneRoamingHM, .25
+        zombieMarleneBloodthirstyHM, .5
+        zombieMarleneRadiated, .45
+        zombieSkateboarderRoamingHM, .25
+        zombieSkateboarderBloodthirstyHM, .5
+        zombieSkateboarderRadiated, .45
+        zombieJoeRoamingHM, .25
+        zombieJoeBloodthirstyHM, .5
+        zombieJoeRadiated, .45
+    </entitygroup>
+    
+     *** POI_LAB_WORKER_ZOMBIE_GROUPS
+    <entitygroup name="zombieLabWorkerGroupGS1">
+        zombieLabRoamingHM
+        zombieLabBloodthirstyHM, 0
+        zombieLabRadiated, 0
+        zombieBusinessManRoamingHM, .1
+        zombieBusinessManBloodthirstyHM, 0
+        zombieMaleHazmatRoamingHM, 1.7
+        </entitygroup>
+    <entitygroup name="zombieLabWorkerGroupGS50">
+        zombieLabRoamingHM, .85
+        zombieLabBloodthirstyHM, .1
+        zombieLabRadiated, 0
+        zombieBusinessManRoamingHM, .09
+        zombieBusinessManBloodthirstyHM, .02
+        zombieMaleHazmatRoamingHM, 1.7
+        zombieMaleHazmatBloodthirstyHM, .35
+    </entitygroup>
+    <entitygroup name="zombieLabWorkerGroupGS100">
+        zombieLabRoamingHM, .7
+        zombieLabBloodthirstyHM, .2
+        zombieLabRadiated, 0
+        zombieBusinessManRoamingHM, .08
+        zombieBusinessManBloodthirstyHM, .04
+        zombieMaleHazmatRoamingHM, 1.7
+        zombieMaleHazmatBloodthirstyHM, .45
+    </entitygroup>
+    <entitygroup name="zombieLabWorkerGroupGS200">
+        zombieLabRoamingHM, .55
+        zombieLabBloodthirstyHM, .3
+        zombieLabRadiated, .15
+        zombieBusinessManRoamingHM, .07
+        zombieBusinessManBloodthirstyHM, .06
+        zombieMaleHazmatRoamingHM, 1.7
+        zombieMaleHazmatBloodthirstyHM, .55
+        zombieMaleHazmatRadiated, .15
+    </entitygroup>
+    <entitygroup name="zombieLabWorkerGroupGS400">
+        zombieLabRoamingHM, .4
+        zombieLabBloodthirstyHM, .4
+        zombieLabRadiated, .3
+        zombieBusinessManRoamingHM, .06
+        zombieBusinessManBloodthirstyHM, .08
+        zombieMaleHazmatRoamingHM, 1.7
+        zombieMaleHazmatBloodthirstyHM, .65
+        zombieMaleHazmatRadiated, .35
+    </entitygroup>
+    <entitygroup name="zombieLabWorkerGroupGS800">
+        zombieLabRoamingHM, .25
+        zombieLabBloodthirstyHM, .5
+        zombieLabRadiated, .45
+        zombieBusinessManRoamingHM, .05
+        zombieBusinessManBloodthirstyHM, .1
+        zombieMaleHazmatRoamingHM, 1.7
+        zombieMaleHazmatBloodthirstyHM, .75
+        zombieMaleHazmatRadiated, .55
+    </entitygroup>
+    
+     *** POI_SPIDER_ZOMBIE_GROUPS
+    <entitygroup name="zombieSpiderGroupGS1">
+        zombieSpider
+        zombieSpiderFeral, 0
+        zombieSpiderRadiated, 0
+    </entitygroup>
+    <entitygroup name="zombieSpiderGroupGS50">
+        zombieSpider, .85
+        zombieSpiderFeral, .1
+        zombieSpiderRadiated, 0
+    </entitygroup>
+    <entitygroup name="zombieSpiderGroupGS100">
+        zombieSpider, .7
+        zombieSpiderFeral, .2
+        zombieSpiderRadiated, 0
+    </entitygroup>
+    <entitygroup name="zombieSpiderGroupGS200">
+        zombieSpider, .55
+        zombieSpiderFeral, .3
+        zombieSpiderRadiated, .15
+    </entitygroup>
+    <entitygroup name="zombieSpiderGroupGS400">
+        zombieSpider, .4
+        zombieSpiderFeral, .4
+        zombieSpiderRadiated, .3
+    </entitygroup>
+    <entitygroup name="zombieSpiderGroupGS800">
+        zombieSpider, .25
+        zombieSpiderFeral, .5
+        zombieSpiderRadiated, .45
+    </entitygroup>
+    
+     *** POI_BIKER_BAR_ZOMBIE_GROUPS
+    <entitygroup name="ZombieBikerBarGroup">
+        zombieBikerRoamingHM, 3
+        zombiePartyGirlRoamingHM, 4
+        zombieUtilityWorkerRoamingHM, .4
+        zombieJanitorRoamingHM, .6
+        zombieSkateboarderRoamingHM
+        zombieBoeRoamingHM
+        zombieMoeRoamingHM
+    </entitygroup>
+    <entitygroup name="ZombieBikerBarGroupGS1">
+        zombieBikerRoamingHM
+        zombieBikerBloodthirstyHM, 0
+        zombieBikerRadiated, 0
+        zombiePartyGirlRoamingHM
+        zombiePartyGirlBloodthirstyHM, 0
+        zombieUtilityWorkerRoamingHM
+        zombieUtilityWorkerBloodthirstyHM, 0
+        zombieJanitorRoamingHM
+        zombieJanitorBloodthirstyHM, 0
+        zombieSkateboarderRoamingHM
+        zombieSkateboarderBloodthirstyHM, 0
+        zombieSkateboarderRadiated, 0
+        zombieBoeRoamingHM
+        zombieBoeBloodthirstyHM, 0
+        zombieBoeRadiated, 0
+        zombieMoeRoamingHM
+        zombieMoeBloodthirstyHM, 0
+        zombieMoeRadiated, 0
+    </entitygroup>
+    <entitygroup name="ZombieBikerBarGroupGS50">
+        zombieBikerRoamingHM, .85
+        zombieBikerBloodthirstyHM, .1
+        zombieBikerRadiated, 0
+        zombiePartyGirlRoamingHM, .85
+        zombiePartyGirlBloodthirstyHM, .1
+        zombieUtilityWorkerRoamingHM, .37
+        zombieUtilityWorkerBloodthirstyHM, .04
+        zombieJanitorRoamingHM, .48
+        zombieJanitorBloodthirstyHM, .06
+        zombieSkateboarderRoamingHM, .85
+        zombieSkateboarderBloodthirstyHM, .1
+        zombieSkateboarderRadiated, 0
+        zombieBoeRoamingHM, .85
+        zombieBoeBloodthirstyHM, .1
+        zombieBoeRadiated, 0
+        zombieMoeRoamingHM, .85
+        zombieMoeBloodthirstyHM, .1
+        zombieMoeRadiated, 0
+    </entitygroup>
+    <entitygroup name="ZombieBikerBarGroupGS100">
+        zombieBikerRoamingHM, .7
+        zombieBikerBloodthirstyHM, .2
+        zombieBikerRadiated, 0
+        zombiePartyGirlRoamingHM, .7
+        zombiePartyGirlBloodthirstyHM, .2
+        zombieUtilityWorkerRoamingHM, .3
+        zombieUtilityWorkerBloodthirstyHM, .08
+        zombieJanitorRoamingHM, .4
+        zombieJanitorBloodthirstyHM, .12
+        zombieSkateboarderRoamingHM, .7
+        zombieSkateboarderBloodthirstyHM, .2
+        zombieSkateboarderRadiated, 0
+        zombieBoeRoamingHM, .7
+        zombieBoeBloodthirstyHM, .2
+        zombieBoeRadiated, 0
+        zombieMoeRoamingHM, .7
+        zombieMoeBloodthirstyHM, .2
+        zombieMoeRadiated, 0
+    </entitygroup>
+    <entitygroup name="ZombieBikerBarGroupGS200">
+        zombieBikerRoamingHM, .55
+        zombieBikerBloodthirstyHM, .3
+        zombieBikerRadiated, .15
+        zombiePartyGirlRoamingHM, .55
+        zombiePartyGirlBloodthirstyHM, .3
+        zombieUtilityWorkerRoamingHM, .25
+        zombieUtilityWorkerBloodthirstyHM, .13
+        zombieJanitorRoamingHM, .2
+        zombieJanitorBloodthirstyHM, .17
+        zombieSkateboarderRoamingHM, .55
+        zombieSkateboarderBloodthirstyHM, .3
+        zombieSkateboarderRadiated, .15
+        zombieBoeRoamingHM, .55
+        zombieBoeBloodthirstyHM, .3
+        zombieBoeRadiated, .15
+        zombieMoeRoamingHM, .55
+        zombieMoeBloodthirstyHM, .3
+        zombieMoeRadiated, .15
+    </entitygroup>
+    <entitygroup name="ZombieBikerBarGroupGS400">
+        zombieBikerRoamingHM, .4
+        zombieBikerBloodthirstyHM, .4
+        zombieBikerRadiated, .3
+        zombiePartyGirlRoamingHM, .4
+        zombiePartyGirlBloodthirstyHM, .4
+        zombieUtilityWorkerRoamingHM, .17
+        zombieUtilityWorkerBloodthirstyHM, .17
+        zombieJanitorRoamingHM, .23
+        zombieJanitorBloodthirstyHM, .23
+        zombieSkateboarderRoamingHM, .4
+        zombieSkateboarderBloodthirstyHM, .4
+        zombieSkateboarderRadiated, .3
+        zombieBoeRoamingHM, .4
+        zombieBoeBloodthirstyHM, .4
+        zombieBoeRadiated, .3
+        zombieMoeRoamingHM, .4
+        zombieMoeBloodthirstyHM, .4
+        zombieMoeRadiated, .3
+    </entitygroup>
+    <entitygroup name="ZombieBikerBarGroupGS800">
+        zombieBikerRoamingHM, .25
+        zombieBikerBloodthirstyHM, .5
+        zombieBikerRadiated, .45
+        zombiePartyGirlRoamingHM, .25
+        zombiePartyGirlBloodthirstyHM, .5
+        zombieUtilityWorkerRoamingHM, .2
+        zombieUtilityWorkerBloodthirstyHM, .2
+        zombieJanitorRoamingHM, .25
+        zombieJanitorBloodthirstyHM, .3
+        zombieSkateboarderRoamingHM, .25
+        zombieSkateboarderBloodthirstyHM, .5
+        zombieSkateboarderRadiated, .45
+        zombieBoeRoamingHM, .25
+        zombieBoeBloodthirstyHM, .5
+        zombieBoeRadiated, .45
+        zombieMoeRoamingHM, .25
+        zombieMoeBloodthirstyHM, .5
+        zombieMoeRadiated, .45
+    </entitygroup>
+    
+     *** POI_NIGHT_CLUB_ZOMBIE_GROUPS
+    <entitygroup name="ZombieNightClubGroup">
+        zombiePartyGirlRoamingHM, .55
+        zombieBusinessManRoamingHM, .45
+    </entitygroup>
+    <entitygroup name="ZombieNightClubGroupGS1">
+        zombiePartyGirlRoamingHM, .95
+        zombiePartyGirlBloodthirstyHM, 0
+        zombieBusinessManRoamingHM, .45
+        zombieBusinessManBloodthirstyHM, .1
+    </entitygroup>
+    <entitygroup name="ZombieNightClubGroupGS50">
+        zombiePartyGirlRoamingHM, .85
+        zombiePartyGirlBloodthirstyHM, .1
+        zombieBusinessManRoamingHM, .75
+        zombieBusinessManBloodthirstyHM, .1
+    </entitygroup>
+    <entitygroup name="ZombieNightClubGroupGS100">
+        zombiePartyGirlRoamingHM, .7
+        zombiePartyGirlBloodthirstyHM, .2
+        zombieBusinessManRoamingHM, .6
+        zombieBusinessManBloodthirstyHM, .2
+    </entitygroup>
+    <entitygroup name="ZombieNightClubGroupGS200">
+        zombiePartyGirlRoamingHM, .55
+        zombiePartyGirlBloodthirstyHM, .3
+        zombieBusinessManRoamingHM, .4
+        zombieBusinessManBloodthirstyHM, .3
+    </entitygroup>
+    <entitygroup name="ZombieNightClubGroupGS400">
+        zombiePartyGirlRoamingHM, .4
+        zombiePartyGirlBloodthirstyHM, .4
+        zombieBusinessManRoamingHM, .3
+        zombieBusinessManBloodthirstyHM, .4
+    </entitygroup>
+    <entitygroup name="ZombieNightClubGroupGS800">
+        zombiePartyGirlRoamingHM, .25
+        zombiePartyGirlBloodthirstyHM, .5
+        zombieBusinessManRoamingHM, .1
+        zombieBusinessManBloodthirstyHM, .5
+    </entitygroup>
+    
+     *** POI_SPECIAL_INFECTED_ZOMBIE_GROUPS
+    <entitygroup name="ZombieSpecialInfectedGroup">
+        zombieSpider, .35
+        zombieMutatedRoamingHM, .35
+        zombieWightBloodthirstyHM, .30
+    </entitygroup>
+    <entitygroup name="ZombieSpecialInfectedGroupGS1">
+        zombieSpider, .95
+        zombieSpiderFeral, 0
+        zombieSpiderRadiated, 0
+        zombieMutatedRoamingHM, .45
+        zombieMutatedBloodthirstyHM, .1
+        zombieMutatedRadiated, 0
+        zombieWightBloodthirstyHM, .1
+        zombieWightRadiated, 0
+    </entitygroup>
+    <entitygroup name="ZombieSpecialInfectedGroupGS50">
+        zombieSpider, .85
+        zombieSpiderFeral, .1
+        zombieSpiderRadiated, 0
+        zombieMutatedRoamingHM, .75
+        zombieMutatedBloodthirstyHM, .1
+        zombieMutatedRadiated, 0
+        zombieWightBloodthirstyHM, .3
+        zombieWightRadiated, .1
+    </entitygroup>
+    <entitygroup name="ZombieSpecialInfectedGroupGS100">
+        zombieSpider, .7
+        zombieSpiderFeral, .2
+        zombieSpiderRadiated, .1
+        zombieMutatedRoamingHM, .7
+        zombieMutatedBloodthirstyHM, .2
+        zombieMutatedRadiated, .1
+        zombieWightBloodthirstyHM, .4
+        zombieWightRadiated, .1
+    </entitygroup>
+    <entitygroup name="ZombieSpecialInfectedGroupGS200">
+        zombieSpider, .45
+        zombieSpiderFeral, .35
+        zombieSpiderRadiated, .2
+        zombieMutatedRoamingHM, .45
+        zombieMutatedBloodthirstyHM, .35
+        zombieMutatedRadiated, .2
+        zombieWightBloodthirstyHM, .45
+        zombieWightRadiated, .3
+    </entitygroup>
+    <entitygroup name="ZombieSpecialInfectedGroupGS400">
+        zombieSpider, .2
+        zombieSpiderFeral, .4
+        zombieSpiderRadiated, .4
+        zombieMutatedRoamingHM, .3
+        zombieMutatedBloodthirstyHM, .4
+        zombieMutatedRadiated, .3
+        zombieWightBloodthirstyHM, .6
+        zombieWightRadiated, .4
+    </entitygroup>
+    <entitygroup name="ZombieSpecialInfectedGroupGS800">
+        zombieSpider, .1
+        zombieSpiderFeral, .5
+        zombieSpiderRadiated, .4
+        zombieMutatedRoamingHM, .1
+        zombieMutatedBloodthirstyHM, .5
+        zombieMutatedRadiated, .4
+        zombieWightBloodthirstyHM, .5
+        zombieWightRadiated, .5
+    </entitygroup>
+    
+     *** POI_ANIMAL_GROUPS
+    <entitygroup name="ZombieAnimalsGroup">
+        animalZombieDog, .95
+        animalZombieBear,.05
+    </entitygroup>
+    
+    <entitygroup name="ZombieBearsGroup">
+        animalZombieBear
+    </entitygroup>
+    
+     *** AIRDROP
+    <entitygroup name="SupplyCrates_General">
+        sc_General
+    </entitygroup>
+</OkaniYoshiii>

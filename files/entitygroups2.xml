@@ -1,0 +1,4188 @@
+<OkaniYoshiii>
+    <entitygroup name="sleeperHordeStageGS1">
+        zombieJanitor
+        zombieNurse
+        zombieJoe
+        zombieSteveCrawler, .5
+        zombieMarlene
+        zombieArlene
+        zombieBoe
+        zombieBusinessMan
+        zombieTomClark
+        zombieYo
+        zombieSteve
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2">
+        zombieBoe
+        zombieJanitor
+        zombieTomClark
+        zombieYo
+        zombiePartyGirl
+        zombieNurse
+        zombieMoe
+        zombieDarlene
+        zombieSteve
+        zombieMarlene
+        zombieArlene
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5">
+        zombieYo
+        zombieTomClark
+        zombieBusinessMan
+        zombieSteveCrawler, .5
+        zombieJanitor
+        zombieJoe
+        zombieMoe
+        zombieSteve
+        zombieNurse
+        zombieMarlene
+        zombieBoe
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS8">
+        zombieBusinessMan
+        zombieMoe
+        zombieSteve
+        zombieJanitor
+        zombieYo
+        zombieNurse
+        zombieTomClark
+        zombieBoe
+        zombieMarlene
+        zombieDarlene
+        zombieJoe
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS11">
+        zombieDarlene
+        zombieJoe
+        zombieMoe
+        zombieYo
+        zombieJanitor
+        zombieMarlene
+        zombieBusinessMan
+        zombieBoe
+        zombieArlene
+        zombieTomClark
+        zombieUtilityWorker
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS14">
+        zombieJoe
+        zombieNurse
+        zombieTomClark
+        zombieMoe
+        zombieYo
+        zombieBoe
+        zombiePartyGirl
+        zombieJanitor
+        zombieUtilityWorker
+        zombieSteveCrawler, .5
+        zombieMarlene
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS18">
+        zombieSteve
+        zombieTomClark
+        zombieSteveCrawler, .5
+        zombieJanitor
+        zombieUtilityWorker
+        zombiePartyGirl
+        zombieMarlene
+        zombieArlene
+        zombieMoe
+        zombieDarlene
+        zombieYo
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS22">
+        zombieDarlene
+        zombieBoe
+        zombieUtilityWorker
+        zombieYo
+        zombiePartyGirl
+        zombieJanitor
+        zombieTomClark
+        zombieBusinessMan
+        zombieMarlene
+        zombieSteve
+        zombieSteveCrawler, .5
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS27">
+        zombieJoe
+        zombieDarlene
+        zombieMoe
+        zombieYo
+        zombiePartyGirl
+        zombieMarlene
+        zombieBusinessMan
+        zombieUtilityWorker
+        zombieTomClark
+        zombieNurse
+        zombieSteve
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS31">
+        zombiePartyGirl
+        zombieSteve
+        zombieBusinessMan
+        zombieYo
+        zombieBoe
+        zombieArlene
+        zombieJanitor
+        zombieJoe
+        zombieSteveCrawler, .5
+        zombieUtilityWorker
+        zombieTomClark
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS36">
+        zombieBusinessMan
+        zombieDarlene
+        zombieJoe
+        zombieLumberjack, .31
+        zombieNurse
+        zombieMoe
+        zombieSpider, .22
+        zombieArlene
+        zombieJanitor
+        zombieSteve
+        zombieSteveCrawler, .5
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS41">
+        zombieSteveCrawler, .5
+        zombieJoe
+        zombieBusinessMan
+        zombieDarlene
+        zombieNurse
+        zombieLumberjack, .36
+        zombieSpider, .25
+        zombieMarlene
+        zombieUtilityWorker
+        zombieJanitor
+        zombiePartyGirl
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS46">
+        zombieArlene
+        zombieJoe
+        zombieSteve
+        zombieFatHawaiian, .31
+        zombieBusinessMan
+        zombieYo
+        zombieLumberjack, .41
+        zombiePartyGirl
+        zombieMarlene
+        zombieMaleHazmat, .38
+        zombieMoe
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS52">
+        zombieUtilityWorker
+        zombieBusinessMan
+        zombieSkateboarder, .32
+        zombieMarlene
+        zombieFemaleFat, .34
+        zombieJoe
+        zombieNurse
+        zombieSteve
+        zombieTomClark
+        zombiePartyGirl
+        zombieLumberjack, .47
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS58">
+        zombieDarlene
+        zombieTomClark
+        zombieNurse
+        zombieFatHawaiian, .43
+        zombieSpider, .34
+        zombieMarlene
+        zombieJanitor
+        zombieFatCop, .45
+        zombieSteveCrawlerFeral, .33
+        zombieBusinessMan
+        zombieUtilityWorker
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS64">
+        zombieSteveCrawler, .5
+        zombiePartyGirl
+        zombieLumberjack, .59
+        zombieBusinessMan
+        zombieMoe
+        zombieJoe
+        zombieSpider, .38
+        zombieYo
+        zombieFemaleFat, .46
+        zombieSteveCrawlerFeral, .39
+        zombieSteve
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS70">
+        zombieBoeFeral, .4
+        zombieFatCop, .57
+        zombieDarlene
+        zombieYo
+        zombieBusinessMan
+        zombieMaleHazmat, .62
+        zombieSteveCrawlerFeral, .45
+        zombiePartyGirl
+        zombieSoldier, .47
+        zombieSpider, .41
+        zombieArlene
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS76">
+        zombieYo
+        zombieSteveCrawler, .5
+        zombieDarlene
+        zombieMarleneFeral, .33
+        zombieFatHawaiian, .61
+        zombieMoeFeral, .31
+        zombieLumberjack, .71
+        zombieSkateboarder, .56
+        zombieFatCop, .63
+        zombieBoeFeral, .46
+        zombieSteveCrawlerFeral, .51
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS82">
+        zombiePartyGirl
+        zombieSkateboarder, .62
+        zombieSoldier, .59
+        zombieJanitorFeral, .44
+        zombieSteveCrawler, .5
+        zombieMoe
+        zombieMaleHazmat, .74
+        zombieJoeFeral, .42
+        zombieMarleneFeral, .39
+        zombieLumberjack, .77
+        zombieBusinessManFeral, .49
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS89">
+        zombieMaleHazmat, .81
+        zombieMoe
+        zombieSteveFeral, .36
+        zombieBusinessManFeral, .56
+        zombieMarleneFeral, .46
+        zombieUtilityWorkerFeral, .31
+        zombieBoeFeral, .59
+        zombieArlene
+        zombieDarlene
+        zombieJanitor
+        zombieFatCop, .76
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS96">
+        zombieMoeFeral, .51
+        zombieSpiderFeral, .22
+        zombieArleneFeral, .68
+        zombieMaleHazmat, .32
+        zombieBoe
+        zombieSteveCrawler, .5
+        zombieFatCop, .83
+        zombieMarlene
+        zombieBusinessMan
+        zombieYoFeral, .36
+        zombieUtilityWorker
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS103">
+        zombieBiker, .93
+        zombieSteve
+        zombieArlene
+        zombieSkateboarder, .83
+        zombieYoFeral, .43
+        zombieBusinessMan
+        zombieSteveFeral, .5
+        zombieNurse
+        zombieBoeFeral, .73
+        zombieMaleHazmat, .95
+        zombieSkateboarderFeral, .35
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS110">
+        zombieMaleHazmat
+        zombieSpider, .6
+        zombieBoe
+        zombieSoldier, .87
+        zombieBiker
+        zombieSteve
+        zombiePartyGirlFeral, .6
+        zombieArlene
+        zombieJanitor
+        zombieFemaleFatFeral, .32
+        zombieSteveFeral, .57
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS117">
+        zombieSkateboarder, .97
+        zombieMaleHazmat
+        zombieFemaleFatFeral, .39
+        zombieBiker
+        zombieSteveCrawler, .5
+        zombieSoldier, .94
+        zombieBikerFeral, .47
+        zombieFatHawaiianFeral, .42
+        zombieArlene
+        zombieSteve
+        zombieYoFeral, .57
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS125">
+        zombieBikerFeral, .55
+        zombieDarleneRadiated, .35
+        zombieJoeFeral, .85
+        zombieMaleHazmat, .61
+        zombieFatCopFeral, .52
+        zombieDarlene
+        zombieSteveCrawlerFeral
+        zombieUtilityWorkerFeral, .67
+        zombieFatHawaiian
+        zombieFemaleFat
+        zombieTomClark
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS132">
+        zombieMarleneRadiated, .34
+        zombieArlene
+        zombieMaleHazmat
+        zombieWightFeral, .49
+        zombieMarlene
+        zombieSteveFeral, .79
+        zombieSpiderFeral, .42
+        zombieYoFeral, .72
+        zombieTomClark
+        zombieSteveCrawler, .5
+        zombieBoeRadiated, .44
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS140">
+        zombieBusinessManFeral
+        zombieSteveCrawlerFeral
+        zombieTomClark
+        zombieMarleneRadiated, .42
+        zombieSpider, .6
+        zombieBoe
+        zombieNurseFeral, .92
+        zombieArleneRadiated, .55
+        zombieUtilityWorker
+        zombieMoe
+        zombieFatCop
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS148">
+        zombieLumberjack
+        zombieYoRadiated, .38
+        zombieFatHawaiianFeral, .73
+        zombieTomClarkFeral, .93
+        zombieDarleneFeral
+        zombieJanitorFeral
+        zombieJoeFeral
+        zombieNurseRadiated, .45
+        zombieBikerFeral, .78
+        zombieSteveCrawlerFeral
+        zombieFemaleFatFeral, .7
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS156">
+        zombieLumberjack
+        zombiePartyGirl
+        zombieFatHawaiianFeral, .81
+        zombieSpiderFeral, .56
+        zombieMoeFeral
+        zombieDarlene
+        zombieBiker
+        zombieWightFeral, .73
+        zombieDarleneRadiated, .66
+        zombieSkateboarderFeral, .88
+        zombieSteveCrawlerFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS164">
+        zombieYo
+        zombieYoRadiated, .54
+        zombieDarleneFeral
+        zombieBiker
+        zombieFatHawaiianFeral, .89
+        zombieBusinessManFeral
+        zombieSteveFeral
+        zombieMoe
+        zombieSpiderRadiated, .32
+        zombieSoldierRadiated, .34
+        zombieMarleneRadiated, .66
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS172">
+        zombieBiker
+        zombieJanitor
+        zombieJoeFeral
+        zombieSteve
+        zombieSpiderFeral, .6
+        zombieDarleneFeral
+        zombieSkateboarder
+        zombieArlene
+        zombieMoeFeral
+        zombieArleneFeral
+        zombieBusinessManFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS181">
+        zombieFemaleFatRadiated, .53
+        zombieNurse
+        zombieFatCopFeral
+        zombieLumberjackRadiated, .66
+        zombieBusinessMan
+        zombieWightFeral, .98
+        zombieSteveCrawler, .5
+        zombieBikerRadiated, .61
+        zombieJanitorRadiated, .88
+        zombieBoeFeral
+        zombieDarleneFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS189">
+        zombieTomClark
+        zombieFemaleFat
+        zombieFatCop
+        zombieJanitorFeral
+        zombieSpiderFeral, .6
+        zombieBoeRadiated
+        zombieSteveCrawlerFeral
+        zombieFatHawaiian
+        zombieBoe
+        zombieMaleHazmatRadiated, .72
+        zombieDarlene
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS198">
+        zombiePartyGirl
+        zombieFemaleFat
+        zombieSpiderRadiated, .51
+        zombieLumberjack
+        zombieNurseFeral
+        zombieBikerRadiated, .78
+        zombieFatCopRadiated, .75
+        zombieBoeRadiated
+        zombieMaleHazmatRadiated, .81
+        zombieFatHawaiianFeral
+        zombieBusinessManFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS207">
+        zombieYoFeral
+        zombieBusinessManFeral
+        zombieSteve
+        zombieSkateboarder
+        zombieMaleHazmatRadiated, .9
+        zombieFatCopRadiated, .84
+        zombieFatHawaiianFeral
+        zombieSpiderFeral, .6
+        zombieMarleneRadiated
+        zombieJanitor
+        zombieYoRadiated, .97
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS216">
+        zombieNurseRadiated
+        zombieFatHawaiianFeral
+        zombieTomClarkFeral
+        zombieNurseFeral
+        zombieWightRadiated, .83
+        zombieSteve
+        zombieBoeFeral
+        zombieMaleHazmat
+        zombieArlene
+        zombieFemaleFatRadiated, .88
+        zombieTomClarkRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS225">
+        zombieBikerFeral
+        zombieNurse
+        zombieJanitorFeral
+        zombieFatCopFeral
+        zombieWightRadiated, .92
+        zombieSteve
+        zombieJoe
+        zombieBoeRadiated
+        zombieYoFeral
+        zombieLumberjackFeral
+        zombieBikerRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS234">
+        zombieSkateboarderFeral
+        zombieYoRadiated
+        zombieBikerRadiated
+        zombieMaleHazmat
+        zombieJanitorRadiated
+        zombieSteveFeral
+        zombieFemaleFatRadiated
+        zombieTomClark
+        zombieNurseRadiated
+        zombieArleneRadiated
+        zombieMarlene
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS243">
+        zombieBiker
+        zombieBoeRadiated
+        zombieFemaleFatFeral
+        zombieMaleHazmat
+        zombieMaleHazmatRadiated
+        zombieFatCopFeral
+        zombieFatCopRadiated
+        zombieJoeFeral
+        zombieBusinessManFeral
+        zombieDarlene
+        zombieJanitorRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS252">
+        zombieMarlene
+        zombieDarleneRadiated
+        zombieTomClarkRadiated
+        zombieWightRadiated
+        zombieBusinessMan
+        zombieSteve
+        zombieBoe
+        zombieLumberjackFeral
+        zombieNurseFeral
+        zombieArleneRadiated
+        zombieFatCopRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS262">
+        zombieMoe
+        zombieMarleneRadiated
+        zombieMaleHazmat
+        zombieSpiderRadiated, .6
+        zombieFatCopRadiated
+        zombieJoeFeral
+        zombieFatCop
+        zombieTomClark
+        zombieSteveCrawlerFeral
+        zombieBikerRadiated
+        zombieSteve
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS272">
+        zombieArleneRadiated
+        zombieYoFeral
+        zombieFemaleFat
+        zombieMaleHazmat
+        zombieTomClarkRadiated
+        zombieSteveCrawler, .5
+        zombieSoldierFeral
+        zombieMarleneRadiated
+        zombieYo
+        zombieBikerFeral
+        zombieBiker
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS281">
+        zombieSoldierFeral
+        zombieBusinessManFeral
+        zombieYoFeral
+        zombieSpiderRadiated, .6
+        zombieBoe
+        zombieNurse
+        zombieMarleneFeral
+        zombieFemaleFat
+        zombieSkateboarder
+        zombiePartyGirl
+        zombieBoeRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS291">
+        zombieWightFeral
+        zombieSteveCrawlerFeral
+        zombieJoe
+        zombieArleneFeral
+        zombieMarleneRadiated
+        zombieSpiderFeral, .6
+        zombieBikerRadiated
+        zombieFatCopRadiated
+        zombieArleneRadiated
+        zombieLumberjackRadiated
+        zombieTomClarkRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS301">
+        zombieArlene
+        zombieLumberjackRadiated
+        zombieMaleHazmatRadiated
+        zombieMarlene
+        zombieNurseRadiated
+        zombiePartyGirl
+        zombieJanitor
+        zombieBoeRadiated
+        zombieNurseFeral
+        zombieArleneRadiated
+        zombieFemaleFat
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS311">
+        zombieMarlene
+        zombieBoeFeral
+        zombieMarleneRadiated
+        zombieMaleHazmatRadiated
+        zombieBikerRadiated
+        zombieSpiderFeral, .6
+        zombieTomClark
+        zombieFatHawaiian
+        zombieFemaleFatFeral
+        zombieMaleHazmat
+        zombieDarleneRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS322">
+        zombieWightRadiated
+        zombieDarleneFeral
+        zombieTomClarkFeral
+        zombieArleneFeral
+        zombieBusinessManFeral
+        zombieArleneRadiated
+        zombieNurseFeral
+        zombieSpiderRadiated, .6
+        zombieFatCop
+        zombieMarleneFeral
+        zombiePartyGirl
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS332">
+        zombieNurseRadiated
+        zombieWightRadiated
+        zombieArleneFeral
+        zombieWightFeral
+        zombieLumberjack
+        zombieSkateboarderFeral
+        zombieUtilityWorkerFeral
+        zombieSkateboarderRadiated
+        zombieBusinessMan
+        zombieMarleneRadiated
+        zombieDarleneRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS343">
+        zombieArlene
+        zombiePartyGirlFeral
+        zombieFatHawaiian
+        zombieFatHawaiianFeral
+        zombieDarleneFeral
+        zombieFemaleFatRadiated
+        zombieMarleneFeral
+        zombieLumberjackRadiated
+        zombieNurseFeral
+        zombieSteveRadiated
+        zombieBikerFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS353">
+        zombieNurseRadiated
+        zombieFatCop
+        zombieUtilityWorker
+        zombieWightRadiated
+        zombieSkateboarderRadiated
+        zombieFemaleFat
+        zombieSoldierFeral
+        zombieNurse
+        zombieArlene
+        zombieMoe
+        zombieArleneFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS364">
+        zombieSteveCrawlerFeral
+        zombieFemaleFatRadiated
+        zombieLumberjackFeral
+        zombieLumberjack
+        zombieFatCopFeral
+        zombieSkateboarderFeral
+        zombieMaleHazmat
+        zombieYoFeral
+        zombieFatCop
+        zombieSteveCrawler, .5
+        zombieJoeFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS374">
+        zombieMaleHazmat
+        zombieYo
+        zombieFemaleFatRadiated
+        zombieFatHawaiianFeral
+        zombieFatCopFeral
+        zombieMoeRadiated
+        zombieTomClarkFeral
+        zombieTomClarkRadiated
+        zombieUtilityWorkerFeral
+        zombieJoe
+        zombieMarleneFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS385">
+        zombieFatHawaiianRadiated
+        zombieFemaleFatFeral
+        zombieJanitorRadiated
+        zombieLumberjack
+        zombieJanitorFeral
+        zombieFemaleFatRadiated
+        zombieMoeFeral
+        zombieSkateboarderFeral
+        zombieSkateboarderRadiated
+        zombieArlene
+        zombieMaleHazmatRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS396">
+        zombieJoe
+        zombieArlene
+        zombieSpiderFeral, .6
+        zombieYoFeral
+        zombieDarleneRadiated
+        zombieFemaleFatFeral
+        zombieMarlene
+        zombieSteve
+        zombieMaleHazmatRadiated
+        zombieArleneRadiated
+        zombieSkateboarder
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS407">
+        zombieSkateboarder
+        zombieJanitorFeral
+        zombieTomClarkFeral
+        zombieArleneRadiated
+        zombieFemaleFatFeral
+        zombieFatCop
+        zombieWightFeral
+        zombieMaleHazmatRadiated
+        zombiePartyGirlFeral
+        zombieSteveCrawlerFeral
+        zombieMarlene
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS419">
+        zombieSpider, .6
+        zombieSteveFeral
+        zombieFatHawaiianFeral
+        zombieArleneRadiated
+        zombieTomClark
+        zombieJanitorRadiated
+        zombieJoeRadiated
+        zombieMaleHazmatRadiated
+        zombieYoRadiated
+        zombieNurseFeral
+        zombieYo
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS430">
+        zombieNurse
+        zombieMarleneFeral
+        zombieWightFeral
+        zombieMoe
+        zombieSteveRadiated
+        zombieTomClarkRadiated
+        zombieFatHawaiianRadiated
+        zombieJanitorFeral
+        zombieMoeFeral
+        zombieJanitor
+        zombieFemaleFatRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS441">
+        zombieSkateboarderFeral
+        zombieBoeRadiated
+        zombieMoeRadiated
+        zombieUtilityWorker
+        zombieMaleHazmat
+        zombieUtilityWorkerFeral
+        zombieFatHawaiian
+        zombieYoRadiated
+        zombieSteveRadiated
+        zombieSteve
+        zombieYo
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS453">
+        zombieFatCopFeral
+        zombieSteveCrawlerFeral
+        zombieMaleHazmat
+        zombieYo
+        zombieJoeFeral
+        zombieBusinessManFeral
+        zombieMoe
+        zombieFatHawaiianFeral
+        zombieWightRadiated
+        zombieDarleneRadiated
+        zombieNurseFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS464">
+        zombieFatCop
+        zombieWightRadiated
+        zombieFemaleFatRadiated
+        zombieFatCopFeral
+        zombieUtilityWorker
+        zombieMaleHazmatRadiated
+        zombieSkateboarder
+        zombieYoRadiated
+        zombiePartyGirl
+        zombiePartyGirlFeral
+        zombieSteveFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS476">
+        zombieNurseFeral
+        zombieMarleneFeral
+        zombieLumberjack
+        zombieJoeRadiated
+        zombieBoeRadiated
+        zombieBikerRadiated
+        zombieJoe
+        zombieSkateboarderFeral
+        zombieMaleHazmat
+        zombieSoldierFeral
+        zombieBusinessMan
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS488">
+        zombieBoeFeral
+        zombieTomClarkFeral
+        zombieBikerFeral
+        zombieMaleHazmat
+        zombieFatHawaiianRadiated
+        zombieBikerRadiated
+        zombieSoldierFeral
+        zombieFatCop
+        zombieArleneRadiated
+        zombiePartyGirl
+        zombieSteveRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS500">
+        zombieSkateboarder
+        zombieJoeRadiated
+        zombieNurseRadiated
+        zombieWightRadiated
+        zombieFemaleFatRadiated
+        zombieSoldier
+        zombieArleneRadiated
+        zombieMaleHazmat
+        zombieFatHawaiianFeral
+        zombieMoeRadiated
+        zombieMarlene
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS512">
+        zombieUtilityWorker
+        zombieArleneRadiated
+        zombieSkateboarder
+        zombieMarleneFeral
+        zombieBiker
+        zombieJanitorRadiated
+        zombieMoe
+        zombieSteveFeral
+        zombieWightRadiated
+        zombieJoe
+        zombieSkateboarderFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS524">
+        zombieJanitor
+        zombieMoe
+        zombieNurse
+        zombieBikerRadiated
+        zombieWightRadiated
+        zombieFatHawaiian
+        zombieBoeFeral
+        zombieUtilityWorker
+        zombieFatCopRadiated
+        zombieTomClarkRadiated
+        zombieBoeRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS536">
+        zombieSteveCrawler, .5
+        zombieSteveCrawlerFeral
+        zombieSoldierFeral
+        zombieBoeFeral
+        zombieNurseRadiated
+        zombieSkateboarderRadiated
+        zombieJoeRadiated
+        zombieFatHawaiianRadiated
+        zombieTomClarkFeral
+        zombieFatCopRadiated
+        zombieFemaleFat
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS548">
+        zombieFatHawaiianFeral
+        zombieFemaleFat
+        zombieFatCopRadiated
+        zombieBikerRadiated
+        zombieDarleneFeral
+        zombieBiker
+        zombieJanitor
+        zombieYo
+        zombieUtilityWorker
+        zombieSpider, .6
+        zombieJoe
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS560">
+        zombieYoFeral
+        zombieSoldierFeral
+        zombieJanitor
+        zombieLumberjackRadiated
+        zombieMaleHazmat
+        zombieNurseFeral
+        zombieSteveFeral
+        zombieJanitorRadiated
+        zombieBoe
+        zombieSteveRadiated
+        zombieJoe
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS573">
+        zombieBiker
+        zombieMarleneFeral
+        zombieLumberjackFeral
+        zombieSoldierRadiated
+        zombieDarlene
+        zombieFatCopRadiated
+        zombieNurse
+        zombieLumberjackRadiated
+        zombieArleneFeral
+        zombieFatCopFeral
+        zombieArleneRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS585">
+        zombieBoeRadiated
+        zombieLumberjackFeral
+        zombieSpider, .6
+        zombieTomClarkRadiated
+        zombieMoeFeral
+        zombieSteveCrawler, .5
+        zombieMarlene
+        zombieMaleHazmatRadiated
+        zombieBusinessMan
+        zombieSteveFeral
+        zombieTomClark
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS598">
+        zombieBusinessMan
+        zombieSteveFeral
+        zombieFemaleFatFeral
+        zombieSpider, .6
+        zombieSkateboarderFeral
+        zombieMaleHazmat
+        zombieLumberjackFeral
+        zombieUtilityWorker
+        zombieMaleHazmat
+        zombieDarleneRadiated
+        zombieArleneRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS610">
+        zombieUtilityWorker
+        zombieSkateboarderFeral
+        zombieSoldierFeral
+        zombieSkateboarder
+        zombieTomClarkFeral
+        zombieDarlene
+        zombieArlene
+        zombieSpider, .6
+        zombieNurseRadiated
+        zombieFatCopFeral
+        zombieMarlene
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS623">
+        zombieMoeFeral
+        zombieFemaleFatFeral
+        zombieUtilityWorker
+        zombieBikerFeral
+        zombieSpider, .6
+        zombieDarleneFeral
+        zombieMoeRadiated
+        zombieMarleneRadiated
+        zombieFemaleFat
+        zombieFatCop
+        zombieBoeRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS636">
+        zombieFatHawaiian
+        zombieMarlene
+        zombieFatCopFeral
+        zombieTomClark
+        zombieYoRadiated
+        zombieArlene
+        zombieJanitor
+        zombieBusinessMan
+        zombieMarleneRadiated
+        zombieNurseRadiated
+        zombieJoe
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS649">
+        zombieFatHawaiianFeral
+        zombieFatCopFeral
+        zombieJoe
+        zombieSteveCrawler, .5
+        zombieJanitorRadiated
+        zombieTomClarkRadiated
+        zombieBoe
+        zombieBoeRadiated
+        zombieFatCopRadiated
+        zombieLumberjack
+        zombieDarleneRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS662">
+        zombieMoe
+        zombieTomClarkFeral
+        zombieTomClarkRadiated
+        zombieBusinessManFeral
+        zombieDarleneFeral
+        zombieFemaleFat
+        zombieMaleHazmat
+        zombieDarlene
+        zombiePartyGirlFeral
+        zombieNurseRadiated
+        zombiePartyGirl
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS675">
+        zombieFatCopRadiated
+        zombieTomClarkFeral
+        zombieUtilityWorker
+        zombieNurse
+        zombieArlene
+        zombieSkateboarderRadiated
+        zombieFatHawaiianFeral
+        zombiePartyGirlFeral
+        zombieMoeRadiated
+        zombieBoe
+        zombieDarlene
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS688">
+        zombieNurseRadiated
+        zombieJoeRadiated
+        zombieSteveCrawler, .5
+        zombieMoe
+        zombieBikerFeral
+        zombieBoeFeral
+        zombieFatHawaiianRadiated
+        zombieSkateboarderFeral
+        zombieFatCopRadiated
+        zombieJoe
+        zombieSkateboarder
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS702">
+        zombieDarleneRadiated
+        zombieFatCop
+        zombieDarlene
+        zombieSpiderRadiated, .6
+        zombieDarleneFeral
+        zombieUtilityWorker
+        zombieJoeFeral
+        zombieLumberjackRadiated
+        zombieFemaleFatFeral
+        zombieSkateboarder
+        zombieLumberjackFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS715">
+        zombieSoldier
+        zombieSkateboarder
+        zombieJoeRadiated
+        zombieTomClarkFeral
+        zombieMarleneFeral
+        zombieSteve
+        zombieJanitorRadiated
+        zombieSkateboarderFeral
+        zombieMaleHazmat
+        zombieMarlene
+        zombieBiker
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS729">
+        zombieUtilityWorker
+        zombieSpiderRadiated, .6
+        zombieFatHawaiian
+        zombieFemaleFatRadiated
+        zombieMarleneFeral
+        zombieFemaleFat
+        zombieLumberjack
+        zombieFatCopFeral
+        zombieBoeRadiated
+        zombiePartyGirl
+        zombieMarleneRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS742">
+        zombieUtilityWorkerFeral
+        zombieMarleneFeral
+        zombieSoldier
+        zombieUtilityWorker
+        zombieYoFeral
+        zombieJanitorFeral
+        zombieJoeRadiated
+        zombiePartyGirl
+        zombieMarleneRadiated
+        zombieSpiderRadiated, .6
+        zombieBoe
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS756">
+        zombieSpiderFeral, .6
+        zombieJanitorRadiated
+        zombieDarlene
+        zombieUtilityWorkerFeral
+        zombieBusinessMan
+        zombieSpider, .6
+        zombieSteveCrawler, .5
+        zombieYoFeral
+        zombieNurse
+        zombieFatHawaiianFeral
+        zombieWightRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS769">
+        zombieLumberjack
+        zombieFemaleFatRadiated
+        zombieFemaleFatFeral
+        zombieDarlene
+        zombieBusinessMan
+        zombieBoe
+        zombieMarleneRadiated
+        zombieTomClarkFeral
+        zombieMoeFeral
+        zombieUtilityWorkerFeral
+        zombieSpiderRadiated, .6
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS783">
+        zombieWightFeral
+        zombieFatCopFeral
+        zombieUtilityWorkerFeral
+        zombieJanitor
+        zombieSkateboarderFeral
+        zombieSkateboarderRadiated
+        zombieBoeRadiated
+        zombieFemaleFatRadiated
+        zombiePartyGirl
+        zombieFemaleFat
+        zombieSpiderRadiated, .6
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS797">
+        zombieSoldier
+        zombieFemaleFat
+        zombieTomClarkFeral
+        zombieMarleneRadiated
+        zombieBoeFeral
+        zombieSkateboarder
+        zombieFatCopRadiated
+        zombiePartyGirlFeral
+        zombieSteve
+        zombieSkateboarderRadiated
+        zombieBoe
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS811">
+        zombieBoeFeral
+        zombieYo
+        zombieFatHawaiian
+        zombieSoldierFeral
+        zombieNurse
+        zombieArlene
+        zombieJanitorFeral
+        zombieJoeFeral
+        zombieFemaleFatRadiated
+        zombieSoldier
+        zombieSkateboarderFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS825">
+        zombieBikerFeral
+        zombieLumberjack
+        zombieYoFeral
+        zombieBikerRadiated
+        zombieBusinessMan
+        zombieBoeFeral
+        zombieSpiderFeral, .6
+        zombieJanitorFeral
+        zombieMarleneFeral
+        zombieUtilityWorker
+        zombieFemaleFat
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS839">
+        zombieTomClark
+        zombieFemaleFatRadiated
+        zombieMaleHazmat
+        zombieLumberjack
+        zombieYoRadiated
+        zombieBoe
+        zombieLumberjackFeral
+        zombieNurseFeral
+        zombieArlene
+        zombieBoeRadiated
+        zombieSpiderRadiated, .6
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS853">
+        zombieBusinessMan
+        zombieSpiderFeral, .6
+        zombieArleneFeral
+        zombieBikerFeral
+        zombieFatCopFeral
+        zombieBiker
+        zombieMoeFeral
+        zombieFatCopRadiated
+        zombieMaleHazmat
+        zombieSkateboarderRadiated
+        zombieMarleneRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS868">
+        zombiePartyGirlFeral
+        zombieSkateboarderFeral
+        zombieJoeRadiated
+        zombieFemaleFatFeral
+        zombieLumberjack
+        zombieBusinessMan
+        zombieNurse
+        zombieLumberjackFeral
+        zombieBoe
+        zombieSpider, .6
+        zombieTomClarkRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS882">
+        zombieFemaleFatRadiated
+        zombieDarleneFeral
+        zombieMaleHazmat
+        zombieBikerFeral
+        zombieBiker
+        zombieFatCop
+        zombieFatHawaiianRadiated
+        zombieSteve
+        zombieTomClarkRadiated
+        zombieNurseRadiated
+        zombieMoeFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS896">
+        zombieSpiderFeral, .6
+        zombieSoldierRadiated
+        zombieFatCop
+        zombieFatHawaiianRadiated
+        zombieYoFeral
+        zombieFemaleFat
+        zombieSpiderRadiated, .6
+        zombieSteve
+        zombieJanitorRadiated
+        zombieBusinessMan
+        zombieFatCopRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS911">
+        zombieUtilityWorker
+        zombieWightRadiated
+        zombieFatHawaiianRadiated
+        zombieSoldier
+        zombieSpiderRadiated, .6
+        zombieBoe
+        zombieJoeRadiated
+        zombieFatHawaiianFeral
+        zombieBusinessManFeral
+        zombieMarleneFeral
+        zombieSkateboarderRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS925">
+        zombieFemaleFat
+        zombieBoeRadiated
+        zombieLumberjackFeral
+        zombieFemaleFatRadiated
+        zombieSteve
+        zombieMaleHazmat
+        zombieFatHawaiianFeral
+        zombieNurseRadiated
+        zombieSoldier
+        zombieFatCop
+        zombieYoRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS940">
+        zombieSpiderRadiated, .6
+        zombieNurseRadiated
+        zombieLumberjackFeral
+        zombieFatHawaiian
+        zombieSkateboarderRadiated
+        zombieJoeRadiated
+        zombieSteveCrawlerFeral
+        zombieMarlene
+        zombieNurseFeral
+        zombieBusinessManFeral
+        zombieMarleneFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS955">
+        zombieFemaleFatFeral
+        zombieMarleneFeral
+        zombieFatHawaiian
+        zombieSoldier
+        zombieFemaleFatRadiated
+        zombieMaleHazmat
+        zombieTomClarkRadiated
+        zombieBoeRadiated
+        zombieSteveCrawler, .5
+        zombieSkateboarderRadiated
+        zombieUtilityWorker
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS970">
+        zombiePartyGirl
+        zombieBiker
+        zombieNurseRadiated
+        zombieSteve
+        zombieJoeRadiated
+        zombieFemaleFatFeral
+        zombieBusinessMan
+        zombieYoFeral
+        zombieSteveCrawler, .5
+        zombieFatCopFeral
+        zombieSoldierFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS985">
+        zombieWightFeral
+        zombieSkateboarderFeral
+        zombieFatCopRadiated
+        zombieDarleneRadiated
+        zombieSteveRadiated
+        zombieMaleHazmat
+        zombieLumberjack
+        zombieWightRadiated
+        zombieMarlene
+        zombieSteveCrawler, .5
+        zombieYoFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1000">
+        zombieSkateboarderFeral
+        zombieFemaleFatFeral
+        zombieSpiderRadiated, .6
+        zombieBikerFeral
+        zombieFatHawaiianFeral
+        zombieDarleneFeral
+        zombieMarleneRadiated
+        zombieSoldierRadiated
+        zombieSteve
+        zombieDarleneRadiated
+        zombieMarlene
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1015">
+        zombieBiker
+        zombieBoeFeral
+        zombieSpider, .6
+        zombieYoRadiated
+        zombieDarleneFeral
+        zombieMaleHazmat
+        zombieSoldierFeral
+        zombieNurseRadiated
+        zombieArlene
+        zombieBoe
+        zombieSkateboarderFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1030">
+        zombieFatHawaiian
+        zombieSteveRadiated
+        zombieNurseRadiated
+        zombieBoeRadiated
+        zombieSpider, .6
+        zombieLumberjackFeral
+        zombieSteve
+        zombieTomClarkRadiated
+        zombieYo
+        zombieWightFeral
+        zombieArleneFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1045">
+        zombieSpider, .6
+        zombieSkateboarder
+        zombieBoeFeral
+        zombieJanitor
+        zombieDarlene
+        zombieSkateboarderRadiated
+        zombieSpiderRadiated, .6
+        zombieNurse
+        zombieSteveCrawlerFeral
+        zombieArleneRadiated
+        zombieTomClark
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1060">
+        zombieDarlene
+        zombieMaleHazmat
+        zombiePartyGirl
+        zombieArlene
+        zombieYo
+        zombieWightFeral
+        zombieFemaleFatRadiated
+        zombieMarleneFeral
+        zombieWightRadiated
+        zombieJanitorFeral
+        zombieFatCop
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1075">
+        zombieTomClarkFeral
+        zombieSteveCrawler, .5
+        zombieArlene
+        zombieFatHawaiianFeral
+        zombieLumberjackFeral
+        zombieMarlene
+        zombieFemaleFatFeral
+        zombieJanitorRadiated
+        zombieYoFeral
+        zombieBikerRadiated
+        zombieJoe
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1091">
+        zombieMarleneFeral
+        zombieJanitor
+        zombieBiker
+        zombieMarleneRadiated
+        zombieSkateboarderRadiated
+        zombieSpider, .6
+        zombieNurseFeral
+        zombieFatHawaiianRadiated
+        zombieMaleHazmat
+        zombiePartyGirlFeral
+        zombieUtilityWorkerFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1106">
+        zombieDarlene
+        zombieMarleneRadiated
+        zombieWightFeral
+        zombieBusinessManFeral
+        zombiePartyGirl
+        zombieSteveRadiated
+        zombieBoe
+        zombieFatCopFeral
+        zombieArlene
+        zombieTomClarkRadiated
+        zombieFatCop
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1122">
+        zombieSteve
+        zombieUtilityWorkerFeral
+        zombieNurse
+        zombieSteveFeral
+        zombieJoeRadiated
+        zombieYo
+        zombieTomClarkRadiated
+        zombieMoeFeral
+        zombieSpiderRadiated, .6
+        zombieBiker
+        zombieSteveCrawlerFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1137">
+        zombieFatCop
+        zombieYo
+        zombieMarlene
+        zombieSkateboarder
+        zombieJoe
+        zombieJanitorFeral
+        zombieSpider, .6
+        zombieYoFeral
+        zombieJoeRadiated
+        zombieSteveRadiated
+        zombieDarleneRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1153">
+        zombieJanitorFeral
+        zombieSpider, .6
+        zombieBoeRadiated
+        zombieBiker
+        zombieJanitorRadiated
+        zombieMaleHazmat
+        zombieLumberjack
+        zombieArleneRadiated
+        zombieLumberjackFeral
+        zombieFemaleFatRadiated
+        zombieYoFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1169">
+        zombieNurseFeral
+        zombieLumberjackRadiated
+        zombieDarleneFeral
+        zombieBikerFeral
+        zombieUtilityWorker
+        zombieTomClarkFeral
+        zombieFemaleFatRadiated
+        zombieDarlene
+        zombieYoRadiated
+        zombieMoeRadiated
+        zombieYoFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1185">
+        zombieNurseRadiated
+        zombieBusinessManFeral
+        zombieSteveCrawlerFeral
+        zombieDarlene
+        zombieLumberjackFeral
+        zombieSpiderFeral, .6
+        zombieFemaleFatRadiated
+        zombieJoeRadiated
+        zombieWightFeral
+        zombiePartyGirlFeral
+        zombieYo
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1201">
+        zombieDarleneRadiated
+        zombieSpiderFeral, .6
+        zombieWightFeral
+        zombieSteveRadiated
+        zombieNurseRadiated
+        zombieSpiderRadiated, .6
+        zombieJoeFeral
+        zombieDarleneFeral
+        zombieFatCop
+        zombieMarleneRadiated
+        zombieBoeRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1217">
+        zombieDarlene
+        zombiePartyGirl
+        zombieYoRadiated
+        zombieSteveFeral
+        zombieJanitorFeral
+        zombieNurseRadiated
+        zombieLumberjackFeral
+        zombieFemaleFatRadiated
+        zombieSoldier
+        zombieJanitorRadiated
+        zombieFatHawaiianFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1233">
+        zombieJoe
+        zombieMaleHazmatRadiated
+        zombieJanitor
+        zombieNurseFeral
+        zombieLumberjack
+        zombieLumberjackFeral
+        zombieBusinessMan
+        zombieSpider, .6
+        zombieSpiderFeral, .6
+        zombieBoeFeral
+        zombieJanitorFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1249">
+        zombieBikerRadiated
+        zombieTomClark
+        zombieDarlene
+        zombieSteveFeral
+        zombieDarleneRadiated
+        zombieYoRadiated
+        zombieSkateboarder
+        zombieJoe
+        zombieBoe
+        zombieFatHawaiianRadiated
+        zombieYoFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1265">
+        zombieSpiderFeral, .6
+        zombieFatHawaiianFeral
+        zombieJoe
+        zombieDarleneFeral
+        zombieMarleneRadiated
+        zombieNurse
+        zombieWightFeral
+        zombieSpiderRadiated, .6
+        zombieSteveCrawlerFeral
+        zombieMoeRadiated
+        zombieSoldier
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1281">
+        zombieSoldier
+        zombieSteveCrawler, .5
+        zombieMarleneFeral
+        zombieJanitor
+        zombieTomClarkRadiated
+        zombieMoeFeral
+        zombieMaleHazmatRadiated
+        zombieArleneFeral
+        zombieFatCopFeral
+        zombieTomClark
+        zombieJanitorFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1298">
+        zombieFatHawaiianFeral
+        zombieBusinessManFeral
+        zombieSteveCrawler, .5
+        zombieUtilityWorkerFeral
+        zombieMarleneRadiated
+        zombieFatHawaiianRadiated
+        zombieMoeRadiated
+        zombieTomClark
+        zombieArleneRadiated
+        zombieFemaleFat
+        zombieBoeRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1314">
+        zombieSpiderFeral, .6
+        zombieMarleneRadiated
+        zombieSkateboarderFeral
+        zombieSoldierRadiated
+        zombieJanitorRadiated
+        zombieBoeFeral
+        zombieSteveRadiated
+        zombieNurseFeral
+        zombieSteveCrawler, .5
+        zombieJoeRadiated
+        zombieSkateboarderRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1331">
+        zombieJanitorFeral
+        zombieBiker
+        zombieJoe
+        zombieSpiderRadiated, .6
+        zombieBoeRadiated
+        zombieSoldierFeral
+        zombieArleneFeral
+        zombieDarleneRadiated
+        zombieMoe
+        zombieTomClarkRadiated
+        zombieSteveFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1347">
+        zombieJoe
+        zombieSkateboarderFeral
+        zombieSkateboarderRadiated
+        zombieJanitorRadiated
+        zombieNurseRadiated
+        zombieJanitor
+        zombieFatCopRadiated
+        zombieJoeRadiated
+        zombieSpider, .6
+        zombieFemaleFatFeral
+        zombieMarleneFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1364">
+        zombieMaleHazmatRadiated
+        zombieUtilityWorkerFeral
+        zombieNurseRadiated
+        zombieArleneRadiated
+        zombieSkateboarderRadiated
+        zombieMoeFeral
+        zombieBikerFeral
+        zombieMaleHazmat
+        zombieNurse
+        zombieTomClarkRadiated
+        zombieSpiderFeral, .6
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1380">
+        zombieArleneFeral
+        zombieFatHawaiianRadiated
+        zombieBusinessManFeral
+        zombieNurseRadiated
+        zombieFatCopFeral
+        zombieMoeFeral
+        zombieJanitorRadiated
+        zombieMaleHazmat
+        zombieLumberjack
+        zombieBikerFeral
+        zombiePartyGirlFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1397">
+        zombieFemaleFat
+        zombieTomClarkFeral
+        zombieJoeRadiated
+        zombieMoeRadiated
+        zombieMoeFeral
+        zombieSteveFeral
+        zombieBikerRadiated
+        zombieMoe
+        zombieYoRadiated
+        zombieNurseRadiated
+        zombieFatCop
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1414">
+        zombieMaleHazmat
+        zombieFemaleFatFeral
+        zombiePartyGirlFeral
+        zombieMoeFeral
+        zombieNurse
+        zombieTomClarkFeral
+        zombieSteveFeral
+        zombieLumberjackFeral
+        zombieSpider, .6
+        zombieSteveRadiated
+        zombieTomClarkRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1431">
+        zombieUtilityWorker
+        zombieArleneFeral
+        zombieMoeRadiated
+        zombieSpider, .6
+        zombieJoe
+        zombieBoeFeral
+        zombieBoeRadiated
+        zombieJanitorFeral
+        zombieDarlene
+        zombieFatHawaiian
+        zombieFatHawaiianRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1448">
+        zombiePartyGirl
+        zombieNurseFeral
+        zombieUtilityWorkerFeral
+        zombieSteveCrawler, .5
+        zombieFatHawaiianRadiated
+        zombieWightFeral
+        zombieSteveRadiated
+        zombieBoeFeral
+        zombieYo
+        zombieSkateboarderFeral
+        zombieJanitor
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1465">
+        zombieMaleHazmatRadiated
+        zombieFemaleFat
+        zombieJanitor
+        zombieLumberjackFeral
+        zombieArleneRadiated
+        zombieSpiderFeral, .6
+        zombieSkateboarderRadiated
+        zombiePartyGirl
+        zombieBoeRadiated
+        zombieTomClark
+        zombieSteveRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1482">
+        zombieJoe
+        zombieJanitorFeral
+        zombieBusinessManFeral
+        zombieFemaleFatRadiated
+        zombieLumberjackFeral
+        zombieMaleHazmat
+        zombieNurseRadiated
+        zombieSkateboarderFeral
+        zombieUtilityWorkerFeral
+        zombieWightRadiated
+        zombieYoFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1499">
+        zombieWightFeral
+        zombieSteveCrawler, .5
+        zombieMarlene
+        zombieFatCopRadiated
+        zombieBoe
+        zombieLumberjackFeral
+        zombieDarleneRadiated
+        zombieBoeFeral
+        zombieFatHawaiianFeral
+        zombieJoeRadiated
+        zombieSteveFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1516">
+        zombieFatCopRadiated
+        zombieJanitorRadiated
+        zombieLumberjack
+        zombieMaleHazmat
+        zombieTomClarkRadiated
+        zombieSkateboarder
+        zombieBikerRadiated
+        zombieSoldierFeral
+        zombieSkateboarderFeral
+        zombieMaleHazmatRadiated
+        zombieFemaleFatRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1533">
+        zombieBiker
+        zombieSteveFeral
+        zombieTomClark
+        zombieBikerFeral
+        zombieMoeFeral
+        zombieUtilityWorkerFeral
+        zombieNurse
+        zombieJoeRadiated
+        zombieBoeRadiated
+        zombieSoldier
+        zombieJoeFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1551">
+        zombieFatCopRadiated
+        zombieBoeRadiated
+        zombieSoldierRadiated
+        zombieArleneFeral
+        zombieTomClarkRadiated
+        zombieJoeFeral
+        zombieSpiderRadiated, .6
+        zombieUtilityWorkerFeral
+        zombieLumberjack
+        zombieNurse
+        zombieBoe
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1568">
+        zombieMoeRadiated
+        zombieFemaleFatFeral
+        zombieSpiderFeral, .6
+        zombieMarleneRadiated
+        zombieSkateboarderFeral
+        zombieMaleHazmatRadiated
+        zombieSteve
+        zombieSpider, .6
+        zombieSoldier
+        zombieSoldierRadiated
+        zombieYo
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1586">
+        zombieMaleHazmat
+        zombieNurseFeral
+        zombieBoeFeral
+        zombiePartyGirlFeral
+        zombieSteveFeral
+        zombieJanitor
+        zombieFatCopRadiated
+        zombieYoRadiated
+        zombieSkateboarderRadiated
+        zombieBoeRadiated
+        zombieTomClark
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1603">
+        zombieFemaleFatFeral
+        zombieBiker
+        zombieBoe
+        zombieSpider, .6
+        zombieLumberjack
+        zombieSoldierFeral
+        zombieNurseFeral
+        zombieUtilityWorkerFeral
+        zombieMaleHazmat
+        zombieMaleHazmat
+        zombieYo
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1621">
+        zombieWightRadiated
+        zombieNurse
+        zombieMarleneRadiated
+        zombieMoe
+        zombieJoeFeral
+        zombieLumberjackFeral
+        zombieMarlene
+        zombieDarleneFeral
+        zombieSpiderFeral, .6
+        zombieBoeRadiated
+        zombieYoRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1638">
+        zombieArleneRadiated
+        zombieDarlene
+        zombieBusinessManFeral
+        zombieBiker
+        zombieNurseRadiated
+        zombieSkateboarderRadiated
+        zombieArlene
+        zombieYoFeral
+        zombiePartyGirlFeral
+        zombieMoeRadiated
+        zombieDarleneRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1656">
+        zombieMarleneFeral
+        zombieLumberjackFeral
+        zombieNurseFeral
+        zombieJoeFeral
+        zombieSoldierRadiated
+        zombieSteveFeral
+        zombieMoeFeral
+        zombiePartyGirl
+        zombieBusinessManFeral
+        zombieMoeRadiated
+        zombieJanitorFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1674">
+        zombieMaleHazmatRadiated
+        zombieSpiderFeral, .6
+        zombieSteve
+        zombieBikerFeral
+        zombieYoFeral
+        zombieJanitorFeral
+        zombieMaleHazmat
+        zombieTomClark
+        zombieLumberjackRadiated
+        zombieSoldierRadiated
+        zombieSoldierFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1692">
+        zombieSkateboarder
+        zombieFatHawaiianFeral
+        zombieSoldierRadiated
+        zombieBikerFeral
+        zombieArleneFeral
+        zombieNurseFeral
+        zombieTomClark
+        zombieMaleHazmat
+        zombieBusinessMan
+        zombieFatCop
+        zombieSpider, .6
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1710">
+        zombiePartyGirlFeral
+        zombieJanitor
+        zombieNurseFeral
+        zombieTomClarkFeral
+        zombieJanitorFeral
+        zombieBusinessMan
+        zombieSpiderRadiated, .6
+        zombieArlene
+        zombieArleneRadiated
+        zombieYoFeral
+        zombieBoe
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1728">
+        zombieJoe
+        zombieDarleneFeral
+        zombieSteve
+        zombieSteveRadiated
+        zombieJanitorRadiated
+        zombieBikerFeral
+        zombieFemaleFatRadiated
+        zombiePartyGirl
+        zombieSteveCrawlerFeral
+        zombieMoeFeral
+        zombieBoe
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1746">
+        zombieBoeFeral
+        zombieDarleneFeral
+        zombieSteveCrawlerFeral
+        zombieSkateboarder
+        zombieMaleHazmat
+        zombieFatHawaiianRadiated
+        zombieMarlene
+        zombieMoeFeral
+        zombieFatHawaiianFeral
+        zombieJoe
+        zombieFemaleFat
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1764">
+        zombieBoeRadiated
+        zombieTomClarkRadiated
+        zombieUtilityWorkerFeral
+        zombieArlene
+        zombieMarleneFeral
+        zombieMaleHazmat
+        zombieBusinessManFeral
+        zombieBikerFeral
+        zombieJoeRadiated
+        zombieJanitor
+        zombieFemaleFat
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1782">
+        zombieArleneRadiated
+        zombieNurseRadiated
+        zombieSpiderFeral, .6
+        zombieLumberjackRadiated
+        zombieBusinessMan
+        zombieSteveFeral
+        zombieUtilityWorker
+        zombieSoldierRadiated
+        zombieDarlene
+        zombieNurseFeral
+        zombieMarleneFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1800">
+        zombieFatCop
+        zombieSteveRadiated
+        zombieSoldierRadiated
+        zombieMaleHazmat
+        zombieSkateboarder
+        zombieMaleHazmatRadiated
+        zombieJoeRadiated
+        zombieSoldierFeral
+        zombieNurseRadiated
+        zombieUtilityWorkerFeral
+        zombieMarleneFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1818">
+        zombiePartyGirl
+        zombieBoeFeral
+        zombieBusinessManFeral
+        zombieJoeFeral
+        zombieBikerRadiated
+        zombieLumberjackFeral
+        zombieBikerFeral
+        zombieSoldier
+        zombieSpider, .6
+        zombieMarleneRadiated
+        zombieJanitorFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1837">
+        zombieArleneRadiated
+        zombieArlene
+        zombieArleneFeral
+        zombieJoeFeral
+        zombiePartyGirlFeral
+        zombieBoeRadiated
+        zombieBiker
+        zombieFemaleFat
+        zombieDarlene
+        zombieTomClark
+        zombieMarlene
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1855">
+        zombieWightFeral
+        zombieArleneRadiated
+        zombieArlene
+        zombieWightRadiated
+        zombiePartyGirl
+        zombieFemaleFatFeral
+        zombieBiker
+        zombieDarlene
+        zombieJanitorFeral
+        zombieYoRadiated
+        zombieTomClarkRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1873">
+        zombieFatHawaiianFeral
+        zombieArlene
+        zombieSteveCrawler, .5
+        zombieMaleHazmat
+        zombieMoeFeral
+        zombieBusinessMan
+        zombieYoFeral
+        zombieMarleneFeral
+        zombiePartyGirl
+        zombieSkateboarderRadiated
+        zombieFatHawaiianRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1892">
+        zombieFatHawaiianRadiated
+        zombieSkateboarderRadiated
+        zombieNurseFeral
+        zombieSpiderRadiated, .6
+        zombieBoe
+        zombieJoe
+        zombieFemaleFat
+        zombieSteveCrawler, .5
+        zombiePartyGirl
+        zombieFatHawaiianFeral
+        zombieJanitorRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1911">
+        zombieSkateboarder
+        zombieSteveFeral
+        zombieBiker
+        zombieFemaleFatFeral
+        zombieYoFeral
+        zombieWightFeral
+        zombieBoe
+        zombieBusinessMan
+        zombieMaleHazmat
+        zombieNurse
+        zombieMarlene
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1929">
+        zombieUtilityWorkerFeral
+        zombieSpiderRadiated, .6
+        zombieNurseRadiated
+        zombieSteveFeral
+        zombieSkateboarderFeral
+        zombieMoeFeral
+        zombieFatCop
+        zombieTomClark
+        zombieArlene
+        zombieBiker
+        zombieYoFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1948">
+        zombieDarleneFeral
+        zombieSteveCrawler, .5
+        zombieLumberjack
+        zombieFatHawaiian
+        zombieBoeFeral
+        zombieSteveCrawlerFeral
+        zombieArlene
+        zombieFatCop
+        zombieFemaleFat
+        zombieMoeFeral
+        zombieTomClark
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1967">
+        zombieFemaleFatFeral
+        zombiePartyGirlFeral
+        zombieMoeFeral
+        zombieUtilityWorker
+        zombieTomClarkRadiated
+        zombieBoeRadiated
+        zombieDarleneRadiated
+        zombieBusinessManFeral
+        zombieWightRadiated
+        zombieSpiderFeral, .6
+        zombieBoe
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS1986">
+        zombieWightRadiated
+        zombieFatCopRadiated
+        zombieBoeRadiated
+        zombieFatCopFeral
+        zombieSoldierFeral
+        zombieYo
+        zombieDarlene
+        zombieMaleHazmatRadiated
+        zombieYoFeral
+        zombieJanitorFeral
+        zombieJanitor
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2004">
+        zombieBoeRadiated
+        zombieJanitor
+        zombieSoldier
+        zombieUtilityWorkerFeral
+        zombieArleneFeral
+        zombieMoeFeral
+        zombieBikerFeral
+        zombieSteveCrawler, .5
+        zombieBoe
+        zombieMaleHazmat
+        zombieLumberjackRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2023">
+        zombieFatCopRadiated
+        zombieBoeRadiated
+        zombieLumberjackFeral
+        zombieMoeFeral
+        zombieYoFeral
+        zombieSteveFeral
+        zombieSoldier
+        zombieSteve
+        zombieUtilityWorkerFeral
+        zombieMaleHazmatRadiated
+        zombieJoe
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2042">
+        zombieFatHawaiianFeral
+        zombieJoeRadiated
+        zombieMaleHazmat
+        zombieTomClarkRadiated
+        zombieFatCop
+        zombieMoeRadiated
+        zombieWightRadiated
+        zombieYo
+        zombieMarleneFeral
+        zombiePartyGirlFeral
+        zombieLumberjackFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2061">
+        zombieBikerFeral
+        zombieFemaleFat
+        zombieFatCop
+        zombieDarleneRadiated
+        zombieNurseRadiated
+        zombieMarleneFeral
+        zombieBusinessManFeral
+        zombieJoe
+        zombieLumberjackRadiated
+        zombieMaleHazmatRadiated
+        zombieWightFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2081">
+        zombieJoe
+        zombieNurseRadiated
+        zombieNurse
+        zombieArlene
+        zombieTomClarkRadiated
+        zombiePartyGirl
+        zombieSteveRadiated
+        zombieSteveFeral
+        zombieFatCopRadiated
+        zombieYo
+        zombieSoldierRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2100">
+        zombieTomClark
+        zombieNurseFeral
+        zombieMoeRadiated
+        zombieDarleneFeral
+        zombieSteveRadiated
+        zombieJoe
+        zombieLumberjackFeral
+        zombieDarleneRadiated
+        zombieSteveCrawlerFeral
+        zombieFatCopRadiated
+        zombieJoeRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2119">
+        zombieFatCopRadiated
+        zombieMoeRadiated
+        zombieDarleneRadiated
+        zombieBikerFeral
+        zombieMoeFeral
+        zombieSpiderRadiated, .6
+        zombieYo
+        zombieFatHawaiianRadiated
+        zombieWightRadiated
+        zombieSkateboarderRadiated
+        zombieMarleneFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2138">
+        zombieBusinessManFeral
+        zombieWightFeral
+        zombieBusinessMan
+        zombieArleneFeral
+        zombieYoFeral
+        zombieBoeRadiated
+        zombieBikerRadiated
+        zombieSpiderRadiated, .6
+        zombieSteve
+        zombieJanitor
+        zombieBoeFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2158">
+        zombieMaleHazmat
+        zombieNurse
+        zombieMoeRadiated
+        zombieBoe
+        zombieSpiderRadiated, .6
+        zombieBikerFeral
+        zombieJanitorRadiated
+        zombieSteveCrawler, .5
+        zombieJanitorFeral
+        zombieBusinessManFeral
+        zombieFatCop
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2177">
+        zombieLumberjackRadiated
+        zombieSteve
+        zombieJoe
+        zombieBiker
+        zombieNurseRadiated
+        zombieSpiderRadiated, .6
+        zombieSteveRadiated
+        zombieUtilityWorkerFeral
+        zombieSkateboarder
+        zombieJoeFeral
+        zombieTomClarkRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2197">
+        zombieJoeRadiated
+        zombieBoeFeral
+        zombieJoeFeral
+        zombieWightFeral
+        zombieSoldier
+        zombieSteveFeral
+        zombieUtilityWorker
+        zombieSteve
+        zombieNurseRadiated
+        zombieDarleneRadiated
+        zombieTomClark
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2216">
+        zombieFatCopFeral
+        zombieJanitorFeral
+        zombieBusinessManFeral
+        zombieNurseFeral
+        zombieMoeRadiated
+        zombieSteveCrawler, .5
+        zombieSpider, .6
+        zombieBusinessMan
+        zombieFatHawaiianFeral
+        zombieSoldierRadiated
+        zombieArleneFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2236">
+        zombieSpiderRadiated, .6
+        zombieSkateboarderFeral
+        zombieBiker
+        zombieSpiderFeral, .6
+        zombieArleneFeral
+        zombieSpider, .6
+        zombieSoldierRadiated
+        zombieFatHawaiianFeral
+        zombieFemaleFatRadiated
+        zombieJanitor
+        zombieMaleHazmat
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2255">
+        zombieJoe
+        zombieTomClark
+        zombieWightFeral
+        zombiePartyGirl
+        zombieFatHawaiianRadiated
+        zombieJanitorFeral
+        zombieSteveRadiated
+        zombieMaleHazmatRadiated
+        zombieBoeFeral
+        zombieUtilityWorker
+        zombieSteve
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2275">
+        zombieUtilityWorker
+        zombieSteveCrawlerFeral
+        zombieJoeFeral
+        zombieSkateboarder
+        zombieSkateboarderFeral
+        zombieSoldierRadiated
+        zombieMoeFeral
+        zombieJanitor
+        zombieLumberjackRadiated
+        zombieNurseRadiated
+        zombieTomClarkFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2295">
+        zombieWightFeral
+        zombieBikerRadiated
+        zombieMoe
+        zombieTomClarkFeral
+        zombieDarleneFeral
+        zombieSteveCrawlerFeral
+        zombieFatHawaiianFeral
+        zombieSkateboarder
+        zombieUtilityWorkerFeral
+        zombieSoldier
+        zombieSkateboarderFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2315">
+        zombieBoe
+        zombieMarlene
+        zombieLumberjackFeral
+        zombieMoe
+        zombieSoldierFeral
+        zombieSteveCrawler, .5
+        zombieBusinessMan
+        zombieMoeRadiated
+        zombieSoldierRadiated
+        zombieMarleneRadiated
+        zombieSpider, .6
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2334">
+        zombieFatHawaiianFeral
+        zombieSteveCrawlerFeral
+        zombieFemaleFatFeral
+        zombieFatHawaiian
+        zombieSteve
+        zombieMoeRadiated
+        zombieSoldierFeral
+        zombieWightRadiated
+        zombieDarleneFeral
+        zombieFemaleFatRadiated
+        zombieSteveFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2354">
+        zombieSoldierRadiated
+        zombieLumberjackRadiated
+        zombieMarleneRadiated
+        zombieWightFeral
+        zombieMaleHazmatRadiated
+        zombieSkateboarder
+        zombieSteveCrawler, .5
+        zombieMaleHazmat
+        zombieMaleHazmat
+        zombieFemaleFatFeral
+        zombieFatHawaiianFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2374">
+        zombieFemaleFatRadiated
+        zombieSkateboarderRadiated
+        zombieMarlene
+        zombieTomClarkRadiated
+        zombieArlene
+        zombieUtilityWorker
+        zombieSkateboarderFeral
+        zombieNurseRadiated
+        zombieYoRadiated
+        zombieJoeRadiated
+        zombieBikerFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2394">
+        zombieJanitor
+        zombieYoFeral
+        zombieFemaleFatFeral
+        zombieBiker
+        zombieDarleneRadiated
+        zombieFatCopFeral
+        zombieArleneRadiated
+        zombieArlene
+        zombieMaleHazmat
+        zombieSoldierFeral
+        zombieWightRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2414">
+        zombieLumberjack
+        zombieMaleHazmatRadiated
+        zombieArleneRadiated
+        zombieFemaleFatRadiated
+        zombieMoeFeral
+        zombieArlene
+        zombieMaleHazmat
+        zombieWightRadiated
+        zombieFatHawaiianRadiated
+        zombieDarlene
+        zombieYo
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2435">
+        zombieFatCopFeral
+        zombieJanitor
+        zombieMoe
+        zombieMaleHazmat
+        zombieBoe
+        zombieYoFeral
+        zombieSteveCrawlerFeral
+        zombieMarleneRadiated
+        zombieFatHawaiian
+        zombieJanitorFeral
+        zombieSpiderRadiated, .6
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2455">
+        zombieMaleHazmatRadiated
+        zombieBiker
+        zombieWightRadiated
+        zombieDarleneRadiated
+        zombieFatHawaiian
+        zombieJanitorRadiated
+        zombieSkateboarderFeral
+        zombieFemaleFat
+        zombieSpider, .6
+        zombieYo
+        zombieBoeRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2475">
+        zombieDarlene
+        zombieFatHawaiianFeral
+        zombieSpiderRadiated, .6
+        zombieMoe
+        zombieBikerRadiated
+        zombieDarleneFeral
+        zombieMaleHazmatRadiated
+        zombieJanitorFeral
+        zombieFatHawaiian
+        zombieUtilityWorkerFeral
+        zombieSpider, .6
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2495">
+        zombieLumberjackRadiated
+        zombieUtilityWorker
+        zombieSoldier
+        zombieDarlene
+        zombieBiker
+        zombieArlene
+        zombieMarleneRadiated
+        zombieSpiderFeral, .6
+        zombieFatCop
+        zombieTomClarkFeral
+        zombieMoeFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2516">
+        zombieYoRadiated
+        zombieMarleneFeral
+        zombieJoeRadiated
+        zombieDarleneRadiated
+        zombieDarlene
+        zombiePartyGirlFeral
+        zombieYoFeral
+        zombieBiker
+        zombieSoldierRadiated
+        zombieSkateboarder
+        zombieFatCopFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2536">
+        zombieDarleneFeral
+        zombieSoldier
+        zombieFatCop
+        zombieWightFeral
+        zombieSoldierFeral
+        zombieBoe
+        zombieJoeRadiated
+        zombieBikerFeral
+        zombieJanitor
+        zombieFatHawaiianRadiated
+        zombieJoe
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2557">
+        zombieFatCopFeral
+        zombieArleneFeral
+        zombieTomClarkFeral
+        zombieMaleHazmat
+        zombieYoFeral
+        zombieFatHawaiianFeral
+        zombieBoeFeral
+        zombieSkateboarderFeral
+        zombieSteveCrawler, .5
+        zombieJoeFeral
+        zombieUtilityWorker
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2577">
+        zombiePartyGirl
+        zombieNurseFeral
+        zombieMaleHazmat
+        zombieYoRadiated
+        zombieWightRadiated
+        zombieSoldierFeral
+        zombieSteve
+        zombieFemaleFatRadiated
+        zombieArlene
+        zombieSoldier
+        zombieSpiderRadiated, .6
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2598">
+        zombieJanitor
+        zombieFemaleFat
+        zombieBusinessMan
+        zombieArlene
+        zombieSkateboarderRadiated
+        zombieUtilityWorker
+        zombieSteveCrawler, .5
+        zombieFatCopRadiated
+        zombieArleneRadiated
+        zombieJanitorFeral
+        zombieSoldierRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2618">
+        zombieJoeRadiated
+        zombieLumberjack
+        zombieNurseRadiated
+        zombieJanitor
+        zombieDarlene
+        zombieFatHawaiianRadiated
+        zombieSteveCrawlerFeral
+        zombieSteveFeral
+        zombiePartyGirl
+        zombieTomClark
+        zombieFatCopFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2639">
+        zombieJanitorFeral
+        zombieLumberjackFeral
+        zombieYoRadiated
+        zombieLumberjackRadiated
+        zombieMoeFeral
+        zombieArleneRadiated
+        zombieNurse
+        zombieFatCopRadiated
+        zombieBiker
+        zombieDarlene
+        zombieBikerFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2660">
+        zombieMoeRadiated
+        zombieSpider, .6
+        zombieFatCopRadiated
+        zombieFatCopFeral
+        zombieMaleHazmatRadiated
+        zombieSkateboarderFeral
+        zombieMoe
+        zombieJoeRadiated
+        zombieSteveCrawlerFeral
+        zombieJoeFeral
+        zombieSkateboarder
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2681">
+        zombieTomClarkRadiated
+        zombieFatCopFeral
+        zombieArlene
+        zombieArleneFeral
+        zombieJanitor
+        zombieBikerFeral
+        zombieSpider, .6
+        zombieDarleneRadiated
+        zombieSkateboarderFeral
+        zombieJoeFeral
+        zombieMaleHazmat
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2702">
+        zombieTomClark
+        zombieSoldier
+        zombieSpider, .6
+        zombieMoeFeral
+        zombieFatHawaiian
+        zombieFemaleFatFeral
+        zombieBoe
+        zombieSteveRadiated
+        zombieLumberjackRadiated
+        zombieJoeFeral
+        zombieDarlene
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2723">
+        zombieFemaleFatRadiated
+        zombieSteve
+        zombieArlene
+        zombieJoe
+        zombieJanitorRadiated
+        zombieDarleneRadiated
+        zombieSpiderRadiated, .6
+        zombieJoeRadiated
+        zombieBikerRadiated
+        zombieSteveFeral
+        zombieBoe
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2744">
+        zombieTomClarkRadiated
+        zombieFatCop
+        zombieTomClark
+        zombieMaleHazmat
+        zombieJanitor
+        zombieMarleneRadiated
+        zombieArlene
+        zombiePartyGirlFeral
+        zombieJoe
+        zombieSteve
+        zombieLumberjackFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2765">
+        zombieDarleneRadiated
+        zombieYoFeral
+        zombieBiker
+        zombieJanitor
+        zombieBoeRadiated
+        zombieMarleneFeral
+        zombieFatHawaiian
+        zombieSoldierRadiated
+        zombieMaleHazmatRadiated
+        zombieNurseRadiated
+        zombieJoeRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2786">
+        zombieMaleHazmatRadiated
+        zombieUtilityWorkerFeral
+        zombieJanitorRadiated
+        zombieYoFeral
+        zombieJoeFeral
+        zombieFatHawaiianRadiated
+        zombieSpiderFeral, .6
+        zombieBoeRadiated
+        zombieBikerFeral
+        zombieMaleHazmat
+        zombieFemaleFatRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2807">
+        zombieBikerRadiated
+        zombieJanitorFeral
+        zombieArleneFeral
+        zombieMaleHazmat
+        zombieFemaleFat
+        zombieYo
+        zombieYoRadiated
+        zombieDarleneFeral
+        zombieMoeFeral
+        zombieNurse
+        zombieSoldierFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2828">
+        zombieFatHawaiian
+        zombieBikerRadiated
+        zombieSkateboarderFeral
+        zombieDarleneRadiated
+        zombieYo
+        zombieMarlene
+        zombieFemaleFatRadiated
+        zombieArlene
+        zombieArleneRadiated
+        zombieMoe
+        zombieSpiderRadiated, .6
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2849">
+        zombieJanitorRadiated
+        zombieBusinessMan
+        zombieJanitor
+        zombieMoe
+        zombieTomClark
+        zombieTomClarkFeral
+        zombieMaleHazmat
+        zombieJoeFeral
+        zombieFatCop
+        zombieDarleneFeral
+        zombieUtilityWorkerFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2870">
+        zombieFemaleFat
+        zombieSteveCrawlerFeral
+        zombieJoe
+        zombieJanitorRadiated
+        zombieJoeRadiated
+        zombieSpider, .6
+        zombieLumberjack
+        zombieTomClarkRadiated
+        zombieMarleneRadiated
+        zombieUtilityWorkerFeral
+        zombieBoe
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2892">
+        zombieFemaleFatRadiated
+        zombieFatHawaiian
+        zombieYoFeral
+        zombieArleneRadiated
+        zombieBiker
+        zombieMaleHazmat
+        zombieSteve
+        zombieSkateboarderRadiated
+        zombieDarleneRadiated
+        zombieMoeRadiated
+        zombieSoldierRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2913">
+        zombieSpiderRadiated, .6
+        zombieTomClarkRadiated
+        zombieSoldierFeral
+        zombieWightFeral
+        zombieLumberjackFeral
+        zombieBusinessMan
+        zombieMarleneFeral
+        zombieMoe
+        zombieJoeRadiated
+        zombieArlene
+        zombieFemaleFat
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2935">
+        zombieBusinessManFeral
+        zombieLumberjackRadiated
+        zombieBoeRadiated
+        zombieMaleHazmatRadiated
+        zombieWightRadiated
+        zombieFatHawaiian
+        zombieSoldierRadiated
+        zombieSteve
+        zombieJanitorRadiated
+        zombieLumberjackFeral
+        zombieFemaleFatRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2956">
+        zombieSoldierRadiated
+        zombieYo
+        zombieSteveCrawler, .5
+        zombieBiker
+        zombieTomClark
+        zombieFatHawaiian
+        zombieDarleneRadiated
+        zombieJanitorFeral
+        zombieMarleneFeral
+        zombieSkateboarderFeral
+        zombieLumberjack
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2978">
+        zombieBusinessManFeral
+        zombieUtilityWorker
+        zombieSoldierRadiated
+        zombieMaleHazmatRadiated
+        zombieJanitorFeral
+        zombieLumberjackRadiated
+        zombieYoRadiated
+        zombieNurseFeral
+        zombieFemaleFat
+        zombieFemaleFatFeral
+        zombieMoeRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS2999">
+        zombieSteveFeral
+        zombieSkateboarderRadiated
+        zombieBiker
+        zombieWightFeral
+        zombieBikerRadiated
+        zombieFatHawaiian
+        zombieLumberjackFeral
+        zombieMaleHazmat
+        zombieSkateboarderFeral
+        zombieJanitor
+        zombieLumberjackRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3021">
+        zombieArleneRadiated
+        zombieSkateboarderRadiated
+        zombieArlene
+        zombieYo
+        zombieTomClarkRadiated
+        zombieSteve
+        zombieDarlene
+        zombieFemaleFat
+        zombieMaleHazmat
+        zombieSteveCrawler, .5
+        zombieSoldierFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3043">
+        zombieDarleneRadiated
+        zombieMoeFeral
+        zombieNurseFeral
+        zombieArleneRadiated
+        zombieSkateboarder
+        zombieSteveCrawler, .5
+        zombieLumberjackRadiated
+        zombieLumberjackFeral
+        zombieBikerRadiated
+        zombieYoRadiated
+        zombieBoeFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3064">
+        zombieLumberjackRadiated
+        zombieSpider, .6
+        zombieJoeFeral
+        zombieNurseRadiated
+        zombieBusinessMan
+        zombieSteveCrawler, .5
+        zombieLumberjackFeral
+        zombieTomClark
+        zombieFatCop
+        zombieMoe
+        zombieBoeRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3086">
+        zombieSkateboarder
+        zombieTomClarkRadiated
+        zombieFatHawaiian
+        zombieSteveRadiated
+        zombieFatCop
+        zombieArleneFeral
+        zombieMoeRadiated
+        zombieBoe
+        zombieFatHawaiianFeral
+        zombieSpider, .6
+        zombieJanitorFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3108">
+        zombieMarleneRadiated
+        zombieArleneRadiated
+        zombieSpider, .6
+        zombieSoldier
+        zombieSteveCrawlerFeral
+        zombieJoe
+        zombieFatHawaiianFeral
+        zombieBusinessMan
+        zombieFatHawaiianRadiated
+        zombieSpiderRadiated, .6
+        zombieSoldierRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3130">
+        zombieSpiderFeral, .6
+        zombieSteveCrawler, .5
+        zombieFemaleFat
+        zombieTomClarkFeral
+        zombieSteveCrawlerFeral
+        zombieBusinessMan
+        zombieJanitorFeral
+        zombieNurseRadiated
+        zombieDarleneFeral
+        zombieFatCopFeral
+        zombieYo
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3152">
+        zombieNurseRadiated
+        zombieWightFeral
+        zombieBusinessManFeral
+        zombieNurse
+        zombieMaleHazmatRadiated
+        zombieYo
+        zombieFatHawaiianRadiated
+        zombieFatHawaiianFeral
+        zombieTomClarkRadiated
+        zombieArleneRadiated
+        zombieArleneFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3174">
+        zombieMoeFeral
+        zombieBikerRadiated
+        zombieSkateboarderRadiated
+        zombieTomClark
+        zombieSpider, .6
+        zombieSoldierRadiated
+        zombieMaleHazmat
+        zombieFemaleFatRadiated
+        zombieJoeFeral
+        zombieFemaleFatFeral
+        zombieArlene
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3196">
+        zombieTomClarkRadiated
+        zombieBikerRadiated
+        zombieArlene
+        zombieFatHawaiian
+        zombieMoe
+        zombieYo
+        zombieBiker
+        zombieJoeFeral
+        zombieBusinessMan
+        zombieLumberjack
+        zombieUtilityWorker
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3218">
+        zombieTomClarkFeral
+        zombieFemaleFat
+        zombieFatCopRadiated
+        zombieDarlene
+        zombieUtilityWorkerFeral
+        zombieBikerFeral
+        zombieJanitor
+        zombieFatHawaiianRadiated
+        zombieTomClarkRadiated
+        zombieFemaleFatRadiated
+        zombieUtilityWorker
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3240">
+        zombieMaleHazmatRadiated
+        zombieJoeRadiated
+        zombieLumberjack
+        zombieJoeFeral
+        zombieTomClarkFeral
+        zombieFatCopRadiated
+        zombieSteveCrawler, .5
+        zombieUtilityWorkerFeral
+        zombieTomClarkRadiated
+        zombieFatHawaiianRadiated
+        zombieJoe
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3263">
+        zombieJanitor
+        zombieArleneRadiated
+        zombieUtilityWorkerFeral
+        zombieFatHawaiianRadiated
+        zombieMarleneRadiated
+        zombieSteve
+        zombieSteveCrawler, .5
+        zombieWightFeral
+        zombieMoeRadiated
+        zombieYoFeral
+        zombieSoldier
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3285">
+        zombieBoeRadiated
+        zombiePartyGirl
+        zombieSteveCrawler, .5
+        zombieArleneRadiated
+        zombieLumberjackRadiated
+        zombieBikerFeral
+        zombieSkateboarderFeral
+        zombieSpider, .6
+        zombieFatHawaiianRadiated
+        zombieUtilityWorker
+        zombieFatCopFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3307">
+        zombiePartyGirlFeral
+        zombieSkateboarderFeral
+        zombieYo
+        zombieJoeFeral
+        zombieFemaleFatRadiated
+        zombieBusinessManFeral
+        zombieDarleneRadiated
+        zombieSoldierFeral
+        zombieSpiderRadiated, .6
+        zombieMaleHazmat
+        zombieArlene
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3330">
+        zombieJoeRadiated
+        zombieYoRadiated
+        zombieLumberjackFeral
+        zombieJoeFeral
+        zombieWightRadiated
+        zombieSteveRadiated
+        zombieNurseFeral
+        zombieWightFeral
+        zombieMaleHazmat
+        zombieLumberjack
+        zombieYo
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3352">
+        zombieArleneRadiated
+        zombieSteveFeral
+        zombieJoeRadiated
+        zombieSteve
+        zombieFatCopFeral
+        zombieWightRadiated
+        zombieSteveRadiated
+        zombieNurse
+        zombieJanitor
+        zombieTomClark
+        zombieDarleneRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3375">
+        zombieNurseFeral
+        zombieUtilityWorkerFeral
+        zombieNurseRadiated
+        zombieWightRadiated
+        zombieSpiderFeral, .6
+        zombieLumberjackRadiated
+        zombiePartyGirlFeral
+        zombiePartyGirl
+        zombieLumberjackFeral
+        zombieTomClarkRadiated
+        zombieYoRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3397">
+        zombieBoeFeral
+        zombieFemaleFatRadiated
+        zombieJoe
+        zombieMoeFeral
+        zombieBikerRadiated
+        zombieSpiderRadiated, .6
+        zombieSteveCrawler, .5
+        zombieSkateboarderRadiated
+        zombieMaleHazmat
+        zombieFatCop
+        zombieDarleneFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3420">
+        zombieBikerFeral
+        zombieLumberjackFeral
+        zombieSteveRadiated
+        zombieSkateboarderRadiated
+        zombieMoe
+        zombieWightRadiated
+        zombieBoeFeral
+        zombieMaleHazmat
+        zombieMoeRadiated
+        zombieNurseRadiated
+        zombiePartyGirlFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3442">
+        zombieSpiderRadiated, .6
+        zombieJanitorFeral
+        zombieSkateboarderFeral
+        zombieBikerRadiated
+        zombieJoeRadiated
+        zombieMoeFeral
+        zombieMaleHazmatRadiated
+        zombieDarlene
+        zombieArlene
+        zombieJanitor
+        zombieFatHawaiianFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3465">
+        zombieFatCopRadiated
+        zombieJoeRadiated
+        zombieSteveRadiated
+        zombieJanitorFeral
+        zombiePartyGirlFeral
+        zombieUtilityWorkerFeral
+        zombieBiker
+        zombieUtilityWorker
+        zombieFatHawaiianFeral
+        zombieYoFeral
+        zombieSoldierRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3488">
+        zombieJanitorRadiated
+        zombieDarlene
+        zombieFemaleFatRadiated
+        zombieWightRadiated
+        zombieJanitor
+        zombieBoeRadiated
+        zombieLumberjackRadiated
+        zombieSkateboarderRadiated
+        zombieMoeRadiated
+        zombieLumberjack
+        zombieTomClarkFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3510">
+        zombieArleneFeral
+        zombieFemaleFatFeral
+        zombieMaleHazmat
+        zombieUtilityWorker
+        zombieMoe
+        zombieMoeRadiated
+        zombieBikerRadiated
+        zombieTomClarkRadiated
+        zombieWightFeral
+        zombieSteveRadiated
+        zombieNurseRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3533">
+        zombieMarlene
+        zombieJoeFeral
+        zombieSkateboarderFeral
+        zombieBoeFeral
+        zombieNurseFeral
+        zombieYoFeral
+        zombieBikerFeral
+        zombieFatHawaiianRadiated
+        zombieFatCop
+        zombieJoeRadiated
+        zombieFemaleFat
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3556">
+        zombieBusinessManFeral
+        zombieTomClark
+        zombieFatCopRadiated
+        zombieDarlene
+        zombieBoeFeral
+        zombieNurse
+        zombieLumberjack
+        zombieUtilityWorker
+        zombieJoeRadiated
+        zombieMarleneFeral
+        zombieSteveCrawlerFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3579">
+        zombieSpiderRadiated, .6
+        zombieSpiderFeral, .6
+        zombieLumberjackFeral
+        zombieMoe
+        zombieJanitorFeral
+        zombieBikerRadiated
+        zombieMaleHazmatRadiated
+        zombieWightFeral
+        zombieFatCopFeral
+        zombieArleneRadiated
+        zombieDarlene
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3602">
+        zombieJanitorRadiated
+        zombieJoeRadiated
+        zombieFatCopRadiated
+        zombiePartyGirlFeral
+        zombieSkateboarderRadiated
+        zombieDarlene
+        zombieMarleneRadiated
+        zombieFatHawaiian
+        zombieSoldierRadiated
+        zombieBiker
+        zombiePartyGirl
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3625">
+        zombieSkateboarderRadiated
+        zombiePartyGirlFeral
+        zombieNurseFeral
+        zombieSpiderFeral, .6
+        zombieMoeRadiated
+        zombieFatHawaiianFeral
+        zombieFatCop
+        zombieJanitorRadiated
+        zombieTomClarkFeral
+        zombieSoldier
+        zombieMaleHazmat
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3648">
+        zombieUtilityWorker
+        zombieLumberjackRadiated
+        zombieMarleneRadiated
+        zombieSteve
+        zombieTomClark
+        zombieFemaleFat
+        zombieBoeRadiated
+        zombieSkateboarder
+        zombieJoe
+        zombieMaleHazmatRadiated
+        zombieFatHawaiian
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3671">
+        zombieSteveFeral
+        zombiePartyGirlFeral
+        zombieArlene
+        zombieSpider, .6
+        zombieFemaleFatRadiated
+        zombieDarleneRadiated
+        zombieSteveRadiated
+        zombieSteve
+        zombieSoldierFeral
+        zombieMaleHazmat
+        zombieFemaleFat
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3694">
+        zombieFemaleFat
+        zombieDarleneFeral
+        zombieFatCop
+        zombieJanitorFeral
+        zombieSteveRadiated
+        zombieMarlene
+        zombieMoeRadiated
+        zombieSoldierFeral
+        zombieSpiderFeral, .6
+        zombieMaleHazmatRadiated
+        zombieSoldier
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3718">
+        zombieSpider, .6
+        zombieArleneRadiated
+        zombieDarleneRadiated
+        zombieSkateboarder
+        zombieFemaleFat
+        zombieArleneFeral
+        zombieFatCopFeral
+        zombieBiker
+        zombieNurseRadiated
+        zombieBikerFeral
+        zombieFatHawaiianFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3741">
+        zombieSteveCrawlerFeral
+        zombieJoe
+        zombieJanitorRadiated
+        zombieUtilityWorkerFeral
+        zombieYoFeral
+        zombieNurse
+        zombieTomClark
+        zombieMaleHazmatRadiated
+        zombieWightFeral
+        zombieMoeFeral
+        zombieWightRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3764">
+        zombieYo
+        zombieDarleneFeral
+        zombieArleneRadiated
+        zombieMarleneFeral
+        zombieSkateboarder
+        zombieFemaleFatFeral
+        zombieFatHawaiianFeral
+        zombieWightRadiated
+        zombieUtilityWorkerFeral
+        zombieSkateboarderFeral
+        zombieSoldierFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3787">
+        zombieFatCopFeral
+        zombieUtilityWorkerFeral
+        zombieSoldierFeral
+        zombieNurse
+        zombieNurseFeral
+        zombieNurseRadiated
+        zombieFatHawaiianFeral
+        zombieMarlene
+        zombiePartyGirl
+        zombieSoldierRadiated
+        zombieMarleneRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3811">
+        zombieMaleHazmat
+        zombieMarlene
+        zombieWightRadiated
+        zombieSkateboarder
+        zombieArlene
+        zombieWightFeral
+        zombiePartyGirlFeral
+        zombieFemaleFatFeral
+        zombieSkateboarderFeral
+        zombieBikerRadiated
+        zombieUtilityWorkerFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3834">
+        zombieFatCopRadiated
+        zombieBoeFeral
+        zombieMaleHazmatRadiated
+        zombieBiker
+        zombieSoldier
+        zombieTomClark
+        zombieSpiderFeral, .6
+        zombiePartyGirlFeral
+        zombieDarleneRadiated
+        zombieArleneRadiated
+        zombieFatHawaiianFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3858">
+        zombieBoeFeral
+        zombieSoldier
+        zombieLumberjack
+        zombieSteveCrawler, .5
+        zombieSoldierFeral
+        zombieFemaleFatRadiated
+        zombieJoe
+        zombieBusinessManFeral
+        zombieFatCopRadiated
+        zombieLumberjackRadiated
+        zombieMarleneRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3881">
+        zombieMoeFeral
+        zombieDarleneRadiated
+        zombieMoeRadiated
+        zombieJoeRadiated
+        zombieSteveCrawlerFeral
+        zombieSkateboarderRadiated
+        zombieSpider, .6
+        zombieSpiderFeral, .6
+        zombieUtilityWorkerFeral
+        zombieFemaleFatFeral
+        zombieNurse
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3905">
+        zombieSoldierRadiated
+        zombiePartyGirlFeral
+        zombieNurseFeral
+        zombieFatHawaiianFeral
+        zombieJoeFeral
+        zombieSteveCrawlerFeral
+        zombieBikerRadiated
+        zombieBusinessMan
+        zombieFemaleFatFeral
+        zombieArleneFeral
+        zombieArlene
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3929">
+        zombieSpider, .6
+        zombieJanitorFeral
+        zombieJoe
+        zombieBikerFeral
+        zombieMaleHazmatRadiated
+        zombieSpiderRadiated, .6
+        zombieFatHawaiianFeral
+        zombieMaleHazmat
+        zombieMarleneRadiated
+        zombieArleneFeral
+        zombieNurse
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3952">
+        zombieNurse
+        zombieJoe
+        zombieYoRadiated
+        zombieFemaleFat
+        zombieBikerRadiated
+        zombieFatHawaiianRadiated
+        zombiePartyGirl
+        zombieUtilityWorker
+        zombieYoFeral
+        zombieFemaleFatRadiated
+        zombieDarleneRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS3976">
+        zombieFatCopFeral
+        zombieFatHawaiianRadiated
+        zombieSteveCrawler, .5
+        zombieSpiderFeral, .6
+        zombieBikerFeral
+        zombieSteveFeral
+        zombieWightFeral
+        zombieSkateboarder
+        zombieSkateboarderFeral
+        zombieJanitorRadiated
+        zombieTomClarkRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4000">
+        zombieSteveRadiated
+        zombieNurseRadiated
+        zombieFatCopRadiated
+        zombieSteve
+        zombieFatCopFeral
+        zombieJoeRadiated
+        zombieJanitor
+        zombieBoe
+        zombieJanitorRadiated
+        zombieSkateboarderRadiated
+        zombieSpider, .6
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4024">
+        zombieBoeFeral
+        zombieTomClarkRadiated
+        zombieSpider, .6
+        zombieFatHawaiianFeral
+        zombieJanitorFeral
+        zombieMarleneFeral
+        zombieSkateboarder
+        zombieFemaleFatFeral
+        zombieBiker
+        zombieJanitor
+        zombieJanitorRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4048">
+        zombieBusinessManFeral
+        zombieMaleHazmat
+        zombieNurse
+        zombieTomClark
+        zombiePartyGirlFeral
+        zombieSkateboarderRadiated
+        zombiePartyGirl
+        zombieBikerFeral
+        zombieSoldierRadiated
+        zombieSkateboarderFeral
+        zombieFemaleFatFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4072">
+        zombieMaleHazmat
+        zombieNurseRadiated
+        zombieBikerRadiated
+        zombieYoRadiated
+        zombieTomClarkFeral
+        zombieYo
+        zombieFatHawaiianFeral
+        zombieTomClark
+        zombieSpiderRadiated, .6
+        zombieDarleneRadiated
+        zombieUtilityWorker
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4096">
+        zombieSoldier
+        zombieUtilityWorker
+        zombieSteve
+        zombieDarleneFeral
+        zombieWightFeral
+        zombieSoldierRadiated
+        zombieSteveFeral
+        zombieMarleneRadiated
+        zombieMarleneFeral
+        zombieJoeRadiated
+        zombieDarlene
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4120">
+        zombieFatCop
+        zombieJanitor
+        zombieArleneRadiated
+        zombieTomClarkFeral
+        zombieMoeFeral
+        zombieArlene
+        zombiePartyGirl
+        zombieFatHawaiianFeral
+        zombieMarleneRadiated
+        zombieBusinessMan
+        zombieSteveCrawlerFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4144">
+        zombieTomClark
+        zombieBikerFeral
+        zombiePartyGirlFeral
+        zombieSpiderFeral, .6
+        zombieFatHawaiianFeral
+        zombieNurseFeral
+        zombieJanitorFeral
+        zombieMaleHazmatRadiated
+        zombieSteveFeral
+        zombieArlene
+        zombieSkateboarder
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4168">
+        zombieSteveCrawler, .5
+        zombieJanitorRadiated
+        zombieSoldierFeral
+        zombieDarlene
+        zombieJoeRadiated
+        zombieUtilityWorker
+        zombieUtilityWorkerFeral
+        zombieJanitor
+        zombieFemaleFatRadiated
+        zombieNurseRadiated
+        zombieYoFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4192">
+        zombieSpider, .6
+        zombieDarleneFeral
+        zombieNurse
+        zombieMoeFeral
+        zombieYo
+        zombieArlene
+        zombieUtilityWorkerFeral
+        zombieFatHawaiian
+        zombieArleneRadiated
+        zombieMarleneRadiated
+        zombieSoldierFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4216">
+        zombieMaleHazmatRadiated
+        zombieMaleHazmat
+        zombieSoldier
+        zombieMoeFeral
+        zombieDarleneFeral
+        zombieFemaleFatFeral
+        zombieLumberjackFeral
+        zombieSteveCrawlerFeral
+        zombieJanitorRadiated
+        zombieUtilityWorker
+        zombieBikerRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4240">
+        zombieSpider, .6
+        zombieSoldierFeral
+        zombieMoeFeral
+        zombieFatHawaiian
+        zombieJanitorFeral
+        zombiePartyGirl
+        zombieSkateboarderRadiated
+        zombieBikerFeral
+        zombieSteveCrawlerFeral
+        zombieFemaleFat
+        zombieSteve
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4265">
+        zombieBoeRadiated
+        zombieSkateboarderRadiated
+        zombieMarleneFeral
+        zombieBusinessManFeral
+        zombieBikerRadiated
+        zombieSkateboarderFeral
+        zombieJoe
+        zombieDarleneRadiated
+        zombieSteveCrawler, .5
+        zombieSteveCrawlerFeral
+        zombieDarleneFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4289">
+        zombieBusinessManFeral
+        zombieArleneRadiated
+        zombieJanitorRadiated
+        zombieMaleHazmat
+        zombieLumberjackFeral
+        zombieBiker
+        zombieBoeRadiated
+        zombieJanitor
+        zombieDarleneRadiated
+        zombieNurseRadiated
+        zombieLumberjackRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4313">
+        zombieSkateboarder
+        zombieBusinessMan
+        zombieArlene
+        zombieFemaleFatFeral
+        zombieSoldierFeral
+        zombieMarleneRadiated
+        zombieNurse
+        zombieBoe
+        zombieDarlene
+        zombieLumberjackFeral
+        zombieSteveFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4338">
+        zombieFatHawaiianRadiated
+        zombieMaleHazmat
+        zombieSoldierFeral
+        zombieLumberjackRadiated
+        zombiePartyGirl
+        zombieJoe
+        zombieSteveFeral
+        zombieSpiderRadiated, .6
+        zombieSpiderFeral, .6
+        zombieTomClark
+        zombieSkateboarder
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4362">
+        zombiePartyGirlFeral
+        zombieMarleneRadiated
+        zombieSteveCrawler, .5
+        zombieSpider, .6
+        zombieSkateboarder
+        zombieDarleneFeral
+        zombieJoeRadiated
+        zombieFatCop
+        zombieBiker
+        zombieSkateboarderFeral
+        zombieSoldierFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4387">
+        zombieSteveCrawlerFeral
+        zombieBoeRadiated
+        zombieBikerFeral
+        zombieArlene
+        zombieFemaleFatRadiated
+        zombieYoFeral
+        zombieSkateboarderFeral
+        zombieFemaleFatFeral
+        zombieSteveRadiated
+        zombieDarleneFeral
+        zombieWightFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4411">
+        zombieBoeFeral
+        zombieFatHawaiianFeral
+        zombieBusinessMan
+        zombieSpiderFeral, .6
+        zombieMaleHazmat
+        zombieMarleneFeral
+        zombieFatHawaiianRadiated
+        zombieArleneFeral
+        zombieFemaleFatRadiated
+        zombieBikerRadiated
+        zombieJanitorRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4436">
+        zombieJoeFeral
+        zombiePartyGirlFeral
+        zombieTomClarkRadiated
+        zombieMoe
+        zombieBiker
+        zombieWightRadiated
+        zombieBikerFeral
+        zombieBusinessMan
+        zombieFemaleFat
+        zombieSoldier
+        zombieMaleHazmat
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4461">
+        zombieMarleneFeral
+        zombieBoeRadiated
+        zombieNurseFeral
+        zombieLumberjack
+        zombieSteveFeral
+        zombieFemaleFatRadiated
+        zombieJanitor
+        zombieSteveCrawler, .5
+        zombieBoe
+        zombieBikerFeral
+        zombieWightRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4485">
+        zombieTomClark
+        zombieMoeRadiated
+        zombieNurse
+        zombieBoe
+        zombieSoldierRadiated
+        zombieMaleHazmat
+        zombiePartyGirl
+        zombieUtilityWorkerFeral
+        zombieBusinessManFeral
+        zombieArlene
+        zombieMarleneFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4510">
+        zombieFatCopRadiated
+        zombieSkateboarderRadiated
+        zombieJoeRadiated
+        zombieUtilityWorkerFeral
+        zombieBoeFeral
+        zombieFatCopFeral
+        zombieArlene
+        zombieFatHawaiian
+        zombieYo
+        zombieJanitor
+        zombieFemaleFatRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4535">
+        zombieWightFeral
+        zombieMoeRadiated
+        zombieJoeRadiated
+        zombieMaleHazmatRadiated
+        zombieSpiderFeral, .6
+        zombieLumberjack
+        zombieFemaleFatFeral
+        zombieTomClarkFeral
+        zombieSteveCrawler, .5
+        zombieJoeFeral
+        zombieSoldier
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4560">
+        zombieMoeFeral
+        zombieNurseRadiated
+        zombieTomClark
+        zombieYo
+        zombieMarleneFeral
+        zombieLumberjack
+        zombieWightFeral
+        zombieFemaleFatFeral
+        zombieMoeRadiated
+        zombieFemaleFatRadiated
+        zombieFatHawaiianRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4585">
+        zombieJoeRadiated
+        zombieLumberjackFeral
+        zombieFatCopFeral
+        zombieYoRadiated
+        zombieSteveRadiated
+        zombieNurse
+        zombieFemaleFat
+        zombieFemaleFatFeral
+        zombieUtilityWorkerFeral
+        zombieBikerRadiated
+        zombieArleneFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4610">
+        zombieUtilityWorkerFeral
+        zombieFatHawaiianRadiated
+        zombieSoldierFeral
+        zombieMaleHazmat
+        zombieSteveCrawlerFeral
+        zombieNurseRadiated
+        zombieSpider, .6
+        zombieDarleneRadiated
+        zombieSteveRadiated
+        zombieFatHawaiianFeral
+        zombieArleneFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4635">
+        zombieFatHawaiianRadiated
+        zombieFatHawaiian
+        zombieWightFeral
+        zombieMoeFeral
+        zombieBiker
+        zombieSoldier
+        zombieMoe
+        zombieMaleHazmat
+        zombieJanitorFeral
+        zombieSoldierFeral
+        zombieSteveCrawlerFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4660">
+        zombieTomClark
+        zombieSoldierFeral
+        zombieFatCop
+        zombieBikerFeral
+        zombieBikerRadiated
+        zombieSpiderFeral, .6
+        zombieArlene
+        zombieTomClarkRadiated
+        zombieNurseFeral
+        zombieFemaleFatFeral
+        zombieMarlene
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4685">
+        zombieSoldierFeral
+        zombieSkateboarder
+        zombieNurse
+        zombieFemaleFatFeral
+        zombieSpiderFeral, .6
+        zombieBikerFeral
+        zombieTomClarkFeral
+        zombieUtilityWorkerFeral
+        zombiePartyGirl
+        zombieSkateboarderRadiated
+        zombieMaleHazmat
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4710">
+        zombieBoe
+        zombieMoe
+        zombieSkateboarderFeral
+        zombieFemaleFat
+        zombieFatHawaiian
+        zombieBikerRadiated
+        zombieSoldierFeral
+        zombieWightRadiated
+        zombieFatCopRadiated
+        zombieBusinessMan
+        zombieJanitorFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4735">
+        zombieBusinessMan
+        zombieArlene
+        zombieSoldier
+        zombieFatCop
+        zombieLumberjackFeral
+        zombieMoeFeral
+        zombieUtilityWorker
+        zombieSpider, .6
+        zombiePartyGirl
+        zombieBiker
+        zombieSteveRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4760">
+        zombieSpider, .6
+        zombieJanitorFeral
+        zombieDarleneFeral
+        zombieSoldierFeral
+        zombieFatHawaiian
+        zombieSpiderFeral, .6
+        zombieUtilityWorkerFeral
+        zombieBoeRadiated
+        zombieFemaleFat
+        zombieDarlene
+        zombieJoeFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4786">
+        zombieJoe
+        zombieSpider, .6
+        zombieTomClarkFeral
+        zombieLumberjackFeral
+        zombieFatHawaiianRadiated
+        zombieMarleneFeral
+        zombieJanitorRadiated
+        zombieSpiderFeral, .6
+        zombieFatCopRadiated
+        zombieSteveCrawlerFeral
+        zombieSkateboarderFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4811">
+        zombieFatHawaiian
+        zombieTomClark
+        zombieLumberjackFeral
+        zombieFemaleFat
+        zombieJoeRadiated
+        zombieUtilityWorker
+        zombieNurseRadiated
+        zombieBoeFeral
+        zombieMarlene
+        zombieMaleHazmat
+        zombieUtilityWorkerFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4836">
+        zombieJanitor
+        zombieYoFeral
+        zombieJoe
+        zombieFatCopFeral
+        zombieUtilityWorkerFeral
+        zombieFemaleFatFeral
+        zombieFemaleFatRadiated
+        zombieSkateboarderFeral
+        zombieMoeFeral
+        zombieTomClarkRadiated
+        zombieSteveCrawlerFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4862">
+        zombieSpiderRadiated, .6
+        zombieNurseRadiated
+        zombieLumberjack
+        zombieMarleneFeral
+        zombieLumberjackFeral
+        zombieSpiderFeral, .6
+        zombieYoRadiated
+        zombieArlene
+        zombieFatHawaiian
+        zombieFemaleFatRadiated
+        zombieArleneRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4887">
+        zombieJoeFeral
+        zombieSpiderFeral, .6
+        zombieSkateboarderRadiated
+        zombieSpiderRadiated, .6
+        zombieFatCopFeral
+        zombieArleneFeral
+        zombieSpider, .6
+        zombieMarleneRadiated
+        zombieLumberjackFeral
+        zombieMaleHazmat
+        zombieUtilityWorkerFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4913">
+        zombieFatCop
+        zombieFemaleFat
+        zombieNurseRadiated
+        zombieNurseFeral
+        zombieTomClarkRadiated
+        zombieBikerFeral
+        zombieFatHawaiianFeral
+        zombieJanitorRadiated
+        zombieSteveFeral
+        zombieMaleHazmat
+        zombieNurse
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4938">
+        zombieLumberjackFeral
+        zombieMoeFeral
+        zombieTomClark
+        zombieBikerFeral
+        zombieBusinessManFeral
+        zombieJanitorFeral
+        zombiePartyGirl
+        zombieSpiderRadiated, .6
+        zombieJoe
+        zombieNurseFeral
+        zombieJoeRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4964">
+        zombieNurseRadiated
+        zombieSpiderFeral, .6
+        zombieJoe
+        zombieFemaleFatRadiated
+        zombieBikerFeral
+        zombieMarleneRadiated
+        zombieSteve
+        zombieNurse
+        zombieMaleHazmat
+        zombieSteveCrawler, .5
+        zombieBusinessManFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS4989">
+        zombieFatCopRadiated
+        zombieTomClarkFeral
+        zombieNurseFeral
+        zombieFemaleFat
+        zombieSteveCrawler, .5
+        zombieMoeRadiated
+        zombieBikerRadiated
+        zombieFatHawaiian
+        zombieSteveFeral
+        zombieMarleneFeral
+        zombieJanitor
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5015">
+        zombieJoeFeral
+        zombieDarlene
+        zombieJoeRadiated
+        zombieSteve
+        zombieFatCopRadiated
+        zombieMarleneRadiated
+        zombieLumberjackFeral
+        zombieArleneRadiated
+        zombieMaleHazmatRadiated
+        zombieLumberjackRadiated
+        zombieSpiderFeral, .6
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5041">
+        zombieMaleHazmat
+        zombieYoFeral
+        zombiePartyGirl
+        zombieMarlene
+        zombieJoe
+        zombieSkateboarderFeral
+        zombieTomClarkRadiated
+        zombieLumberjackFeral
+        zombieNurseRadiated
+        zombieArleneRadiated
+        zombieFemaleFatRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5066">
+        zombieFatCop
+        zombieFatCopRadiated
+        zombieSpiderFeral, .6
+        zombieUtilityWorkerFeral
+        zombieNurseFeral
+        zombieSteveCrawlerFeral
+        zombieFemaleFatFeral
+        zombieYoRadiated
+        zombieFemaleFat
+        zombieTomClark
+        zombieMarleneFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5092">
+        zombieFatCop
+        zombieMarleneRadiated
+        zombieUtilityWorkerFeral
+        zombieJoe
+        zombieUtilityWorker
+        zombieBusinessManFeral
+        zombieFatHawaiianRadiated
+        zombieFatHawaiianFeral
+        zombieBoeRadiated
+        zombieTomClark
+        zombieSteveCrawlerFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5118">
+        zombieFatHawaiian
+        zombieLumberjack
+        zombieSoldier
+        zombieJanitor
+        zombieLumberjackFeral
+        zombieDarlene
+        zombieSpiderFeral, .6
+        zombieBiker
+        zombieJoeFeral
+        zombieMoeRadiated
+        zombieFatHawaiianFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5144">
+        zombieJanitor
+        zombieFatHawaiianFeral
+        zombieFatHawaiianRadiated
+        zombieFatCop
+        zombieTomClarkFeral
+        zombieBusinessManFeral
+        zombieBikerRadiated
+        zombieJanitorFeral
+        zombieNurseRadiated
+        zombieDarlene
+        zombieSoldierRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5170">
+        zombieYoFeral
+        zombieDarleneRadiated
+        zombieWightRadiated
+        zombieSpiderRadiated, .6
+        zombieSkateboarderFeral
+        zombieMarlene
+        zombieDarlene
+        zombieBiker
+        zombieWightFeral
+        zombieBusinessManFeral
+        zombieFatCopRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5196">
+        zombieJoeFeral
+        zombieTomClarkFeral
+        zombieFatCopFeral
+        zombieMoeRadiated
+        zombieFatCop
+        zombieMaleHazmat
+        zombieBoeRadiated
+        zombieArleneFeral
+        zombieTomClarkRadiated
+        zombieFatHawaiianRadiated
+        zombieLumberjackFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5222">
+        zombiePartyGirl
+        zombieFatHawaiian
+        zombieBoeFeral
+        zombieLumberjackRadiated
+        zombieMarleneFeral
+        zombieJoeFeral
+        zombieWightRadiated
+        zombieMoe
+        zombieFatCop
+        zombieArleneRadiated
+        zombieYoFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5248">
+        zombieYoRadiated
+        zombieSpiderFeral, .6
+        zombieMarleneRadiated
+        zombieSoldierFeral
+        zombieDarleneRadiated
+        zombieSoldier
+        zombieMoeFeral
+        zombieTomClarkFeral
+        zombieBikerFeral
+        zombieArleneFeral
+        zombieBoeRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5274">
+        zombieSkateboarder
+        zombieBusinessManFeral
+        zombieSoldierRadiated
+        zombieBikerRadiated
+        zombieSkateboarderFeral
+        zombieBoe
+        zombieLumberjackFeral
+        zombieMarleneFeral
+        zombieArlene
+        zombieSteveFeral
+        zombieMaleHazmat
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5300">
+        zombieNurse
+        zombieSpider, .6
+        zombieTomClarkRadiated
+        zombieMaleHazmatRadiated
+        zombieFatCopFeral
+        zombieJanitor
+        zombieArleneRadiated
+        zombieDarleneRadiated
+        zombieMaleHazmat
+        zombieMoeRadiated
+        zombieBiker
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5326">
+        zombieYoFeral
+        zombieMoeFeral
+        zombieMarleneFeral
+        zombieSoldierRadiated
+        zombieSkateboarder
+        zombieSkateboarderFeral
+        zombieArleneRadiated
+        zombieSteveCrawlerFeral
+        zombieFatHawaiianRadiated
+        zombieSteveFeral
+        zombieBiker
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5352">
+        zombieSkateboarderRadiated
+        zombieBusinessManFeral
+        zombieArlene
+        zombieUtilityWorkerFeral
+        zombieJanitor
+        zombieSteve
+        zombieSteveCrawlerFeral
+        zombieSoldierFeral
+        zombieSpiderRadiated, .6
+        zombieDarleneRadiated
+        zombieMaleHazmat
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5379">
+        zombieTomClark
+        zombieFatCopRadiated
+        zombieFemaleFatRadiated
+        zombieFatHawaiianFeral
+        zombieDarlene
+        zombieYoFeral
+        zombieMaleHazmatRadiated
+        zombieSoldierFeral
+        zombieMoeFeral
+        zombieJoeFeral
+        zombieJanitor
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5405">
+        zombieBoeRadiated
+        zombiePartyGirlFeral
+        zombieBiker
+        zombieBusinessMan
+        zombieSteveCrawler, .5
+        zombieUtilityWorkerFeral
+        zombieFemaleFat
+        zombieSkateboarderFeral
+        zombieSteveRadiated
+        zombieSpider, .6
+        zombieUtilityWorker
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5431">
+        zombieMaleHazmat
+        zombieFatHawaiianRadiated
+        zombieMaleHazmatRadiated
+        zombieArlene
+        zombieFemaleFatRadiated
+        zombieSpiderFeral, .6
+        zombieJanitorRadiated
+        zombieNurse
+        zombieJoeRadiated
+        zombieSkateboarder
+        zombiePartyGirl
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5458">
+        zombieJanitor
+        zombieSoldierRadiated
+        zombieLumberjackRadiated
+        zombieSteveCrawlerFeral
+        zombieSpider, .6
+        zombieBusinessMan
+        zombiePartyGirl
+        zombieMoeFeral
+        zombieSteve
+        zombieMoeRadiated
+        zombieWightRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5484">
+        zombieBoe
+        zombieJanitorFeral
+        zombieBoeRadiated
+        zombieNurseRadiated
+        zombieBusinessManFeral
+        zombieJanitorRadiated
+        zombieSkateboarder
+        zombieSoldierRadiated
+        zombieNurse
+        zombieLumberjack
+        zombieSoldierFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5511">
+        zombieSteve
+        zombieDarleneRadiated
+        zombieTomClarkFeral
+        zombieFatCopRadiated
+        zombieMaleHazmat
+        zombieFemaleFatFeral
+        zombieLumberjack
+        zombieYoFeral
+        zombieYo
+        zombieDarlene
+        zombieMoeFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5537">
+        zombieJanitorFeral
+        zombieSkateboarder
+        zombieMoe
+        zombieYoRadiated
+        zombieFatCop
+        zombieYoFeral
+        zombieFemaleFat
+        zombieSteveFeral
+        zombieFemaleFatFeral
+        zombieMarleneRadiated
+        zombieBiker
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5564">
+        zombieFatCopFeral
+        zombieSkateboarderRadiated
+        zombieLumberjackFeral
+        zombieSpider, .6
+        zombieBoeRadiated
+        zombieLumberjack
+        zombieMoeFeral
+        zombieBoe
+        zombieSteveRadiated
+        zombieUtilityWorker
+        zombieSoldierFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5590">
+        zombieJoeRadiated
+        zombieFatHawaiianRadiated
+        zombieMarleneFeral
+        zombieUtilityWorker
+        zombieSkateboarderRadiated
+        zombieBusinessMan
+        zombieDarleneFeral
+        zombieNurseRadiated
+        zombieJanitorRadiated
+        zombieSkateboarder
+        zombieMaleHazmatRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5617">
+        zombieFemaleFatFeral
+        zombieWightFeral
+        zombieLumberjack
+        zombieLumberjackRadiated
+        zombieYoRadiated
+        zombieSkateboarderRadiated
+        zombieDarleneFeral
+        zombieSpider, .6
+        zombieTomClarkRadiated
+        zombiePartyGirl
+        zombieWightRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5644">
+        zombieFemaleFat
+        zombieLumberjack
+        zombieMoe
+        zombieSteveRadiated
+        zombieJoeRadiated
+        zombieSkateboarderRadiated
+        zombieJanitor
+        zombieMaleHazmat
+        zombieYoFeral
+        zombieFatCopFeral
+        zombieSoldier
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5670">
+        zombieJoeRadiated
+        zombieSteveCrawler, .5
+        zombieDarleneFeral
+        zombieSteveCrawlerFeral
+        zombieNurseFeral
+        zombieFatCopRadiated
+        zombieSteveRadiated
+        zombieFemaleFatFeral
+        zombieJoe
+        zombieNurse
+        zombieBikerRadiated
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5697">
+        zombieBikerFeral
+        zombieMaleHazmatRadiated
+        zombieTomClarkFeral
+        zombieBoeRadiated
+        zombieSteveCrawlerFeral
+        zombieFatHawaiianRadiated
+        zombieSpider, .6
+        zombieWightFeral
+        zombieMaleHazmat
+        zombieNurseFeral
+        zombieDarleneFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5724">
+        zombieTomClarkFeral
+        zombiePartyGirlFeral
+        zombieYoRadiated
+        zombieDarleneFeral
+        zombieUtilityWorkerFeral
+        zombieJoeRadiated
+        zombieWightFeral
+        zombieBusinessManFeral
+        zombieBiker
+        zombieSteve
+        zombieMaleHazmat
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5751">
+        zombieMaleHazmatRadiated
+        zombieLumberjackFeral
+        zombieBusinessMan
+        zombieSteveCrawler, .5
+        zombieJoeRadiated
+        zombieUtilityWorkerFeral
+        zombieFatHawaiian
+        zombieFemaleFatFeral
+        zombieDarleneRadiated
+        zombieArlene
+        zombieBikerFeral
+    </entitygroup>
+    <entitygroup name="sleeperHordeStageGS5778">
+        zombieSkateboarder
+        zombieFemaleFatRadiated
+        zombieSkateboarderFeral
+        zombieJanitor
+        zombieSteveFeral
+        zombieYoRadiated
+        zombieBikerFeral
+        zombieMoeRadiated
+        zombieYoFeral
+        zombieFatHawaiianFeral
+        zombieLumberjack
+    </entitygroup>
+</OkaniYoshiii>

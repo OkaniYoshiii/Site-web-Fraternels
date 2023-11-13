@@ -1,0 +1,1424 @@
+<SUPPRESION>
+    <!-- *** BADASS_HORDE_STAGES -->
+    <entitygroup name="badassHordeStageGS1">
+        zombieSkateboarderRoamingHM
+        zombieSpider
+        zombieMaleHazmatRoamingHM
+        zombieSoldierRoamingHM
+        zombieLumberjackRoamingHM
+        zombieFemaleFatRoamingHM
+        zombieFatHawaiianRoamingHM
+        zombieFatCopRoamingHM
+        zombieBikerRoamingHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS3">
+        zombieSkateboarderRoamingHM
+        zombieFatHawaiianRoamingHM
+        zombieMaleHazmatRoamingHM
+        zombieSoldierRoamingHM
+        zombieLumberjackRoamingHM
+        zombieSpider
+        zombieFatCopRoamingHM
+        zombieBikerRoamingHM
+        zombieFemaleFatRoamingHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS8">
+        zombieBikerRoamingHM
+        zombieSpider
+        zombieMaleHazmatRoamingHM
+        zombieFatHawaiianRoamingHM
+        zombieLumberjackRoamingHM
+        zombieSkateboarderRoamingHM
+        zombieFatCopRoamingHM
+        zombieFemaleFatRoamingHM
+        zombieSoldierRoamingHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS13">
+        zombieMaleHazmatRoamingHM
+        zombieFatHawaiianRoamingHM
+        zombieBikerRoamingHM
+        zombieSoldierRoamingHM
+        zombieLumberjackRoamingHM
+        zombieFemaleFatRoamingHM
+        zombieSpider
+        zombieFatCopRoamingHM
+        zombieSkateboarderRoamingHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS21">
+        zombieMaleHazmatRoamingHM
+        zombieFatHawaiianRoamingHM
+        zombieSpider
+        zombieBikerRoamingHM
+        zombieLumberjackRoamingHM
+        zombieFemaleFatRoamingHM
+        zombieSkateboarderRoamingHM
+        zombieSoldierRoamingHM
+        zombieFatCopRoamingHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS30">
+        zombieSpider
+        zombieLumberjackRoamingHM
+        zombieSoldierRoamingHM
+        zombieSkateboarderRoamingHM
+        zombieFatCopRoamingHM
+        zombieFemaleFatRoamingHM
+        zombieMaleHazmatRoamingHM
+        zombieFatHawaiianRoamingHM
+        zombieSteveCrawlerFeral, .2
+        zombieBikerRoamingHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS40">
+        zombieSkateboarderRoamingHM
+        zombieJoeBloodthirstyHM, .33
+        zombieMarleneBloodthirstyHM, .32
+        zombieDarleneBloodthirstyHM, .35
+        zombieMoeBloodthirstyHM, .3
+        zombieSoldierRoamingHM
+        zombieMaleHazmatRoamingHM
+        zombieBoeBloodthirstyHM, .38
+        zombieFatHawaiianRoamingHM
+        zombieBikerRoamingHM
+        zombieArleneBloodthirstyHM, .39
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS51">
+        zombieSteveBloodthirstyHM, .38
+        zombieSteveCrawlerFeral, .44
+        zombieFatCopRoamingHM
+        zombieFemaleFatRoamingHM
+        zombieYoBloodthirstyHM, .34
+        zombiePartyGirlBloodthirstyHM, .39
+        zombieUtilityWorkerBloodthirstyHM, .35
+        zombieSkateboarderBloodthirstyHM, .31
+        zombieSkateboarderRoamingHM
+        zombieBoeBloodthirstyHM, .49
+        zombieLumberjackRoamingHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS65">
+        zombieMaleHazmatRoamingHM
+        zombieFemaleFatRoamingHM
+        zombieMarleneRadiated, .2
+        zombieSteveBloodthirstyHM, .52
+        zombieJoeBloodthirstyHM, .58
+        zombiePartyGirlBloodthirstyHM, .53
+        zombieYoBloodthirstyHM, .48
+        zombieLumberjackRoamingHM
+        zombieSoldierRoamingHM
+        zombieMaleHazmatBloodthirstyHM, .45
+        zombieBoeRadiated, .23
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS79">
+        zombieFatCopRadiated, .21
+        zombieSpiderRadiated, .25
+        zombieMoeBloodthirstyHM, .69
+        zombiePartyGirlBloodthirstyHM, .67
+        zombieJanitorBloodthirstyHM, .73
+        zombieUtilityWorkerBloodthirstyHM, .63
+        zombieFatHawaiianRadiated, .21
+        zombieBusinessManBloodthirstyHM, .75
+        zombieJoeRadiated, .3
+        zombieFatCopBloodthirstyHM, .56
+        zombieBikerBloodthirstyHM, .57
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS95">
+        zombieFemaleFatRoamingHM
+        zombieMaleHazmatRoamingHM
+        zombieTomClarkRadiated, .37
+        zombieFatCopRoamingHM
+        zombieMarleneRadiated, .4
+        zombieSteveCrawlerFeral, .94
+        zombieSpiderFeral, .77
+        zombieJoeBloodthirstyHM, .88
+        zombieBikerRadiated, .33
+        zombieSteveBloodthirstyHM, .82
+        zombieBusinessManBloodthirstyHM, .91
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS112">
+        zombieArleneRadiated, .55
+        zombieNurseBloodthirstyHM
+        zombieMaleHazmatRadiated, .45
+        zombieFemaleFatRadiated, .42
+        zombieLumberjackRoamingHM
+        zombieBoeBloodthirstyHM
+        zombieLumberjackRadiated, .45
+        zombieSkateboarderRoamingHM
+        zombieFemaleFatBloodthirstyHM, .87
+        zombieFatHawaiianRoamingHM
+        zombieSpiderRadiated, .46
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS130">
+        zombieBusinessManBloodthirstyHM
+        zombieFatHawaiianRadiated, .54
+        zombieMoeRadiated, .62
+        zombieJoeRadiated, .64
+        zombieSpiderFeral
+        zombieSkateboarderRadiated, .57
+        zombieFatCopRoamingHM
+        zombiePartyGirlBloodthirstyHM
+        zombieFatCopBloodthirstyHM
+        zombieBikerRoamingHM
+        zombieLumberjackRoamingHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS150">
+        zombieSpiderFeral
+        zombieJanitorBloodthirstyHM
+        zombieFatHawaiianBloodthirstyHM
+        zombieDarleneRadiated, .66
+        zombieJoeBloodthirstyHM
+        zombieFatCopRoamingHM
+        zombieLumberjackBloodthirstyHM
+        zombieSoldierBloodthirstyHM
+        zombieSteveCrawlerFeral
+        zombieFemaleFatRoamingHM
+        zombieMarleneBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS171">
+        zombieBusinessManBloodthirstyHM
+        zombieDarleneBloodthirstyHM
+        zombieSpiderRadiated, .66
+        zombieSkateboarderRadiated, .66
+        zombieFatCopRoamingHM
+        zombieMoeBloodthirstyHM
+        zombieYoBloodthirstyHM
+        zombieJanitorRadiated, .66
+        zombieMaleHazmatBloodthirstyHM
+        zombieMoeRadiated, .66
+        zombieFatCopRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS194">
+        zombieMaleHazmatRoamingHM
+        zombieFemaleFatRadiated, .66
+        zombieBikerRadiated, .66
+        zombieFatCopRoamingHM
+        zombieArleneBloodthirstyHM
+        zombieUtilityWorkerBloodthirstyHM
+        zombieMaleHazmatBloodthirstyHM
+        zombieBikerRoamingHM
+        zombieFemaleFatRoamingHM
+        zombieLumberjackRoamingHM
+        zombieMoeBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS217">
+        zombieArleneRadiated, .66
+        zombieMarleneRadiated, .66
+        zombieMarleneBloodthirstyHM
+        zombieMoeBloodthirstyHM
+        zombieBikerRadiated, .66
+        zombieWightRadiated, .66
+        zombieFemaleFatRadiated, .66
+        zombieBusinessManBloodthirstyHM
+        zombieMaleHazmatRadiated, .66
+        zombieYoBloodthirstyHM
+        zombieFemaleFatBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS242">
+        zombieArleneRadiated, .66
+        zombieMaleHazmatBloodthirstyHM
+        zombieBikerRoamingHM
+        zombieMarleneBloodthirstyHM
+        zombieBikerRadiated, .66
+        zombieSkateboarderRoamingHM
+        zombieFemaleFatBloodthirstyHM
+        zombieDarleneBloodthirstyHM
+        zombieFatCopBloodthirstyHM
+        zombieMarleneRadiated, .66
+        zombieWightRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS268">
+        zombiePartyGirlBloodthirstyHM
+        zombieBoeRadiated, .66
+        zombieYoRadiated, .66
+        zombieFatHawaiianBloodthirstyHM
+        zombieYoBloodthirstyHM
+        zombieBoeBloodthirstyHM
+        zombieFatHawaiianRoamingHM
+        zombieFatCopRoamingHM
+        zombieFatCopRadiated, .66
+        zombieTomClarkBloodthirstyHM
+        zombieWightRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS296">
+        zombieNurseBloodthirstyHM
+        zombieDarleneRadiated, .66
+        zombieFatCopRoamingHM
+        zombieMarleneRadiated, .66
+        zombieJanitorRadiated, .66
+        zombieBoeRadiated, .66
+        zombieSteveRadiated, .66
+        zombieFemaleFatRoamingHM
+        zombieMaleHazmatRadiated, .66
+        zombieFatHawaiianRoamingHM
+        zombieLumberjackRoamingHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS325">
+        zombieFemaleFatRadiated, .66
+        zombieTomClarkBloodthirstyHM
+        zombieSpiderFeral
+        zombieSpider
+        zombieBoeBloodthirstyHM
+        zombieBikerRoamingHM
+        zombieSpiderRadiated, .66
+        zombieMoeRadiated, .66
+        zombieArleneRadiated, .66
+        zombieMarleneBloodthirstyHM
+        zombieMaleHazmatRoamingHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS355">
+        zombieMaleHazmatBloodthirstyHM
+        zombieSpiderRadiated, .66
+        zombieJanitorBloodthirstyHM
+        zombieWightRadiated, .66
+        zombieSteveCrawlerFeral
+        zombieSkateboarderBloodthirstyHM
+        zombieBoeBloodthirstyHM
+        zombieSkateboarderRadiated, .66
+        zombieFemaleFatRoamingHM
+        zombieTomClarkRadiated, .66
+        zombieBusinessManBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS386">
+        zombieMaleHazmatBloodthirstyHM
+        zombieDarleneRadiated, .66
+        zombieBoeRadiated, .66
+        zombieBikerRoamingHM
+        zombieTomClarkRadiated, .66
+        zombieMarleneBloodthirstyHM
+        zombieFemaleFatRadiated, .66
+        zombieSteveRadiated, .66
+        zombieSkateboarderRadiated, .66
+        zombieNurseRadiated, .66
+        zombieSoldierRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS419">
+        zombieSkateboarderRoamingHM
+        zombiePartyGirlBloodthirstyHM
+        zombieBikerRadiated, .66
+        zombieJoeBloodthirstyHM
+        zombieSpider
+        zombieArleneBloodthirstyHM
+        zombieFemaleFatRoamingHM
+        zombieSoldierBloodthirstyHM
+        zombieFatHawaiianRadiated, .66
+        zombieBoeBloodthirstyHM
+        zombieFemaleFatBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS452">
+        zombieDarleneRadiated, .66
+        zombiePartyGirlBloodthirstyHM
+        zombieSkateboarderRoamingHM
+        zombieYoBloodthirstyHM
+        zombieJoeBloodthirstyHM
+        zombieSteveBloodthirstyHM
+        zombieFatHawaiianRadiated, .66
+        zombieBikerBloodthirstyHM
+        zombieBoeRadiated, .66
+        zombieUtilityWorkerBloodthirstyHM
+        zombieJanitorBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS488">
+        zombieJanitorRadiated, .66
+        zombieBusinessManBloodthirstyHM
+        zombieFatCopRadiated, .66
+        zombieFemaleFatRoamingHM
+        zombieFatHawaiianBloodthirstyHM
+        zombieDarleneRadiated, .66
+        zombieLumberjackBloodthirstyHM
+        zombieBikerRoamingHM
+        zombieFatCopRoamingHM
+        zombieSteveRadiated, .66
+        zombieFatHawaiianRoamingHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS524">
+        zombieMarleneRadiated, .66
+        zombieFatCopBloodthirstyHM
+        zombieMaleHazmatRoamingHM
+        zombieFemaleFatRadiated, .66
+        zombieNurseBloodthirstyHM
+        zombieSteveBloodthirstyHM
+        zombieFatHawaiianRoamingHM
+        zombieUtilityWorkerBloodthirstyHM
+        zombieSkateboarderRoamingHM
+        zombieLumberjackRadiated, .66
+        zombiePartyGirlBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS561">
+        zombieSkateboarderRoamingHM
+        zombieSpiderFeral
+        zombieTomClarkRadiated, .66
+        zombieJanitorRadiated, .66
+        zombieBoeBloodthirstyHM
+        zombieSpider
+        zombieSteveRadiated, .66
+        zombieUtilityWorkerBloodthirstyHM
+        zombieJoeRadiated, .66
+        zombieBikerBloodthirstyHM
+        zombieSkateboarderRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS600">
+        zombieLumberjackBloodthirstyHM
+        zombieBikerRadiated, .66
+        zombieBoeBloodthirstyHM
+        zombieMarleneBloodthirstyHM
+        zombieFatCopBloodthirstyHM
+        zombieFemaleFatRadiated, .66
+        zombieWightFeral
+        zombieDarleneRadiated, .66
+        zombieJoeBloodthirstyHM
+        zombieMaleHazmatBloodthirstyHM
+        zombieFatCopRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS640">
+        zombieBikerRoamingHM
+        zombieSkateboarderRoamingHM
+        zombieLumberjackBloodthirstyHM
+        zombieWightRadiated, .66
+        zombieFemaleFatRoamingHM
+        zombieBoeBloodthirstyHM
+        zombieMarleneRadiated, .66
+        zombieFatHawaiianRoamingHM
+        zombieMaleHazmatRadiated, .66
+        zombieSpider
+        zombieNurseRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS681">
+        zombieSpiderFeral
+        zombiePartyGirlBloodthirstyHM
+        zombieSteveRadiated, .66
+        zombieFemaleFatRoamingHM
+        zombieFemaleFatRadiated, .66
+        zombieSkateboarderBloodthirstyHM
+        zombieNurseBloodthirstyHM
+        zombieSkateboarderRadiated, .66
+        zombieBikerBloodthirstyHM
+        zombieMaleHazmatRoamingHM
+        zombieMoeRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS724">
+        zombieLumberjackRadiated, .66
+        zombieFatHawaiianRoamingHM
+        zombiePartyGirlBloodthirstyHM
+        zombieTomClarkBloodthirstyHM
+        zombieArleneBloodthirstyHM
+        zombieDarleneBloodthirstyHM
+        zombieSoldierRadiated, .66
+        zombieNurseBloodthirstyHM
+        zombieLumberjackBloodthirstyHM
+        zombieSteveCrawlerFeral
+        zombieFemaleFatRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS767">
+        zombieFatHawaiianBloodthirstyHM
+        zombieYoBloodthirstyHM
+        zombieTomClarkBloodthirstyHM
+        zombieMaleHazmatRadiated, .66
+        zombieBikerRadiated, .66
+        zombieSoldierRadiated, .66
+        zombieWightRadiated, .66
+        zombieFatHawaiianRoamingHM
+        zombieSteveCrawlerFeral
+        zombieNurseRadiated, .66
+        zombieDarleneRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS812">
+        zombieMaleHazmatBloodthirstyHM
+        zombieSpider
+        zombieBikerBloodthirstyHM
+        zombieFemaleFatRadiated, .66
+        zombieDarleneRadiated, .66
+        zombieSpiderFeral
+        zombieFatHawaiianRadiated, .66
+        zombieBikerRoamingHM
+        zombieFatHawaiianRoamingHM
+        zombieArleneBloodthirstyHM
+        zombieJanitorRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS858">
+        zombieSoldierRadiated, .66
+        zombieSteveCrawlerFeral
+        zombieSteveRadiated, .66
+        zombieFemaleFatRoamingHM
+        zombieFatHawaiianRoamingHM
+        zombieFatCopRoamingHM
+        zombieJoeBloodthirstyHM
+        zombieUtilityWorkerBloodthirstyHM
+        zombieMarleneRadiated, .66
+        zombieFemaleFatRadiated, .66
+        zombieFatHawaiianBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS905">
+        zombieDarleneRadiated, .66
+        zombieFemaleFatBloodthirstyHM
+        zombieUtilityWorkerBloodthirstyHM
+        zombieYoBloodthirstyHM
+        zombieMarleneBloodthirstyHM
+        zombieFemaleFatRoamingHM
+        zombieJoeBloodthirstyHM
+        zombieJanitorRadiated, .66
+        zombieDarleneBloodthirstyHM
+        zombieBoeRadiated, .66
+        zombieFatHawaiianRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS954">
+        zombieNurseRadiated, .66
+        zombieArleneRadiated, .66
+        zombieFatHawaiianRadiated, .66
+        zombieBoeRadiated, .66
+        zombiePartyGirlBloodthirstyHM
+        zombieJanitorBloodthirstyHM
+        zombieYoRadiated, .66
+        zombieUtilityWorkerBloodthirstyHM
+        zombieYoBloodthirstyHM
+        zombieMarleneBloodthirstyHM
+        zombieSpiderRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS1003">
+        zombieJanitorBloodthirstyHM
+        zombieDarleneBloodthirstyHM
+        zombiePartyGirlBloodthirstyHM
+        zombieBikerRadiated, .66
+        zombieSoldierRadiated, .66
+        zombieNurseBloodthirstyHM
+        zombieSpiderFeral
+        zombieFatHawaiianRadiated, .66
+        zombieMaleHazmatRoamingHM
+        zombieJoeRadiated, .66
+        zombieLumberjackBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS1054">
+        zombiePartyGirlBloodthirstyHM
+        zombieLumberjackRadiated, .66
+        zombieBikerRoamingHM
+        zombieYoBloodthirstyHM
+        zombieMaleHazmatRoamingHM
+        zombieMaleHazmatBloodthirstyHM
+        zombieSteveRadiated, .66
+        zombieMoeBloodthirstyHM
+        zombieUtilityWorkerBloodthirstyHM
+        zombieJoeBloodthirstyHM
+        zombieSoldierRoamingHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS1106">
+        zombieBoeRadiated, .66
+        zombieSkateboarderRadiated, .66
+        zombieSoldierRadiated, .66
+        zombieNurseRadiated, .66
+        zombieSkateboarderRoamingHM
+        zombieWightRadiated, .66
+        zombieSoldierBloodthirstyHM
+        zombieSpiderFeral
+        zombieTomClarkBloodthirstyHM
+        zombieMoeBloodthirstyHM
+        zombieSoldierRoamingHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS1159">
+        zombieFatHawaiianRadiated, .66
+        zombieYoBloodthirstyHM
+        zombieBikerRadiated, .66
+        zombieSoldierBloodthirstyHM
+        zombieFatCopRadiated, .66
+        zombieFemaleFatBloodthirstyHM
+        zombieMoeRadiated, .66
+        zombieMaleHazmatRadiated, .66
+        zombieWightFeral
+        zombieJoeBloodthirstyHM
+        zombieSkateboarderBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS1213">
+        zombieBusinessManBloodthirstyHM
+        zombieSteveBloodthirstyHM
+        zombieFatHawaiianRoamingHM
+        zombieFatCopRoamingHM
+        zombieWightFeral
+        zombieSkateboarderBloodthirstyHM
+        zombieMoeBloodthirstyHM
+        zombieTomClarkBloodthirstyHM
+        zombieBoeBloodthirstyHM
+        zombieNurseBloodthirstyHM
+        zombieYoRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS1269">
+        zombieSpiderFeral
+        zombieMaleHazmatBloodthirstyHM
+        zombieFatCopRadiated, .66
+        zombieMaleHazmatRadiated, .66
+        zombieJanitorRadiated, .66
+        zombieJanitorBloodthirstyHM
+        zombieMaleHazmatRoamingHM
+        zombieTomClarkRadiated, .66
+        zombieArleneBloodthirstyHM
+        zombieSkateboarderRadiated, .66
+        zombieSoldierRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS1326">
+        zombieMoeRadiated, .66
+        zombieSoldierRoamingHM
+        zombieLumberjackRoamingHM
+        zombieSoldierBloodthirstyHM
+        zombieDarleneRadiated, .66
+        zombieLumberjackRadiated, .66
+        zombieNurseRadiated, .66
+        zombieWightRadiated, .66
+        zombieDarleneBloodthirstyHM
+        zombieUtilityWorkerBloodthirstyHM
+        zombieFatCopBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS1383">
+        zombieSoldierRoamingHM
+        zombieDarleneRadiated, .66
+        zombieSoldierRadiated, .66
+        zombieSteveBloodthirstyHM
+        zombiePartyGirlBloodthirstyHM
+        zombieTomClarkRadiated, .66
+        zombieMoeRadiated, .66
+        zombieFemaleFatRoamingHM
+        zombieJanitorBloodthirstyHM
+        zombieJanitorRadiated, .66
+        zombieFemaleFatRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS1442">
+        zombieBikerRadiated, .66
+        zombieFemaleFatRoamingHM
+        zombieJoeBloodthirstyHM
+        zombieTomClarkRadiated, .66
+        zombieBoeBloodthirstyHM
+        zombieMarleneBloodthirstyHM
+        zombieJanitorRadiated, .66
+        zombieLumberjackBloodthirstyHM
+        zombieSoldierRadiated, .66
+        zombieBikerRoamingHM
+        zombieFemaleFatBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS1503">
+        zombieSkateboarderBloodthirstyHM
+        zombieJanitorRadiated, .66
+        zombieMarleneBloodthirstyHM
+        zombieArleneRadiated, .66
+        zombieLumberjackRoamingHM
+        zombieFemaleFatRadiated, .66
+        zombieSoldierBloodthirstyHM
+        zombieBoeRadiated, .66
+        zombieMoeBloodthirstyHM
+        zombieFatHawaiianBloodthirstyHM
+        zombieBusinessManBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS1564">
+        zombieYoBloodthirstyHM
+        zombieLumberjackBloodthirstyHM
+        zombieFatCopRoamingHM
+        zombieSkateboarderRoamingHM
+        zombieDarleneRadiated, .66
+        zombieMoeBloodthirstyHM
+        zombieSpider
+        zombieBusinessManBloodthirstyHM
+        zombieNurseRadiated, .66
+        zombiePartyGirlBloodthirstyHM
+        zombieNurseBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS1626">
+        zombieJanitorBloodthirstyHM
+        zombieMarleneBloodthirstyHM
+        zombieBikerBloodthirstyHM
+        zombieFemaleFatBloodthirstyHM
+        zombieArleneRadiated, .66
+        zombieLumberjackBloodthirstyHM
+        zombieBikerRoamingHM
+        zombieTomClarkRadiated, .66
+        zombieMaleHazmatRoamingHM
+        zombieBoeRadiated, .66
+        zombieMaleHazmatBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS1690">
+        zombieLumberjackBloodthirstyHM
+        zombieFatHawaiianRadiated, .66
+        zombieFatCopRoamingHM
+        zombieLumberjackRoamingHM
+        zombieNurseRadiated, .66
+        zombieDarleneRadiated, .66
+        zombieArleneBloodthirstyHM
+        zombieSteveBloodthirstyHM
+        zombieMaleHazmatRadiated, .66
+        zombieMoeBloodthirstyHM
+        zombieSoldierBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS1755">
+        zombieSpiderFeral
+        zombieWightFeral
+        zombieLumberjackRadiated, .66
+        zombieFemaleFatRoamingHM
+        zombieFatHawaiianRadiated, .66
+        zombieSteveCrawlerFeral
+        zombieLumberjackBloodthirstyHM
+        zombieMaleHazmatRadiated, .66
+        zombieBusinessManBloodthirstyHM
+        zombieFatHawaiianRoamingHM
+        zombieBoeBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS1821">
+        zombieWightFeral
+        zombieLumberjackBloodthirstyHM
+        zombieMoeRadiated, .66
+        zombieSteveRadiated, .66
+        zombieFemaleFatBloodthirstyHM
+        zombieMarleneBloodthirstyHM
+        zombieFatCopRoamingHM
+        zombieUtilityWorkerBloodthirstyHM
+        zombieYoBloodthirstyHM
+        zombieSpider
+        zombieYoRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS1888">
+        zombieFatHawaiianBloodthirstyHM
+        zombieFemaleFatRoamingHM
+        zombieJoeRadiated, .66
+        zombieSteveRadiated, .66
+        zombieJanitorRadiated, .66
+        zombieJanitorBloodthirstyHM
+        zombieFemaleFatRadiated, .66
+        zombieLumberjackRoamingHM
+        zombieSpiderRadiated, .66
+        zombieWightFeral
+        zombieArleneBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS1956">
+        zombieFatCopRadiated, .66
+        zombieSkateboarderRoamingHM
+        zombieSteveBloodthirstyHM
+        zombieSoldierRadiated, .66
+        zombieFatHawaiianRadiated, .66
+        zombieFemaleFatRoamingHM
+        zombieSkateboarderRadiated, .66
+        zombieArleneRadiated, .66
+        zombieBoeRadiated, .66
+        zombieSpiderRadiated, .66
+        zombieFatCopRoamingHM
+    </entitygroup>
+    <entitygroup name="badassHordeStageGS2026">
+        zombieSpiderFeral
+        zombieSpider
+        zombieJoeBloodthirstyHM
+        zombieMaleHazmatRadiated, .66
+        zombieNurseRadiated, .66
+        zombieDarleneBloodthirstyHM
+        zombieMoeRadiated, .66
+        zombieSteveCrawlerFeral
+        zombieMoeBloodthirstyHM
+        zombieBoeBloodthirstyHM
+        zombieNurseBloodthirstyHM
+    </entitygroup>
+    
+    <!-- *** BADASS_ONLY_HORDE_STAGES -->
+    <entitygroup name="badassOnlyHordeStageGS1">
+        zombieLumberjackRoamingHM
+        zombieLumberjackBloodthirstyHM, .3
+        zombieUtilityWorkerBloodthirstyHM, .3
+        zombieSpiderFeral, .3
+        zombieBusinessManBloodthirstyHM, .3
+        zombieFatHawaiianBloodthirstyHM, .3
+        zombieSteveBloodthirstyHM, .3
+        zombieWightFeral, .3
+        zombieTomClarkBloodthirstyHM, .3
+        zombieFatCopBloodthirstyHM, .3
+        zombieJanitorBloodthirstyHM, .3
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS3">
+        zombieBoeBloodthirstyHM, .32
+        zombieSkateboarderBloodthirstyHM, .32
+        zombieSkateboarderRoamingHM
+        zombieTomClarkBloodthirstyHM, .32
+        zombieArleneBloodthirstyHM, .32
+        zombiePartyGirlBloodthirstyHM, .32
+        zombieDarleneBloodthirstyHM, .32
+        zombieSteveBloodthirstyHM, .32
+        zombieFemaleFatBloodthirstyHM, .32
+        zombieLumberjackRoamingHM
+        zombieBikerBloodthirstyHM, .32
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS8">
+        zombieWightFeral, .37
+        zombieSteveBloodthirstyHM, .37
+        zombieLumberjackRoamingHM
+        zombieFatHawaiianBloodthirstyHM, .37
+        zombieMoeBloodthirstyHM, .37
+        zombieSoldierRoamingHM
+        zombiePartyGirlBloodthirstyHM, .37
+        zombieFemaleFatBloodthirstyHM, .37
+        zombieFemaleFatRoamingHM
+        zombieSkateboarderBloodthirstyHM, .37
+        zombieFatCopRoamingHM
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS13">
+        zombiePartyGirlBloodthirstyHM, .42
+        zombieFatCopRoamingHM
+        zombieMarleneBloodthirstyHM, .42
+        zombieArleneBloodthirstyHM, .42
+        zombieDarleneBloodthirstyHM, .42
+        zombieTomClarkBloodthirstyHM, .42
+        zombieSkateboarderBloodthirstyHM, .42
+        zombieYoBloodthirstyHM, .42
+        zombieJanitorBloodthirstyHM, .42
+        zombieWightFeral, .42
+        zombieFemaleFatRoamingHM
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS21">
+        zombieMaleHazmatBloodthirstyHM, .5
+        zombieUtilityWorkerBloodthirstyHM, .5
+        zombieMarleneBloodthirstyHM, .5
+        zombieSkateboarderRoamingHM
+        zombieFemaleFatRoamingHM
+        zombieBikerBloodthirstyHM, .5
+        zombieYoBloodthirstyHM, .5
+        zombiePartyGirlBloodthirstyHM, .5
+        zombieFatCopRoamingHM
+        zombieLumberjackRoamingHM
+        zombieBoeBloodthirstyHM, .5
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS30">
+        zombieLumberjackRoamingHM
+        zombieSkateboarderBloodthirstyHM, .59
+        zombieFatHawaiianRoamingHM
+        zombieWightFeral, .59
+        zombieArleneBloodthirstyHM, .59
+        zombieMaleHazmatBloodthirstyHM, .59
+        zombieTomClarkBloodthirstyHM, .59
+        zombieNurseBloodthirstyHM, .59
+        zombieMaleHazmatRoamingHM
+        zombieFatHawaiianBloodthirstyHM, .59
+        zombieMarleneBloodthirstyHM, .59
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS40">
+        zombieWightFeral, .69
+        zombieSpiderFeral, .69
+        zombiePartyGirlBloodthirstyHM, .69
+        zombieFatCopBloodthirstyHM, .69
+        zombieMaleHazmatBloodthirstyHM, .69
+        zombieMarleneBloodthirstyHM, .69
+        zombieJanitorBloodthirstyHM, .69
+        zombieArleneBloodthirstyHM, .69
+        zombieJoeBloodthirstyHM, .69
+        zombieSoldierRoamingHM
+        zombieLumberjackRoamingHM
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS51">
+        zombieLumberjackBloodthirstyHM, .8
+        zombieNurseBloodthirstyHM, .8
+        zombieArleneBloodthirstyHM, .8
+        zombieJanitorBloodthirstyHM, .8
+        zombieDarleneRadiated, .26
+        zombieSkateboarderRadiated, .22
+        zombieWightFeral, .8
+        zombieBikerRoamingHM
+        zombieSoldierBloodthirstyHM, .8
+        zombieFatHawaiianBloodthirstyHM, .8
+        zombieSpiderFeral, .8
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS65">
+        zombieFemaleFatRadiated, .29
+        zombieSoldierRadiated, .29
+        zombieBoeRadiated, .36
+        zombieFatCopBloodthirstyHM, .94
+        zombieMarleneBloodthirstyHM, .94
+        zombieJoeBloodthirstyHM, .94
+        zombieBikerBloodthirstyHM, .94
+        zombieBusinessManBloodthirstyHM, .94
+        zombieUtilityWorkerBloodthirstyHM, .94
+        zombieSoldierBloodthirstyHM, .94
+        zombieFatHawaiianBloodthirstyHM, .94
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS79">
+        zombieJanitorRadiated, .44
+        zombieWightRadiated, .38
+        zombieFatHawaiianBloodthirstyHM
+        zombieUtilityWorkerBloodthirstyHM
+        zombieBoeRadiated, .45
+        zombieWightFeral
+        zombieFatHawaiianRadiated, .39
+        zombieBikerRadiated, .4
+        zombiePartyGirlBloodthirstyHM
+        zombieArleneRadiated, .46
+        zombieBusinessManBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS95">
+        zombieSkateboarderRadiated, .51
+        zombieArleneBloodthirstyHM
+        zombieYoBloodthirstyHM
+        zombieUtilityWorkerBloodthirstyHM
+        zombiePartyGirlBloodthirstyHM
+        zombieJoeRadiated, .55
+        zombieSteveRadiated, .53
+        zombieFatHawaiianBloodthirstyHM
+        zombieBoeRadiated, .56
+        zombieSoldierBloodthirstyHM
+        zombieLumberjackBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS112">
+        zombieSoldierBloodthirstyHM
+        zombieBusinessManBloodthirstyHM
+        zombieSteveBloodthirstyHM
+        zombieBoeBloodthirstyHM
+        zombieMaleHazmatRoamingHM
+        zombieSkateboarderBloodthirstyHM
+        zombieMarleneBloodthirstyHM
+        zombieYoRadiated, .63
+        zombieDarleneBloodthirstyHM
+        zombieUtilityWorkerBloodthirstyHM
+        zombieSkateboarderRoamingHM
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS130">
+        zombieTomClarkRadiated, .66
+        zombieWightRadiated, .66
+        zombieJoeRadiated, .66
+        zombieSteveBloodthirstyHM
+        zombieJanitorRadiated, .66
+        zombieWightFeral
+        zombieFatCopRadiated, .66
+        zombieBikerBloodthirstyHM
+        zombieFatCopBloodthirstyHM
+        zombieSoldierRoamingHM
+        zombieMarleneRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS150">
+        zombieSoldierBloodthirstyHM
+        zombiePartyGirlBloodthirstyHM
+        zombieSkateboarderBloodthirstyHM
+        zombieBikerRoamingHM
+        zombieDarleneRadiated, .66
+        zombieTomClarkRadiated, .66
+        zombieLumberjackBloodthirstyHM
+        zombieSteveRadiated, .66
+        zombieBoeBloodthirstyHM
+        zombieMaleHazmatBloodthirstyHM
+        zombieFatHawaiianRoamingHM
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS171">
+        zombieLumberjackRadiated, .66
+        zombieLumberjackBloodthirstyHM
+        zombieMoeRadiated, .66
+        zombieSoldierBloodthirstyHM
+        zombiePartyGirlBloodthirstyHM
+        zombieDarleneRadiated, .66
+        zombieTomClarkRadiated, .66
+        zombieSpiderFeral
+        zombieFemaleFatBloodthirstyHM
+        zombieSteveRadiated, .66
+        zombieFatHawaiianBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS194">
+        zombieFatHawaiianBloodthirstyHM
+        zombieFemaleFatBloodthirstyHM
+        zombieMaleHazmatRadiated, .66
+        zombieMoeRadiated, .66
+        zombieMarleneBloodthirstyHM
+        zombieNurseRadiated, .66
+        zombieBikerBloodthirstyHM
+        zombieFatHawaiianRoamingHM
+        zombieSoldierRoamingHM
+        zombieFatCopRadiated, .66
+        zombieSkateboarderRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS217">
+        zombiePartyGirlBloodthirstyHM
+        zombieYoRadiated, .66
+        zombieDarleneRadiated, .66
+        zombieLumberjackRoamingHM
+        zombieArleneRadiated, .66
+        zombieLumberjackRadiated, .66
+        zombieSteveRadiated, .66
+        zombieFatHawaiianRoamingHM
+        zombieFatHawaiianBloodthirstyHM
+        zombieMarleneRadiated, .66
+        zombieWightFeral
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS242">
+        zombieTomClarkRadiated, .66
+        zombieMaleHazmatRoamingHM
+        zombieBikerRoamingHM
+        zombieFatHawaiianBloodthirstyHM
+        zombieMaleHazmatRadiated, .66
+        zombieLumberjackRoamingHM
+        zombieSoldierRadiated, .66
+        zombieFemaleFatBloodthirstyHM
+        zombieFatHawaiianRadiated, .66
+        zombieMarleneBloodthirstyHM
+        zombieArleneRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS268">
+        zombieBikerRoamingHM
+        zombieFatHawaiianRoamingHM
+        zombieArleneBloodthirstyHM
+        zombieMaleHazmatRoamingHM
+        zombieFemaleFatBloodthirstyHM
+        zombieFemaleFatRoamingHM
+        zombieLumberjackRoamingHM
+        zombieNurseRadiated, .66
+        zombieBikerRadiated, .66
+        zombieJoeRadiated, .66
+        zombieYoBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS296">
+        zombieYoBloodthirstyHM
+        zombieFemaleFatBloodthirstyHM
+        zombieUtilityWorkerBloodthirstyHM
+        zombieSoldierBloodthirstyHM
+        zombieSpiderRadiated, .66
+        zombieTomClarkBloodthirstyHM
+        zombieMarleneBloodthirstyHM
+        zombieNurseBloodthirstyHM
+        zombieWightRadiated, .66
+        zombieBoeRadiated, .66
+        zombieYoRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS325">
+        zombieBoeRadiated, .66
+        zombieBoeBloodthirstyHM
+        zombieFemaleFatBloodthirstyHM
+        zombieUtilityWorkerBloodthirstyHM
+        zombieMoeBloodthirstyHM
+        zombieArleneBloodthirstyHM
+        zombieNurseRadiated, .66
+        zombieBikerRadiated, .66
+        zombieJoeBloodthirstyHM
+        zombieWightRadiated, .66
+        zombieDarleneBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS355">
+        zombieMoeBloodthirstyHM
+        zombieFemaleFatBloodthirstyHM
+        zombieBikerRadiated, .66
+        zombieSpiderFeral
+        zombieJanitorBloodthirstyHM
+        zombieSoldierRoamingHM
+        zombieLumberjackBloodthirstyHM
+        zombieDarleneBloodthirstyHM
+        zombieSteveRadiated, .66
+        zombieBoeBloodthirstyHM
+        zombieMaleHazmatBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS386">
+        zombieYoBloodthirstyHM
+        zombieJoeRadiated, .66
+        zombieFatCopRoamingHM
+        zombieWightRadiated, .66
+        zombieUtilityWorkerBloodthirstyHM
+        zombieJanitorBloodthirstyHM
+        zombieNurseBloodthirstyHM
+        zombieArleneBloodthirstyHM
+        zombieBikerRoamingHM
+        zombieSkateboarderBloodthirstyHM
+        zombieFatHawaiianRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS419">
+        zombieNurseRadiated, .66
+        zombieLumberjackBloodthirstyHM
+        zombieMarleneBloodthirstyHM
+        zombieSoldierBloodthirstyHM
+        zombieJanitorBloodthirstyHM
+        zombieYoBloodthirstyHM
+        zombieMaleHazmatRoamingHM
+        zombieMoeBloodthirstyHM
+        zombieTomClarkRadiated, .66
+        zombieBikerRoamingHM
+        zombieSpiderFeral
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS452">
+        zombieArleneRadiated, .66
+        zombieSteveRadiated, .66
+        zombieFatHawaiianRadiated, .66
+        zombieTomClarkBloodthirstyHM
+        zombieBikerRoamingHM
+        zombieDarleneBloodthirstyHM
+        zombieFemaleFatBloodthirstyHM
+        zombieNurseBloodthirstyHM
+        zombieUtilityWorkerBloodthirstyHM
+        zombieSkateboarderBloodthirstyHM
+        zombieFatCopRoamingHM
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS488">
+        zombieFatHawaiianRadiated, .66
+        zombieArleneRadiated, .66
+        zombieLumberjackRadiated, .66
+        zombieMaleHazmatRadiated, .66
+        zombieFatHawaiianBloodthirstyHM
+        zombieJoeBloodthirstyHM
+        zombieNurseRadiated, .66
+        zombieMoeBloodthirstyHM
+        zombieSpiderFeral
+        zombieJanitorRadiated, .66
+        zombieFemaleFatRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS524">
+        zombiePartyGirlBloodthirstyHM
+        zombieBoeRadiated, .66
+        zombieSkateboarderBloodthirstyHM
+        zombieFemaleFatBloodthirstyHM
+        zombieLumberjackRoamingHM
+        zombieDarleneRadiated, .66
+        zombieFatCopRadiated, .66
+        zombieSpiderRadiated, .66
+        zombieMarleneBloodthirstyHM
+        zombieSoldierRadiated, .66
+        zombieMoeBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS561">
+        zombieBoeRadiated, .66
+        zombieSkateboarderBloodthirstyHM
+        zombieYoBloodthirstyHM
+        zombieSpiderRadiated, .66
+        zombieFatHawaiianBloodthirstyHM
+        zombieSteveBloodthirstyHM
+        zombieArleneRadiated, .66
+        zombieTomClarkRadiated, .66
+        zombieWightFeral
+        zombieFemaleFatBloodthirstyHM
+        zombieLumberjackRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS600">
+        zombieLumberjackRoamingHM
+        zombieMaleHazmatRoamingHM
+        zombieYoBloodthirstyHM
+        zombieMaleHazmatBloodthirstyHM
+        zombieBoeBloodthirstyHM
+        zombieFemaleFatRoamingHM
+        zombieSpiderRadiated, .66
+        zombieMaleHazmatRadiated, .66
+        zombieSkateboarderBloodthirstyHM
+        zombieMarleneRadiated, .66
+        zombieUtilityWorkerBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS640">
+        zombieSpiderFeral
+        zombieLumberjackBloodthirstyHM
+        zombieJoeBloodthirstyHM
+        zombieFemaleFatBloodthirstyHM
+        zombieFatHawaiianBloodthirstyHM
+        zombieFemaleFatRoamingHM
+        zombieSoldierRadiated, .66
+        zombieWightFeral
+        zombieMarleneRadiated, .66
+        zombieFatCopBloodthirstyHM
+        zombieDarleneBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS681">
+        zombieMaleHazmatBloodthirstyHM
+        zombieFemaleFatBloodthirstyHM
+        zombieJoeRadiated, .66
+        zombieSoldierRadiated, .66
+        zombieUtilityWorkerBloodthirstyHM
+        zombieWightRadiated, .66
+        zombieBoeRadiated, .66
+        zombieBoeBloodthirstyHM
+        zombieSkateboarderBloodthirstyHM
+        zombieSpiderFeral
+        zombieSkateboarderRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS724">
+        zombieBoeRadiated, .66
+        zombieSkateboarderRoamingHM
+        zombieFatCopBloodthirstyHM
+        zombieUtilityWorkerBloodthirstyHM
+        zombieMaleHazmatRoamingHM
+        zombieJoeBloodthirstyHM
+        zombieMaleHazmatRadiated, .66
+        zombieLumberjackRoamingHM
+        zombieWightFeral
+        zombieNurseBloodthirstyHM
+        zombieDarleneBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS767">
+        zombieBikerRoamingHM
+        zombieSkateboarderBloodthirstyHM
+        zombieSkateboarderRoamingHM
+        zombieBusinessManBloodthirstyHM
+        zombieFatHawaiianBloodthirstyHM
+        zombiePartyGirlBloodthirstyHM
+        zombieLumberjackRoamingHM
+        zombieDarleneBloodthirstyHM
+        zombieBoeBloodthirstyHM
+        zombieFemaleFatRadiated, .66
+        zombieWightRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS812">
+        zombieNurseRadiated, .66
+        zombieFemaleFatRoamingHM
+        zombieMaleHazmatRoamingHM
+        zombieFatCopRoamingHM
+        zombieFatHawaiianRadiated, .66
+        zombieLumberjackBloodthirstyHM
+        zombieFemaleFatRadiated, .66
+        zombieFemaleFatBloodthirstyHM
+        zombieMaleHazmatBloodthirstyHM
+        zombieBoeBloodthirstyHM
+        zombieJanitorRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS858">
+        zombieSpiderFeral
+        zombieBikerBloodthirstyHM
+        zombieLumberjackRoamingHM
+        zombieMaleHazmatRadiated, .66
+        zombieArleneRadiated, .66
+        zombieDarleneBloodthirstyHM
+        zombieFatHawaiianRadiated, .66
+        zombiePartyGirlBloodthirstyHM
+        zombieSpiderRadiated, .66
+        zombieBoeRadiated, .66
+        zombieSkateboarderBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS905">
+        zombieSkateboarderBloodthirstyHM
+        zombieDarleneBloodthirstyHM
+        zombieBoeBloodthirstyHM
+        zombieSpiderRadiated, .66
+        zombieLumberjackRoamingHM
+        zombieJanitorRadiated, .66
+        zombieMaleHazmatRadiated, .66
+        zombieTomClarkRadiated, .66
+        zombieLumberjackRadiated, .66
+        zombieFemaleFatRoamingHM
+        zombieSkateboarderRoamingHM
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS954">
+        zombieSpiderFeral
+        zombieFatHawaiianRoamingHM
+        zombieNurseRadiated, .66
+        zombieArleneRadiated, .66
+        zombieBikerRoamingHM
+        zombieFatHawaiianRadiated, .66
+        zombieYoRadiated, .66
+        zombieJoeRadiated, .66
+        zombieFatCopBloodthirstyHM
+        zombieDarleneBloodthirstyHM
+        zombieBoeBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS1003">
+        zombieSteveRadiated, .66
+        zombieMaleHazmatBloodthirstyHM
+        zombieWightFeral
+        zombieFatCopRoamingHM
+        zombieBusinessManBloodthirstyHM
+        zombieSkateboarderRadiated, .66
+        zombieFatHawaiianBloodthirstyHM
+        zombieSteveBloodthirstyHM
+        zombieJanitorBloodthirstyHM
+        zombieBoeRadiated, .66
+        zombieMarleneRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS1054">
+        zombieFatCopRadiated, .66
+        zombieBoeRadiated, .66
+        zombieTomClarkBloodthirstyHM
+        zombieSteveRadiated, .66
+        zombieMaleHazmatRoamingHM
+        zombieSkateboarderBloodthirstyHM
+        zombieSpiderFeral
+        zombieNurseRadiated, .66
+        zombieDarleneBloodthirstyHM
+        zombieLumberjackRoamingHM
+        zombieFemaleFatRoamingHM
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS1106">
+        zombieFemaleFatBloodthirstyHM
+        zombieSteveBloodthirstyHM
+        zombieBikerRadiated, .66
+        zombieFatCopBloodthirstyHM
+        zombieJanitorRadiated, .66
+        zombieSpiderRadiated, .66
+        zombieMarleneRadiated, .66
+        zombieLumberjackBloodthirstyHM
+        zombieNurseBloodthirstyHM
+        zombieBikerRoamingHM
+        zombieJoeRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS1159">
+        zombieFemaleFatRoamingHM
+        zombieFatHawaiianRadiated, .66
+        zombieJanitorRadiated, .66
+        zombieSteveRadiated, .66
+        zombieDarleneRadiated, .66
+        zombieUtilityWorkerBloodthirstyHM
+        zombieMaleHazmatBloodthirstyHM
+        zombieSkateboarderBloodthirstyHM
+        zombieWightRadiated, .66
+        zombieTomClarkBloodthirstyHM
+        zombieSoldierRoamingHM
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS1213">
+        zombieJoeBloodthirstyHM
+        zombieMaleHazmatBloodthirstyHM
+        zombieYoBloodthirstyHM
+        zombieWightFeral
+        zombieBoeRadiated, .66
+        zombieMaleHazmatRadiated, .66
+        zombieJanitorRadiated, .66
+        zombieMarleneBloodthirstyHM
+        zombieLumberjackRadiated, .66
+        zombieFatCopBloodthirstyHM
+        zombieFatHawaiianRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS1269">
+        zombieLumberjackRadiated, .66
+        zombieDarleneBloodthirstyHM
+        zombieSpiderFeral
+        zombieJanitorBloodthirstyHM
+        zombieJoeRadiated, .66
+        zombieSteveBloodthirstyHM
+        zombieFemaleFatBloodthirstyHM
+        zombieSoldierRoamingHM
+        zombieFatHawaiianRadiated, .66
+        zombieArleneRadiated, .66
+        zombiePartyGirlBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS1326">
+        zombieMaleHazmatBloodthirstyHM
+        zombieFemaleFatBloodthirstyHM
+        zombieSoldierBloodthirstyHM
+        zombieNurseRadiated, .66
+        zombieJanitorRadiated, .66
+        zombieDarleneBloodthirstyHM
+        zombieArleneBloodthirstyHM
+        zombieFatCopRadiated, .66
+        zombieSoldierRadiated, .66
+        zombieFatHawaiianBloodthirstyHM
+        zombieTomClarkRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS1383">
+        zombieMoeRadiated, .66
+        zombieMoeBloodthirstyHM
+        zombieMaleHazmatBloodthirstyHM
+        zombieLumberjackRoamingHM
+        zombieYoRadiated, .66
+        zombieBikerBloodthirstyHM
+        zombieFemaleFatRadiated, .66
+        zombieBikerRoamingHM
+        zombieBusinessManBloodthirstyHM
+        zombieLumberjackBloodthirstyHM
+        zombieNurseBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS1442">
+        zombieJanitorRadiated, .66
+        zombieMaleHazmatBloodthirstyHM
+        zombieLumberjackBloodthirstyHM
+        zombieFatCopRadiated, .66
+        zombieSpiderFeral
+        zombieBusinessManBloodthirstyHM
+        zombieFemaleFatRoamingHM
+        zombieYoBloodthirstyHM
+        zombieBikerRadiated, .66
+        zombieNurseBloodthirstyHM
+        zombieSteveBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS1503">
+        zombieSpiderRadiated, .66
+        zombieArleneRadiated, .66
+        zombieFatHawaiianRadiated, .66
+        zombieJoeBloodthirstyHM
+        zombieFatCopBloodthirstyHM
+        zombieWightRadiated, .66
+        zombieMaleHazmatRadiated, .66
+        zombieDarleneRadiated, .66
+        zombieBikerRadiated, .66
+        zombieSkateboarderBloodthirstyHM
+        zombieNurseBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS1564">
+        zombieMoeBloodthirstyHM
+        zombieTomClarkBloodthirstyHM
+        zombieLumberjackBloodthirstyHM
+        zombieUtilityWorkerBloodthirstyHM
+        zombieNurseRadiated, .66
+        zombieFatHawaiianRoamingHM
+        zombieBoeBloodthirstyHM
+        zombieFemaleFatRadiated, .66
+        zombieTomClarkRadiated, .66
+        zombieSoldierRadiated, .66
+        zombieDarleneBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS1626">
+        zombieJanitorRadiated, .66
+        zombieYoBloodthirstyHM
+        zombieMarleneBloodthirstyHM
+        zombieLumberjackRoamingHM
+        zombieFatHawaiianBloodthirstyHM
+        zombieNurseRadiated, .66
+        zombieArleneBloodthirstyHM
+        zombieMaleHazmatRadiated, .66
+        zombieJoeBloodthirstyHM
+        zombieSpiderFeral
+        zombieDarleneBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS1690">
+        zombieWightRadiated, .66
+        zombieArleneBloodthirstyHM
+        zombieLumberjackRoamingHM
+        zombieBikerRoamingHM
+        zombieSkateboarderRoamingHM
+        zombieSpiderRadiated, .66
+        zombieFatHawaiianRoamingHM
+        zombieMarleneBloodthirstyHM
+        zombieYoBloodthirstyHM
+        zombieJoeBloodthirstyHM
+        zombieLumberjackBloodthirstyHM
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS1755">
+        zombieYoBloodthirstyHM
+        zombieWightFeral
+        zombieYoRadiated, .66
+        zombieSkateboarderBloodthirstyHM
+        zombieSoldierBloodthirstyHM
+        zombieSpiderRadiated, .66
+        zombieSteveBloodthirstyHM
+        zombieNurseBloodthirstyHM
+        zombieMoeBloodthirstyHM
+        zombieNurseRadiated, .66
+        zombieJoeRadiated, .66
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS1821">
+        zombieFatCopRadiated, .66
+        zombieLumberjackRoamingHM
+        zombieSpiderFeral
+        zombieLumberjackRadiated, .66
+        zombieSteveBloodthirstyHM
+        zombieJanitorRadiated, .66
+        zombieSoldierRoamingHM
+        zombieYoBloodthirstyHM
+        zombieTomClarkBloodthirstyHM
+        zombieSkateboarderRoamingHM
+        zombieFatHawaiianRoamingHM
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS1888">
+        zombieBusinessManBloodthirstyHM
+        zombieNurseRadiated, .66
+        zombieWightRadiated, .66
+        zombieSoldierBloodthirstyHM
+        zombieMaleHazmatRoamingHM
+        zombieTomClarkRadiated, .66
+        zombieJanitorRadiated, .66
+        zombieMarleneBloodthirstyHM
+        zombieMaleHazmatRadiated, .66
+        zombieFatCopRoamingHM
+        zombieWightFeral
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS1956">
+        zombieWightRadiated, .66
+        zombieFatHawaiianRoamingHM
+        zombieSpiderRadiated, .66
+        zombieTomClarkBloodthirstyHM
+        zombieTomClarkRadiated, .66
+        zombieYoBloodthirstyHM
+        zombieDarleneBloodthirstyHM
+        zombieUtilityWorkerBloodthirstyHM
+        zombieArleneBloodthirstyHM
+        zombieMoeBloodthirstyHM
+        zombieFemaleFatRoamingHM
+    </entitygroup>
+    <entitygroup name="badassOnlyHordeStageGS2026">
+        zombieArleneRadiated, .66
+        zombieSoldierBloodthirstyHM
+        zombieNurseRadiated, .66
+        zombieUtilityWorkerBloodthirstyHM
+        zombieDarleneBloodthirstyHM
+        zombieSpiderFeral
+        zombieSkateboarderRoamingHM
+        zombieBusinessManBloodthirstyHM
+        zombieMaleHazmatRoamingHM
+        zombieFatCopBloodthirstyHM
+        zombieYoBloodthirstyHM
+    </entitygroup>
+</SUPPRESION>

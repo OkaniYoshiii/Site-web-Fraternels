@@ -1,0 +1,128 @@
+#difficulty-calculator {
+    display: flex;
+    gap: 2.5rem;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-wrap: wrap;
+
+    box-sizing: border-box;
+    border-block: 2px solid grey;
+    padding: 2rem clamp(0.5rem, 2vw, 1rem);
+}
+
+@media screen and (max-width: 400px) {
+    .calculator-container {
+        display: none;
+    }
+}
+
+#difficulty-calculator > * + * {
+    margin-top: 2rem;
+}
+
+#difficulty-calculator > :first-child {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+}
+
+#difficulty-calculator > :last-child {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 550px;
+}
+
+#difficulty-calculator > :first-child > div + div {
+    margin-top: 1.5rem;
+}
+
+.selector {
+    display: flex;
+    gap: 0.25rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.selector > *:last-child {
+    border: 1px solid rgb(100,100,100);
+    border-radius: 5px;
+    font-size: 0.9rem;
+    padding-block: 0.2rem;
+    margin-left: 1.5rem;
+}
+
+#validate-button {
+    display: block;
+    margin-inline: auto;
+    padding: 0.5rem 3rem;
+    border-radius: 5px;
+    border: 2px solid lightgrey;
+    cursor: pointer;
+    transition: background-color 350ms;
+}
+
+#validate-button:hover {
+    background-color: white;
+}
+
+.calculator-output {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.output-numbers {
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+}
+
+.output-numbers > div {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.output-number {
+    font-size: 1.5rem;
+    padding: 1rem;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    background-color: white;
+    color: var(--txt-secondary-color);
+    font-weight: bold;
+}
+
+.emoji {
+    font-size: 1.5rem;
+}
+
+#output-table table {
+    font-size: clamp(0.75rem, 2vw, 1rem);
+    margin-inline: auto;
+    /* border: 2px solid grey; */
+}
+
+#output-table thead {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#output-table tbody {
+    background-color: white;
+    /* color: white; */
+}
+
+#output-table td,
+#output-table th {
+    border: 1px solid grey;
+    padding: clamp(0.5rem, 2vw, 1rem);
+}
+
+#output-table td {
+    text-align: center;
+}
