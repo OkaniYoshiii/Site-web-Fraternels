@@ -61,6 +61,7 @@ header, footer {
 .narrow {max-width: min(100vw - 2.5rem, 900px); margin-inline: auto;}
 .medium {max-width: min(100vw - 2.5rem, 1100px); margin-inline: auto;}
 .wide {max-width: min(100vw - 2.5rem, 1400px); margin-inline: auto;}
+.ultrawide {max-width: min(100vw - 2.5rem, 1800px); margin-inline: auto;}
 
 .no-js {display: none;}
 

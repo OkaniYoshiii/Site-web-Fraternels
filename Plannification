@@ -1,0 +1,40 @@
+# Projet "Marchandage"
+
+Système permettant aux joueurs de pouvoir voir, poster et modifier des annonces concernant la vente et l'échange d'objets pour 7 Days To Die.
+
+## Découpage du projet :
+
+### Version 1 : Le minimum syndical
+
+#### Compte joueur :
+
+- Permet de créer un "compte"
+- Permet de poster des annonces de **VENTE**
+- Permet de voir la liste de toutes ses propres annonces
+- Permet de supprimer ses annonces
+- Permet de voir une liste de tout les items du jeu lorsqu'ils créent une annonce
+- Empêche de pouvoir fixer des prix trop haut ou trop bas
+
+#### Tableau des ventes :
+
+- Affiche ce qui a été posté
+- Affiche qui a posté quoi
+  
+### Version 2 : Amélioration de la recherche
+
+#### Ajouts de fonctionnalités :
+
+- Trier les annonces faites par les autres joueurs en fonction du prix, du nom etc ...
+- Rechercher un item avec une barre de recherche
+
+#### Améliorations
+
+- Afficher une image de l'item pour chaque vente
+
+### Version 3 : Améliorations globales
+
+#### Ajouts de fonctionnalités :
+
+- Editer ses annonces
+- Poster des annonces de **RECHERCHE**
+- Si une annonce de recherche a une correspondance avec une annonce de vente d'un autre joueur, alors ces ventes sont mises en avant.

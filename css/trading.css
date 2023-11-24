@@ -1,0 +1,80 @@
+html, body {
+    min-height: 100vh;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+h1, h2 {
+    font-family: Oswald;
+}
+
+.trading-center {
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: clamp(1rem, 2vw, 2rem);
+}
+
+.trading-center > :first-child {
+    flex-basis: 350px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.trading-center > :last-child {
+    flex-basis: 700px;
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+
+section {
+    margin-block: 2rem;
+}
+
+.text-centered {text-align: center;}
+
+
+table {
+    text-align: center;
+    margin-inline: auto;
+    min-width: 100%;
+}
+
+tr {
+    position: relative;
+}
+
+.input-table td:first-child, 
+.input-table th:first-child{
+    border: 0;
+}
+
+th, td {
+    padding: 0.2rem;
+    border: 1px solid black;
+}
+
+.filter-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    min-width: 100%;
+    background-color: transparent;
+    border: none;
+    padding-inline: 0;
+    font-weight: bold;
+}
+
+.filter-button > * {
+    display: block;
+}
+
+.filter-icon {
+    padding-inline: clamp(0.1rem, 1vw, 0.5rem);
+}
+
+

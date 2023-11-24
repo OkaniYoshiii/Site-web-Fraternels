@@ -14,8 +14,10 @@
                 <li><a href="index.php">Accueil</a></li>
                 <li><a href="mods.php">Mods</a></li>
                 <li><a href="liens-utiles.php">Liens Utiles</a></li>
-                <li><a href="documentation.php">Outils Modding</a></li>               
+                <li><a href="documentation.php">Outils Modding</a></li>
+                <li><a href="trading.php">Marchandage</a></li>
             </ul>
         </div>
     </nav>
 </header>
+
